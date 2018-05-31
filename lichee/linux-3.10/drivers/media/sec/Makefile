@@ -1,0 +1,1 @@
+obj-$(CONFIG_SEC) += es520.o libsec

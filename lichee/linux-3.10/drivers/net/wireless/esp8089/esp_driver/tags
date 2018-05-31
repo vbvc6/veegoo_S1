@@ -1,0 +1,1736 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ALG_AES_CMAC	esp_utils.h	/^        ALG_AES_CMAC$/;"	e	enum:ieee80211_key_alg
+ALG_CCMP	esp_utils.h	/^        ALG_CCMP,$/;"	e	enum:ieee80211_key_alg
+ALG_TKIP	esp_utils.h	/^        ALG_TKIP,$/;"	e	enum:ieee80211_key_alg
+ALG_WEP	esp_utils.h	/^        ALG_WEP,$/;"	e	enum:ieee80211_key_alg
+ARCH	Makefile	/^ARCH := arm$/;"	m
+Aggregation	esp_wmac.h	/^        unsigned Aggregation:1;$/;"	m	struct:esp_mac_rx_ctrl
+BACKOFF	testmode.h	/^	BACKOFF,$/;"	e	enum:__anon18
+BEACON_TIM_SAVE_MAX	esp_mac80211.c	537;"	d	file:
+BIT	esp_utils.h	16;"	d
+CONFIGURE_TRC	testmode.h	/^	CONFIGURE_TRC,$/;"	e	enum:__anon18
+CONF_ATTR_LEN	esp_file.h	39;"	d
+CONF_HW_BIT_RATE_11B_MASK	esp_wl.h	/^	CONF_HW_BIT_RATE_11B_MASK = (CONF_HW_BIT_RATE_1MBPS | CONF_HW_BIT_RATE_2MBPS | CONF_HW_BIT_RATE_5_5MBPS | CONF_HW_BIT_RATE_11MBPS),$/;"	e	enum:__anon7
+CONF_HW_BIT_RATE_11MBPS	esp_wl.h	/^        CONF_HW_BIT_RATE_11MBPS  = BIT(3),$/;"	e	enum:__anon7
+CONF_HW_BIT_RATE_12MBPS	esp_wl.h	/^        CONF_HW_BIT_RATE_12MBPS  = BIT(6),$/;"	e	enum:__anon7
+CONF_HW_BIT_RATE_18MBPS	esp_wl.h	/^        CONF_HW_BIT_RATE_18MBPS  = BIT(7),$/;"	e	enum:__anon7
+CONF_HW_BIT_RATE_1MBPS	esp_wl.h	/^        CONF_HW_BIT_RATE_1MBPS   = BIT(0),$/;"	e	enum:__anon7
+CONF_HW_BIT_RATE_22MBPS	esp_wl.h	/^        CONF_HW_BIT_RATE_22MBPS  = BIT(8),$/;"	e	enum:__anon7
+CONF_HW_BIT_RATE_24MBPS	esp_wl.h	/^        CONF_HW_BIT_RATE_24MBPS  = BIT(9),$/;"	e	enum:__anon7
+CONF_HW_BIT_RATE_2MBPS	esp_wl.h	/^        CONF_HW_BIT_RATE_2MBPS   = BIT(1),$/;"	e	enum:__anon7
+CONF_HW_BIT_RATE_36MBPS	esp_wl.h	/^        CONF_HW_BIT_RATE_36MBPS  = BIT(10),$/;"	e	enum:__anon7
+CONF_HW_BIT_RATE_48MBPS	esp_wl.h	/^        CONF_HW_BIT_RATE_48MBPS  = BIT(11),$/;"	e	enum:__anon7
+CONF_HW_BIT_RATE_54MBPS	esp_wl.h	/^        CONF_HW_BIT_RATE_54MBPS  = BIT(12),$/;"	e	enum:__anon7
+CONF_HW_BIT_RATE_5_5MBPS	esp_wl.h	/^        CONF_HW_BIT_RATE_5_5MBPS = BIT(2),$/;"	e	enum:__anon7
+CONF_HW_BIT_RATE_6MBPS	esp_wl.h	/^        CONF_HW_BIT_RATE_6MBPS   = BIT(4),$/;"	e	enum:__anon7
+CONF_HW_BIT_RATE_9MBPS	esp_wl.h	/^        CONF_HW_BIT_RATE_9MBPS   = BIT(5),$/;"	e	enum:__anon7
+CONF_VAL_LEN	esp_file.h	40;"	d
+CROSS_COMPILE	Makefile	/^CROSS_COMPILE := $(TOOLCHAIN_PREFIX)$/;"	m
+CWB	esp_wmac.h	/^        unsigned CWB:1;$/;"	m	struct:esp_mac_rx_ctrl
+DBGFS_ATE_MODE	esp_debug.h	/^	DBGFS_ATE_MODE,$/;"	e	enum:DBGFS_BOOTMODE_ID
+DBGFS_BOOTMODE_ID	esp_debug.h	/^typedef enum DBGFS_BOOTMODE_ID {$/;"	g
+DBGFS_BOOTMODE_ID_t	esp_debug.h	/^}DBGFS_BOOTMODE_ID_t;$/;"	t	typeref:enum:DBGFS_BOOTMODE_ID
+DBGFS_FCC_MODE	esp_debug.h	/^	DBGFS_FCC_MODE = 0,$/;"	e	enum:DBGFS_BOOTMODE_ID
+DBGFS_MODE_MAX	esp_debug.h	/^	DBGFS_MODE_MAX,$/;"	e	enum:DBGFS_BOOTMODE_ID
+DBGFS_NOR_MODE	esp_debug.h	/^	DBGFS_NOR_MODE,$/;"	e	enum:DBGFS_BOOTMODE_ID
+DBGTRC	testmode.h	/^	DBGTRC,$/;"	e	enum:__anon18
+DO_COPY	esp_sip.c	317;"	d	file:
+DO_COPY	esp_sip.c	592;"	d	file:
+DO_NOT_COPY	esp_sip.c	316;"	d	file:
+DO_NOT_COPY	esp_sip.c	591;"	d	file:
+DRIVER_NAME	Makefile	/^DRIVER_NAME := esp8089$/;"	m
+DRIVER_VER	esp_version.h	1;"	d
+DUMMYMODE	esp_sif.h	/^	DUMMYMODE,$/;"	e	enum:if_dummymode
+ENQUEUE_PRIOR	esp_sip.h	/^typedef enum ENQUEUE_PRIOR {$/;"	g
+ENQUEUE_PRIOR	esp_sip.h	/^} ENQUEUE_PRIOR;$/;"	t	typeref:enum:ENQUEUE_PRIOR
+ENQUEUE_PRIOR_HEAD	esp_sip.h	/^	ENQUEUE_PRIOR_HEAD,$/;"	e	enum:ENQUEUE_PRIOR
+ENQUEUE_PRIOR_TAIL	esp_sip.h	/^	ENQUEUE_PRIOR_TAIL = 0,$/;"	e	enum:ENQUEUE_PRIOR
+EPUB_CTRL_CHECK	esp_sif.h	119;"	d
+EPUB_CTRL_CHECK	esp_sif.h	152;"	d
+EPUB_FUNC_CHECK	esp_sif.h	130;"	d
+EPUB_FUNC_CHECK	esp_sif.h	163;"	d
+EPUB_TO_CTRL	esp_sif.h	145;"	d
+EPUB_TO_CTRL	esp_sif.h	178;"	d
+EPUB_TO_FUNC	esp_sif.h	147;"	d
+EPUB_TO_FUNC	esp_sif.h	180;"	d
+ESP_ATE	esp_debug.h	/^	ESP_ATE = BIT(8),$/;"	e	enum:__anon19
+ESP_BOOL	esp_debug.h	/^        ESP_BOOL,$/;"	e	enum:esp_type
+ESP_DBG	esp_debug.h	/^        ESP_DBG = BIT(3),$/;"	e	enum:__anon19
+ESP_DBG_ALL	esp_debug.h	/^        ESP_DBG_ALL = 0xffffffff$/;"	e	enum:__anon19
+ESP_DBG_ERROR	esp_debug.h	/^        ESP_DBG_ERROR = BIT(0),$/;"	e	enum:__anon19
+ESP_DBG_LOG	esp_debug.h	/^        ESP_DBG_LOG = BIT(2),$/;"	e	enum:__anon19
+ESP_DBG_OP	esp_debug.h	/^        ESP_DBG_OP = BIT(6),$/;"	e	enum:__anon19
+ESP_DBG_PS	esp_debug.h	/^	ESP_DBG_PS = BIT(7),$/;"	e	enum:__anon19
+ESP_DBG_TRACE	esp_debug.h	/^        ESP_DBG_TRACE = BIT(1),$/;"	e	enum:__anon19
+ESP_DBG_TXAMPDU	esp_debug.h	/^        ESP_DBG_TXAMPDU = BIT(5),$/;"	e	enum:__anon19
+ESP_DMA_IBUFSZ	sdio_sif_esp.c	40;"	d	file:
+ESP_DMA_IBUFSZ	spi_sif_esp.c	105;"	d	file:
+ESP_FW_NAME1	esp_main.c	166;"	d	file:
+ESP_FW_NAME2	esp_main.c	167;"	d	file:
+ESP_FW_NAME3	esp_main.c	168;"	d	file:
+ESP_IEEE80211_DBG	esp_mac80211.c	33;"	d	file:
+ESP_IEEE80211_T_CCK	sip2_common.h	/^        ESP_IEEE80211_T_CCK = 0,$/;"	e	enum:esp_ieee80211_phytype
+ESP_IEEE80211_T_HT20_L	sip2_common.h	/^        ESP_IEEE80211_T_HT20_L = 2,$/;"	e	enum:esp_ieee80211_phytype
+ESP_IEEE80211_T_HT20_S	sip2_common.h	/^        ESP_IEEE80211_T_HT20_S = 3,$/;"	e	enum:esp_ieee80211_phytype
+ESP_IEEE80211_T_OFDM	sip2_common.h	/^        ESP_IEEE80211_T_OFDM = 1,$/;"	e	enum:esp_ieee80211_phytype
+ESP_INIT_NAME	esp_ctrl.c	366;"	d	file:
+ESP_LOSS_COUNT_MAX	esp_pub.h	58;"	d
+ESP_ND_TIMER_INTERVAL	esp_pub.h	61;"	d
+ESP_ND_TIME_REMAIN_MAX	esp_pub.h	59;"	d
+ESP_ND_TIME_REMAIN_MIN	esp_pub.h	60;"	d
+ESP_PM_OFF	esp_pub.h	/^        ESP_PM_OFF = 0,$/;"	e	enum:__anon1
+ESP_PM_ON	esp_pub.h	/^        ESP_PM_ON,$/;"	e	enum:__anon1
+ESP_PM_TURNING_OFF	esp_pub.h	/^        ESP_PM_TURNING_OFF,  \/* Do NOT change the order *\/$/;"	e	enum:__anon1
+ESP_PM_TURNING_ON	esp_pub.h	/^        ESP_PM_TURNING_ON,$/;"	e	enum:__anon1
+ESP_PUB_MAX_RXAMPDU	esp_pub.h	137;"	d
+ESP_PUB_MAX_STA	esp_pub.h	136;"	d
+ESP_PUB_MAX_VIF	esp_pub.h	135;"	d
+ESP_RATE_11_LONG	esp_utils.c	/^        ESP_RATE_11_LONG = 0x3,$/;"	e	enum:__anon8	file:
+ESP_RATE_11_SHORT	esp_utils.c	/^        ESP_RATE_11_SHORT = 0x7,$/;"	e	enum:__anon8	file:
+ESP_RATE_12	esp_utils.c	/^        ESP_RATE_12 = 0xa,$/;"	e	enum:__anon8	file:
+ESP_RATE_18	esp_utils.c	/^        ESP_RATE_18 = 0xe,$/;"	e	enum:__anon8	file:
+ESP_RATE_1_LONG	esp_utils.c	/^        ESP_RATE_1_LONG = 0x0,$/;"	e	enum:__anon8	file:
+ESP_RATE_24	esp_utils.c	/^        ESP_RATE_24 = 0x9,$/;"	e	enum:__anon8	file:
+ESP_RATE_2_LONG	esp_utils.c	/^        ESP_RATE_2_LONG = 0x1,$/;"	e	enum:__anon8	file:
+ESP_RATE_2_SHORT	esp_utils.c	/^        ESP_RATE_2_SHORT = 0x5,$/;"	e	enum:__anon8	file:
+ESP_RATE_36	esp_utils.c	/^        ESP_RATE_36 = 0xd,$/;"	e	enum:__anon8	file:
+ESP_RATE_48	esp_utils.c	/^        ESP_RATE_48 = 0x8,$/;"	e	enum:__anon8	file:
+ESP_RATE_54	esp_utils.c	/^        ESP_RATE_54 = 0xc,$/;"	e	enum:__anon8	file:
+ESP_RATE_5_LONG	esp_utils.c	/^        ESP_RATE_5_LONG = 0x2,$/;"	e	enum:__anon8	file:
+ESP_RATE_5_SHORT	esp_utils.c	/^        ESP_RATE_5_SHORT = 0x6,$/;"	e	enum:__anon8	file:
+ESP_RATE_6	esp_utils.c	/^        ESP_RATE_6 = 0xb,$/;"	e	enum:__anon8	file:
+ESP_RATE_9	esp_utils.c	/^        ESP_RATE_9 = 0xf,$/;"	e	enum:__anon8	file:
+ESP_RSSI_MAX_RSSI	esp_sip.c	1642;"	d	file:
+ESP_RSSI_MAX_RSSI	esp_sip.c	1647;"	d	file:
+ESP_RSSI_MIN_RSSI	esp_sip.c	1641;"	d	file:
+ESP_RSSI_MIN_RSSI	esp_sip.c	1648;"	d	file:
+ESP_SDIO_STATE_FIRST_ERROR_EXIT	esp_pub.h	/^	ESP_SDIO_STATE_FIRST_ERROR_EXIT,$/;"	e	enum:esp_sdio_state
+ESP_SDIO_STATE_FIRST_INIT	esp_pub.h	/^	ESP_SDIO_STATE_FIRST_INIT,$/;"	e	enum:esp_sdio_state
+ESP_SDIO_STATE_FIRST_NORMAL_EXIT	esp_pub.h	/^	ESP_SDIO_STATE_FIRST_NORMAL_EXIT,$/;"	e	enum:esp_sdio_state
+ESP_SDIO_STATE_SECOND_ERROR_EXIT	esp_pub.h	/^	ESP_SDIO_STATE_SECOND_ERROR_EXIT,$/;"	e	enum:esp_sdio_state
+ESP_SDIO_STATE_SECOND_INIT	esp_pub.h	/^	ESP_SDIO_STATE_SECOND_INIT,$/;"	e	enum:esp_sdio_state
+ESP_SHOW	esp_debug.h	/^        ESP_SHOW = BIT(4),$/;"	e	enum:__anon19
+ESP_SIF_NOSYNC	esp_sif.h	/^	ESP_SIF_NOSYNC = 0,$/;"	e	enum:io_sync_type
+ESP_SIF_SYNC	esp_sif.h	/^	ESP_SIF_SYNC, $/;"	e	enum:io_sync_type
+ESP_STA_STATE_LOST	esp_pub.h	/^	ESP_STA_STATE_LOST,$/;"	e	enum:sta_state
+ESP_STA_STATE_NORM	esp_pub.h	/^	ESP_STA_STATE_NORM,$/;"	e	enum:sta_state
+ESP_STA_STATE_WAIT	esp_pub.h	/^	ESP_STA_STATE_WAIT,$/;"	e	enum:sta_state
+ESP_TID_STATE_INIT	esp_pub.h	/^	ESP_TID_STATE_INIT,$/;"	e	enum:esp_tid_state
+ESP_TID_STATE_OPERATIONAL	esp_pub.h	/^	ESP_TID_STATE_OPERATIONAL,$/;"	e	enum:esp_tid_state
+ESP_TID_STATE_PROGRESS	esp_pub.h	/^	ESP_TID_STATE_PROGRESS,$/;"	e	enum:esp_tid_state
+ESP_TID_STATE_STOP	esp_pub.h	/^	ESP_TID_STATE_STOP,$/;"	e	enum:esp_tid_state
+ESP_TID_STATE_TRIGGER	esp_pub.h	/^	ESP_TID_STATE_TRIGGER,$/;"	e	enum:esp_tid_state
+ESP_TID_STATE_WAIT_STOP	esp_pub.h	/^	ESP_TID_STATE_WAIT_STOP,$/;"	e	enum:esp_tid_state
+ESP_U16	esp_debug.h	/^        ESP_U16,$/;"	e	enum:esp_type
+ESP_U32	esp_debug.h	/^        ESP_U32,$/;"	e	enum:esp_type
+ESP_U64	esp_debug.h	/^        ESP_U64$/;"	e	enum:esp_type
+ESP_U8	esp_debug.h	/^        ESP_U8,$/;"	e	enum:esp_type
+ESP_WAIT_UP_TIME_MS	sdio_sif_esp.c	790;"	d	file:
+ESP_WAIT_UP_TIME_MS	spi_sif_esp.c	2259;"	d	file:
+ESP_WL_FLAG_CONNECT	esp_pub.h	132;"	d
+ESP_WL_FLAG_HW_REGISTERED	esp_pub.h	131;"	d
+ESP_WL_FLAG_RFKILL	esp_pub.h	130;"	d
+ESP_WL_FLAG_STOP_TXQ	esp_pub.h	133;"	d
+ESSERT	esp_debug.h	14;"	d
+ESSERT	esp_debug.h	16;"	d
+ETH_ALEN	sip2_common.h	268;"	d
+EXT_GPIO_GPIO0	esp_ext.h	/^	EXT_GPIO_GPIO0 = 0,$/;"	e	enum:EXT_GPIO_NO
+EXT_GPIO_GPIO2	esp_ext.h	/^	EXT_GPIO_GPIO2,$/;"	e	enum:EXT_GPIO_NO
+EXT_GPIO_GPIO4	esp_ext.h	/^	EXT_GPIO_GPIO4,$/;"	e	enum:EXT_GPIO_NO
+EXT_GPIO_GPIO5	esp_ext.h	/^	EXT_GPIO_GPIO5,$/;"	e	enum:EXT_GPIO_NO
+EXT_GPIO_MAX_NUM	esp_ext.h	/^	EXT_GPIO_MAX_NUM$/;"	e	enum:EXT_GPIO_NO
+EXT_GPIO_MODE	esp_ext.h	/^typedef enum EXT_GPIO_MODE {		\/\/dir		def	pullup	mode	wake$/;"	g
+EXT_GPIO_MODE_DISABLE	esp_ext.h	/^	EXT_GPIO_MODE_DISABLE,		\/\/input		n\/a	0	DIS	n\/a$/;"	e	enum:EXT_GPIO_MODE
+EXT_GPIO_MODE_INPUT	esp_ext.h	/^	EXT_GPIO_MODE_INPUT,		\/\/input		n\/a	0	ANY	1$/;"	e	enum:EXT_GPIO_MODE
+EXT_GPIO_MODE_INTR_HILEVEL	esp_ext.h	/^	EXT_GPIO_MODE_INTR_HILEVEL,	\/\/input		n\/a	0	HIGH	1$/;"	e	enum:EXT_GPIO_MODE
+EXT_GPIO_MODE_INTR_LOLEVEL	esp_ext.h	/^	EXT_GPIO_MODE_INTR_LOLEVEL,	\/\/input		n\/a	1	LOW	1$/;"	e	enum:EXT_GPIO_MODE
+EXT_GPIO_MODE_INTR_NEGEDGE	esp_ext.h	/^	EXT_GPIO_MODE_INTR_NEGEDGE,	\/\/input		n\/a	1	NEG	1$/;"	e	enum:EXT_GPIO_MODE
+EXT_GPIO_MODE_INTR_POSEDGE	esp_ext.h	/^	EXT_GPIO_MODE_INTR_POSEDGE,	\/\/input		n\/a	0	POS	1$/;"	e	enum:EXT_GPIO_MODE
+EXT_GPIO_MODE_MAX	esp_ext.h	/^	EXT_GPIO_MODE_MAX,$/;"	e	enum:EXT_GPIO_MODE
+EXT_GPIO_MODE_OOB	esp_ext.h	/^	EXT_GPIO_MODE_OOB = 0,		\/\/output	1	0	n\/a	n\/a$/;"	e	enum:EXT_GPIO_MODE
+EXT_GPIO_MODE_OUTPUT	esp_ext.h	/^	EXT_GPIO_MODE_OUTPUT,		\/\/output	\/	0	n\/a	n\/a$/;"	e	enum:EXT_GPIO_MODE
+EXT_GPIO_MODE_T	esp_ext.h	/^} EXT_GPIO_MODE_T;$/;"	t	typeref:enum:EXT_GPIO_MODE
+EXT_GPIO_MTCK	esp_ext.h	/^	EXT_GPIO_MTCK,$/;"	e	enum:EXT_GPIO_NO
+EXT_GPIO_MTDI	esp_ext.h	/^	EXT_GPIO_MTDI,$/;"	e	enum:EXT_GPIO_NO
+EXT_GPIO_MTDO	esp_ext.h	/^	EXT_GPIO_MTDO,$/;"	e	enum:EXT_GPIO_NO
+EXT_GPIO_MTMS	esp_ext.h	/^	EXT_GPIO_MTMS,$/;"	e	enum:EXT_GPIO_NO
+EXT_GPIO_NO	esp_ext.h	/^typedef enum EXT_GPIO_NO {$/;"	g
+EXT_GPIO_NO_T	esp_ext.h	/^} EXT_GPIO_NO_T;$/;"	t	typeref:enum:EXT_GPIO_NO
+EXT_GPIO_SD_CLK	esp_ext.h	/^	EXT_GPIO_SD_CLK,$/;"	e	enum:EXT_GPIO_NO
+EXT_GPIO_SD_CMD	esp_ext.h	/^	EXT_GPIO_SD_CMD,$/;"	e	enum:EXT_GPIO_NO
+EXT_GPIO_SD_DATA0	esp_ext.h	/^	EXT_GPIO_SD_DATA0,$/;"	e	enum:EXT_GPIO_NO
+EXT_GPIO_SD_DATA1	esp_ext.h	/^	EXT_GPIO_SD_DATA1,$/;"	e	enum:EXT_GPIO_NO
+EXT_GPIO_SD_DATA2	esp_ext.h	/^	EXT_GPIO_SD_DATA2,$/;"	e	enum:EXT_GPIO_NO
+EXT_GPIO_SD_DATA3	esp_ext.h	/^	EXT_GPIO_SD_DATA3,$/;"	e	enum:EXT_GPIO_NO
+EXT_GPIO_STATE	esp_ext.h	/^typedef enum EXT_GPIO_STATE {$/;"	g
+EXT_GPIO_STATE_HIGH	esp_ext.h	/^	EXT_GPIO_STATE_HIGH,$/;"	e	enum:EXT_GPIO_STATE
+EXT_GPIO_STATE_IDLE	esp_ext.h	/^	EXT_GPIO_STATE_IDLE$/;"	e	enum:EXT_GPIO_STATE
+EXT_GPIO_STATE_LOW	esp_ext.h	/^	EXT_GPIO_STATE_LOW,$/;"	e	enum:EXT_GPIO_STATE
+EXT_GPIO_STATE_T	esp_ext.h	/^} EXT_GPIO_STATE_T;$/;"	t	typeref:enum:EXT_GPIO_STATE
+EXT_GPIO_U0RXD	esp_ext.h	/^	EXT_GPIO_U0RXD,$/;"	e	enum:EXT_GPIO_NO
+EXT_GPIO_U0TXD	esp_ext.h	/^	EXT_GPIO_U0TXD,$/;"	e	enum:EXT_GPIO_NO
+E_ROUND_UP	esp_file.h	27;"	d
+FCC_MODE_CHANNEL_MASK	esp_file.h	69;"	d
+FCC_MODE_CHANNEL_SHIFT	esp_file.h	70;"	d
+FCC_MODE_CONT_TX	esp_file.h	/^	FCC_MODE_CONT_TX,$/;"	e	enum:FCC_MODE_ID
+FCC_MODE_ID	esp_file.h	/^typedef enum FCC_MODE_ID {$/;"	g
+FCC_MODE_ID_MASK	esp_file.h	65;"	d
+FCC_MODE_ID_SHIFT	esp_file.h	66;"	d
+FCC_MODE_ID_t	esp_file.h	/^} FCC_MODE_ID_t;$/;"	t	typeref:enum:FCC_MODE_ID
+FCC_MODE_ILDE	esp_file.h	/^	FCC_MODE_ILDE = 0,$/;"	e	enum:FCC_MODE_ID
+FCC_MODE_MAX	esp_file.h	/^	FCC_MODE_MAX,$/;"	e	enum:FCC_MODE_ID
+FCC_MODE_NORM_TX	esp_file.h	/^	FCC_MODE_NORM_TX,$/;"	e	enum:FCC_MODE_ID
+FCC_MODE_RATE_OFFSET_MASK	esp_file.h	72;"	d
+FCC_MODE_RATE_OFFSET_SHIFT	esp_file.h	73;"	d
+FCC_MODE_SDIO_NOISE	esp_file.h	/^	FCC_MODE_SDIO_NOISE,$/;"	e	enum:FCC_MODE_ID
+FCC_MODE_SELFTEST	esp_file.h	/^	FCC_MODE_SELFTEST = 1,$/;"	e	enum:FCC_MODE_ID
+FCC_MODE_TONE_TX	esp_file.h	/^	FCC_MODE_TONE_TX,$/;"	e	enum:FCC_MODE_ID
+FEC_CODING	esp_wmac.h	/^        unsigned FEC_CODING:1;$/;"	m	struct:esp_mac_rx_ctrl
+FM_GET_CHANNEL	esp_file.h	71;"	d
+FM_GET_ID	esp_file.h	67;"	d
+FM_GET_RATE_OFFSET	esp_file.h	74;"	d
+FWPATH	esp_path.h	10;"	d
+GEN_GPIO_SEL	esp_io.c	259;"	d	file:
+GET_INODE_FROM_FILEP	esp_file.h	20;"	d
+GET_INODE_FROM_FILEP	esp_file.h	23;"	d
+GET_NEXT_SEQ	esp_mac80211.c	35;"	d	file:
+HT_length	esp_wmac.h	/^        unsigned HT_length:16;$/;"	m	struct:esp_mac_rx_ctrl
+INIT_CONF_FILE	esp_file.h	36;"	d
+INIT_DATA_CONF_BUF	esp_conf.h	11;"	d
+KSRC	Makefile	/^KSRC := $(KERNEL_DIR)$/;"	m
+LOOPBACK_PKT_LEN	esp_ctrl.c	690;"	d	file:
+MANUFACTURER_CODE	sdio_sif_esp.c	357;"	d	file:
+MANUFACTURER_ID_EAGLE_BASE	sdio_sif_esp.c	355;"	d	file:
+MANUFACTURER_ID_EAGLE_BASE_MASK	sdio_sif_esp.c	356;"	d	file:
+MAX_ATTR_NUM	esp_file.h	41;"	d
+MAX_BUF_LEN	esp_file.h	43;"	d
+MAX_BUF_SIZE	spi_sif_esp.c	44;"	d	file:
+MAX_FIX_ATTR_NUM	esp_file.h	42;"	d
+MAX_PENDING_INTR_LIST	esp_ext.h	17;"	d
+MCS	esp_wmac.h	/^        unsigned MCS:7;$/;"	m	struct:esp_mac_rx_ctrl
+MODPATH	Makefile	/^MODPATH := $(shell pwd)$/;"	m
+NAME_LEN_MAX	esp_debug.h	26;"	d
+NOT_DUMMYMODE	esp_sif.h	/^	NOT_DUMMYMODE = 0,$/;"	e	enum:if_dummymode
+Not_Sounding	esp_wmac.h	/^        unsigned Not_Sounding:1;$/;"	m	struct:esp_mac_rx_ctrl
+OUT_DONE	testmode.c	49;"	d	file:
+RC_CNT_MASK	sip2_common.h	186;"	d
+RDMEM	testmode.h	/^	RDMEM$/;"	e	enum:__anon18
+RDPER	testmode.h	/^	RDPER,$/;"	e	enum:__anon18
+RDRSSI	testmode.h	/^	RDRSSI,$/;"	e	enum:__anon18
+RD_REG	testmode.h	/^	RD_REG = 0,$/;"	e	enum:__anon18
+RECALC_CREDIT_DISABLE	esp_sip.h	/^	RECALC_CREDIT_DISABLE = 0,$/;"	e	enum:RECALC_CREDIT_STATE
+RECALC_CREDIT_ENABLE	esp_sip.h	/^	RECALC_CREDIT_ENABLE = 1,$/;"	e	enum:RECALC_CREDIT_STATE
+RECALC_CREDIT_STATE	esp_sip.h	/^typedef enum RECALC_CREDIT_STATE {$/;"	g
+RECALC_CREDIT_STATE	esp_sip.h	/^} RECALC_CREDIT_STATE;$/;"	t	typeref:enum:RECALC_CREDIT_STATE
+REGISTER_REPLY	testmode.c	84;"	d	file:
+REG_SLC_BASE	slc_host_register.h	16;"	d
+REG_SLC_HOST_BASE	slc_host_register.h	15;"	d
+RIFS_CTRL	testmode.h	/^	RIFS_CTRL,$/;"	e	enum:__anon18
+RX_ABORT	esp_wmac.h	66;"	d
+RX_AGC_ERR_MAX	esp_wmac.h	61;"	d
+RX_AGC_ERR_MIN	esp_wmac.h	60;"	d
+RX_AHBOV_ERR	esp_wmac.h	69;"	d
+RX_AMPDUBUFOV_ERR	esp_wmac.h	73;"	d
+RX_AMPDUSF_ERR	esp_wmac.h	72;"	d
+RX_BTFORCE_ERR	esp_wmac.h	76;"	d
+RX_BUFINV_ERR	esp_wmac.h	71;"	d
+RX_BUFOV_ERR	esp_wmac.h	70;"	d
+RX_CCK_ERR_MAX	esp_wmac.h	65;"	d
+RX_CCK_ERR_MIN	esp_wmac.h	64;"	d
+RX_CCMPMIC_ERR	esp_wmac.h	86;"	d
+RX_FCS_ERR	esp_wmac.h	68;"	d
+RX_MACBBFIFOOV_ERR	esp_wmac.h	74;"	d
+RX_OFDM_ERR_MAX	esp_wmac.h	63;"	d
+RX_OFDM_ERR_MIN	esp_wmac.h	62;"	d
+RX_PYH_ERR_MIN	esp_wmac.h	59;"	d
+RX_RPBM_ERR	esp_wmac.h	75;"	d
+RX_SECCRLEN_ERR	esp_wmac.h	81;"	d
+RX_SECFIFO_TIMEOUT	esp_wmac.h	82;"	d
+RX_SECKEY_ERR	esp_wmac.h	80;"	d
+RX_SECOV_ERR	esp_wmac.h	77;"	d
+RX_SECPROT_ERR0	esp_wmac.h	78;"	d
+RX_SECPROT_ERR1	esp_wmac.h	79;"	d
+RX_SF_ERR	esp_wmac.h	67;"	d
+RX_TKIPICV_ERR	esp_wmac.h	84;"	d
+RX_TKIPMIC_ERR	esp_wmac.h	85;"	d
+RX_WAPIMIC_ERR	esp_wmac.h	87;"	d
+RX_WEPICV_ERR	esp_wmac.h	83;"	d
+SDIOTEST_BASE_ADDR	testmode.c	308;"	d	file:
+SDIOTEST_FLAG_ADDR	testmode.c	307;"	d	file:
+SDIO_BUF_SIZE	testmode.c	309;"	d	file:
+SDIO_ID	sdio_stub.c	14;"	d	file:
+SDIO_INTR_IB	esp_io.c	/^	SDIO_INTR_IB = 0,$/;"	e	enum:_SDIO_INTR_MODE	file:
+SDIO_INTR_MODE	esp_io.c	/^} SDIO_INTR_MODE;$/;"	t	typeref:enum:_SDIO_INTR_MODE	file:
+SDIO_INTR_OOB_HIGH_LEVEL	esp_io.c	/^	SDIO_INTR_OOB_HIGH_LEVEL,$/;"	e	enum:_SDIO_INTR_MODE	file:
+SDIO_INTR_OOB_LOW_LEVEL	esp_io.c	/^	SDIO_INTR_OOB_LOW_LEVEL,$/;"	e	enum:_SDIO_INTR_MODE	file:
+SDIO_INTR_OOB_TOGGLE	esp_io.c	/^	SDIO_INTR_OOB_TOGGLE,$/;"	e	enum:_SDIO_INTR_MODE	file:
+SET_RXSENSE	testmode.h	/^	SET_RXSENSE,$/;"	e	enum:__anon18
+SET_SENSE	testmode.h	/^	SET_SENSE,$/;"	e	enum:__anon18
+SET_TX_FREQ	testmode.h	/^	SET_TX_FREQ,$/;"	e	enum:__anon18
+SET_TX_RATE	testmode.h	/^	SET_TX_RATE,$/;"	e	enum:__anon18
+SGI	esp_wmac.h	/^        unsigned SGI:1;$/;"	m	struct:esp_mac_rx_ctrl
+SIF_ASYNC	esp_sif.h	110;"	d
+SIF_BLOCK_BASIS	esp_sif.h	113;"	d
+SIF_BYTE_BASIS	esp_sif.h	112;"	d
+SIF_FIXED_ADDR	esp_sif.h	115;"	d
+SIF_FROM_DEVICE	esp_sif.h	107;"	d
+SIF_INC_ADDR	esp_sif.h	116;"	d
+SIF_SLC_BLOCK_SIZE	esp_sif.h	25;"	d
+SIF_SYNC	esp_sif.h	109;"	d
+SIF_TO_DEVICE	esp_sif.h	106;"	d
+SIGNAL_COUNT_LIMIT	esp_sip.c	54;"	d	file:
+SIGNAL_DOWN_NEW_W	esp_sip.c	58;"	d	file:
+SIGNAL_DOWN_NEW_W_SHIFT	esp_sip.c	57;"	d	file:
+SIGNAL_OPT	esp_sip.c	59;"	d	file:
+SIGNAL_TOTAL_W	esp_sip.c	53;"	d	file:
+SIGNAL_TOTAL_W_SHIFT	esp_sip.c	52;"	d	file:
+SIGNAL_UP_NEW_W	esp_sip.c	56;"	d	file:
+SIGNAL_UP_NEW_W_SHIFT	esp_sip.c	55;"	d	file:
+SIP	testmode.c	48;"	d	file:
+SIP_AMPDU_RX_START	sip2_common.h	376;"	d
+SIP_AMPDU_RX_STOP	sip2_common.h	377;"	d
+SIP_AMPDU_TX_OPERATIONAL	sip2_common.h	378;"	d
+SIP_AMPDU_TX_STOP	sip2_common.h	379;"	d
+SIP_BOOT	esp_sip.h	/^        SIP_BOOT,$/;"	e	enum:SIP_STATE
+SIP_BOOT_BUF_SIZE	sip2_common.h	211;"	d
+SIP_BUF_TYPE	sip2_common.h	/^} SIP_BUF_TYPE;$/;"	t	typeref:enum:__anon10
+SIP_CMD_AMPDU_ACTION	sip2_common.h	/^        SIP_CMD_AMPDU_ACTION,$/;"	e	enum:sip_cmd_id
+SIP_CMD_ATE	sip2_common.h	/^        SIP_CMD_ATE,$/;"	e	enum:sip_cmd_id
+SIP_CMD_BOOTUP	sip2_common.h	/^        SIP_CMD_BOOTUP,\/\/5 ROM code$/;"	e	enum:sip_cmd_id
+SIP_CMD_BSS_INFO_UPDATE	sip2_common.h	/^        SIP_CMD_BSS_INFO_UPDATE,\/\/11$/;"	e	enum:sip_cmd_id
+SIP_CMD_CONFIG	sip2_common.h	/^        SIP_CMD_CONFIG,\/\/10$/;"	e	enum:sip_cmd_id
+SIP_CMD_COPYBACK	sip2_common.h	/^        SIP_CMD_COPYBACK,\/\/6$/;"	e	enum:sip_cmd_id
+SIP_CMD_DEBUG	sip2_common.h	/^        SIP_CMD_DEBUG,          \/* for general testing *\/$/;"	e	enum:sip_cmd_id
+SIP_CMD_GET_FW_VER	sip2_common.h	/^        SIP_CMD_GET_FW_VER,  \/* get fw rev. *\/$/;"	e	enum:sip_cmd_id
+SIP_CMD_GET_VER	sip2_common.h	/^        SIP_CMD_GET_VER = 0,$/;"	e	enum:sip_cmd_id
+SIP_CMD_HB_REQ	sip2_common.h	/^        SIP_CMD_HB_REQ, \/\/15$/;"	e	enum:sip_cmd_id
+SIP_CMD_INIT	sip2_common.h	/^        SIP_CMD_INIT,          \/\/7$/;"	e	enum:sip_cmd_id
+SIP_CMD_LOOPBACK	sip2_common.h	/^        SIP_CMD_LOOPBACK,\/\/12  ROM code$/;"	e	enum:sip_cmd_id
+SIP_CMD_MAX	sip2_common.h	/^        SIP_CMD_MAX,$/;"	e	enum:sip_cmd_id
+SIP_CMD_PRE_DOWN	sip2_common.h	/^        SIP_CMD_PRE_DOWN,  \/\/17$/;"	e	enum:sip_cmd_id
+SIP_CMD_PS	sip2_common.h	/^        SIP_CMD_PS,$/;"	e	enum:sip_cmd_id
+SIP_CMD_READ_MEMORY	sip2_common.h	/^        SIP_CMD_READ_MEMORY,\/\/2$/;"	e	enum:sip_cmd_id
+SIP_CMD_READ_REG	sip2_common.h	/^        SIP_CMD_READ_REG,     \/\/4$/;"	e	enum:sip_cmd_id
+SIP_CMD_RECALC_CREDIT	sip2_common.h	/^	SIP_CMD_RECALC_CREDIT,$/;"	e	enum:sip_cmd_id
+SIP_CMD_RESET_MAC	sip2_common.h	/^        SIP_CMD_RESET_MAC, \/\/16$/;"	e	enum:sip_cmd_id
+SIP_CMD_SCAN	sip2_common.h	/^        SIP_CMD_SCAN,\/\/8$/;"	e	enum:sip_cmd_id
+SIP_CMD_SETKEY	sip2_common.h	/^        SIP_CMD_SETKEY,\/\/9$/;"	e	enum:sip_cmd_id
+SIP_CMD_SETSTA	sip2_common.h	/^        SIP_CMD_SETSTA,$/;"	e	enum:sip_cmd_id
+SIP_CMD_SETVIF	sip2_common.h	/^        SIP_CMD_SETVIF,$/;"	e	enum:sip_cmd_id
+SIP_CMD_SET_WMM_PARAM	sip2_common.h	/^        SIP_CMD_SET_WMM_PARAM,$/;"	e	enum:sip_cmd_id
+SIP_CMD_SLEEP	sip2_common.h	/^        SIP_CMD_SLEEP,        \/* for sleep testing *\/$/;"	e	enum:sip_cmd_id
+SIP_CMD_SUSPEND	sip2_common.h	/^        SIP_CMD_SUSPEND,$/;"	e	enum:sip_cmd_id
+SIP_CMD_WAKEUP	sip2_common.h	/^        SIP_CMD_WAKEUP,       \/* for sleep testing *\/$/;"	e	enum:sip_cmd_id
+SIP_CMD_WRITE_MEMORY	sip2_common.h	/^        SIP_CMD_WRITE_MEMORY,\/\/1 ROM code$/;"	e	enum:sip_cmd_id
+SIP_CMD_WRITE_REG	sip2_common.h	/^        SIP_CMD_WRITE_REG,\/\/3 ROM code$/;"	e	enum:sip_cmd_id
+SIP_CREDITS_LOW_THRESHOLD	esp_sip.h	61;"	d
+SIP_CREDITS_MASK	sip2_common.h	182;"	d
+SIP_CTRL	sip2_common.h	/^        SIP_CTRL = 0,$/;"	e	enum:__anon9
+SIP_CTRL_BUF_N	sip2_common.h	213;"	d
+SIP_CTRL_BUF_SZ	sip2_common.h	212;"	d
+SIP_CTRL_CREDIT_RESERVE	esp_sip.h	16;"	d
+SIP_CTRL_HDR_LEN	sip2_common.h	210;"	d
+SIP_CTRL_RXBUF_N	sip2_common.h	215;"	d
+SIP_CTRL_TXBUF_N	sip2_common.h	214;"	d
+SIP_DATA	sip2_common.h	/^        SIP_DATA,$/;"	e	enum:__anon9
+SIP_DATA_AMPDU	sip2_common.h	/^        SIP_DATA_AMPDU$/;"	e	enum:__anon9
+SIP_DUMP_RPBM_ERR	sip2_common.h	339;"	d
+SIP_EVT_ATE	sip2_common.h	/^        SIP_EVT_ATE,$/;"	e	enum:__anon11
+SIP_EVT_BOOTUP	sip2_common.h	/^        SIP_EVT_BOOTUP,\/\/1 in ROM code$/;"	e	enum:__anon11
+SIP_EVT_COPYBACK	sip2_common.h	/^        SIP_EVT_COPYBACK,\/\/2$/;"	e	enum:__anon11
+SIP_EVT_CREDIT_RPT	sip2_common.h	/^        SIP_EVT_CREDIT_RPT,     \/\/5, in ROM code$/;"	e	enum:__anon11
+SIP_EVT_DEBUG	sip2_common.h	/^        SIP_EVT_DEBUG,\/\/12          \/* for general testing *\/$/;"	e	enum:__anon11
+SIP_EVT_EP	sip2_common.h	/^        SIP_EVT_EP,$/;"	e	enum:__anon11
+SIP_EVT_ERROR	sip2_common.h	/^        SIP_EVT_ERROR,\/\/6$/;"	e	enum:__anon11
+SIP_EVT_HB_ACK	sip2_common.h	/^        SIP_EVT_HB_ACK,  \/\/9$/;"	e	enum:__anon11
+SIP_EVT_INIT_EP	sip2_common.h	/^        SIP_EVT_INIT_EP,$/;"	e	enum:__anon11
+SIP_EVT_LOOPBACK	sip2_common.h	/^        SIP_EVT_LOOPBACK,\/\/7, in ROM code$/;"	e	enum:__anon11
+SIP_EVT_MAX	sip2_common.h	/^        SIP_EVT_MAX$/;"	e	enum:__anon11
+SIP_EVT_NOISEFLOOR	sip2_common.h	/^        SIP_EVT_NOISEFLOOR,$/;"	e	enum:__anon11
+SIP_EVT_NULLFUNC_REPORT	sip2_common.h	/^	SIP_EVT_NULLFUNC_REPORT,$/;"	e	enum:__anon11
+SIP_EVT_PRINT_TO_HOST	sip2_common.h	/^        SIP_EVT_PRINT_TO_HOST, \/\/13$/;"	e	enum:__anon11
+SIP_EVT_RESETTING	sip2_common.h	/^        SIP_EVT_RESETTING,$/;"	e	enum:__anon11
+SIP_EVT_RESET_MAC_ACK	sip2_common.h	/^        SIP_EVT_RESET_MAC_ACK, \/\/10$/;"	e	enum:__anon11
+SIP_EVT_ROC	sip2_common.h	/^        SIP_EVT_ROC,              \/\/15$/;"	e	enum:__anon11
+SIP_EVT_SCAN_RESULT	sip2_common.h	/^        SIP_EVT_SCAN_RESULT,  \/\/3$/;"	e	enum:__anon11
+SIP_EVT_SLEEP	sip2_common.h	/^        SIP_EVT_SLEEP,$/;"	e	enum:__anon11
+SIP_EVT_SNPRINTF_TO_HOST	sip2_common.h	/^        SIP_EVT_SNPRINTF_TO_HOST, \/\/8  in ROM code$/;"	e	enum:__anon11
+SIP_EVT_TARGET_ON	sip2_common.h	/^        SIP_EVT_TARGET_ON = 0,    \/\/$/;"	e	enum:__anon11
+SIP_EVT_TRC_AMPDU	sip2_common.h	/^        SIP_EVT_TRC_AMPDU, \/\/14$/;"	e	enum:__anon11
+SIP_EVT_TXIDLE	sip2_common.h	/^        SIP_EVT_TXIDLE,$/;"	e	enum:__anon11
+SIP_EVT_TX_STATUS	sip2_common.h	/^        SIP_EVT_TX_STATUS,\/\/4$/;"	e	enum:__anon11
+SIP_EVT_WAKEUP	sip2_common.h	/^        SIP_EVT_WAKEUP,\/\/11        \/* for sleep testing *\/$/;"	e	enum:__anon11
+SIP_HDR_F_MORE_PKT	sip2_common.h	114;"	d
+SIP_HDR_F_NEED_CRDT_RPT	sip2_common.h	115;"	d
+SIP_HDR_F_PM_TURNING_OFF	sip2_common.h	119;"	d
+SIP_HDR_F_PM_TURNING_ON	sip2_common.h	118;"	d
+SIP_HDR_F_SYNC	sip2_common.h	116;"	d
+SIP_HDR_F_SYNC_RESET	sip2_common.h	117;"	d
+SIP_HDR_GET_IFIDX	sip2_common.h	101;"	d
+SIP_HDR_GET_TYPE	sip2_common.h	103;"	d
+SIP_HDR_IS_AMPDU	sip2_common.h	110;"	d
+SIP_HDR_IS_CRDT_RPT	sip2_common.h	123;"	d
+SIP_HDR_IS_CTRL	sip2_common.h	108;"	d
+SIP_HDR_IS_DATA	sip2_common.h	109;"	d
+SIP_HDR_IS_MORE_PKT	sip2_common.h	122;"	d
+SIP_HDR_IS_PM_TURNING_OFF	sip2_common.h	133;"	d
+SIP_HDR_IS_PM_TURNING_ON	sip2_common.h	131;"	d
+SIP_HDR_IS_SYNC	sip2_common.h	124;"	d
+SIP_HDR_IS_SYNC_PKT	sip2_common.h	126;"	d
+SIP_HDR_IS_SYNC_RESET	sip2_common.h	125;"	d
+SIP_HDR_LEN	sip2_common.h	209;"	d
+SIP_HDR_MIN_LEN	sip2_common.h	208;"	d
+SIP_HDR_NEED_CREDIT_UPDATE	sip2_common.h	121;"	d
+SIP_HDR_SET_FLAGS	sip2_common.h	113;"	d
+SIP_HDR_SET_IFIDX	sip2_common.h	102;"	d
+SIP_HDR_SET_MORE_PKT	sip2_common.h	129;"	d
+SIP_HDR_SET_PM_TURNING_OFF	sip2_common.h	132;"	d
+SIP_HDR_SET_PM_TURNING_ON	sip2_common.h	130;"	d
+SIP_HDR_SET_SYNC	sip2_common.h	127;"	d
+SIP_HDR_SET_SYNC_RESET	sip2_common.h	128;"	d
+SIP_HDR_SET_TYPE	sip2_common.h	105;"	d
+SIP_IFIDX_MASK	sip2_common.h	96;"	d
+SIP_IFIDX_S	sip2_common.h	97;"	d
+SIP_INIT	esp_sip.h	/^        SIP_INIT = 0,$/;"	e	enum:SIP_STATE
+SIP_MIN_DATA_PKT_LEN	esp_sip.c	109;"	d	file:
+SIP_PENDING_RESUME_TX_THRESHOLD	esp_sip.c	106;"	d	file:
+SIP_PENDING_STOP_TX_THRESHOLD	esp_sip.c	105;"	d	file:
+SIP_PKT_MAX_LEN	esp_sip.h	18;"	d
+SIP_PREPARE_BOOT	esp_sip.h	/^	SIP_PREPARE_BOOT,$/;"	e	enum:SIP_STATE
+SIP_RESUME_QUEUE_THRESHOLD	esp_sip.c	103;"	d	file:
+SIP_RUN	esp_sip.h	/^        SIP_RUN,$/;"	e	enum:SIP_STATE
+SIP_RXABORT_FIXED	sip2_common.h	340;"	d
+SIP_RX_ADDR_PREFIX_MASK	sip2_common.h	218;"	d
+SIP_RX_ADDR_SHIFT	sip2_common.h	219;"	d
+SIP_RX_AGGR_BUF_SIZE	esp_sip.h	23;"	d
+SIP_RX_CTRL_BUF	sip2_common.h	/^        SIP_RX_CTRL_BUF,  \/* to host *\/$/;"	e	enum:__anon10
+SIP_RX_DATA_BUF	sip2_common.h	/^        SIP_RX_DATA_BUF \/* to host *\/$/;"	e	enum:__anon10
+SIP_RX_DONE	esp_sip.h	/^        SIP_RX_DONE = 2,$/;"	e	enum:sip_notifier
+SIP_SEND_INIT	esp_sip.h	/^	SIP_SEND_INIT,$/;"	e	enum:SIP_STATE
+SIP_STATE	esp_sip.h	/^typedef enum SIP_STATE {$/;"	g
+SIP_STATE	esp_sip.h	/^} SIP_STATE;$/;"	t	typeref:enum:SIP_STATE
+SIP_STOP	esp_sip.h	/^        SIP_STOP$/;"	e	enum:SIP_STATE
+SIP_STOP_QUEUE_THRESHOLD	esp_sip.c	102;"	d	file:
+SIP_SUPPORT_BGSCAN	sip2_common.h	341;"	d
+SIP_SUSPEND	esp_sip.h	/^        SIP_SUSPEND,$/;"	e	enum:SIP_STATE
+SIP_TX_AGGR_BUF_SIZE	esp_sip.h	22;"	d
+SIP_TX_CTRL_BUF	sip2_common.h	/^        SIP_TX_CTRL_BUF = 0,  \/* from host *\/$/;"	e	enum:__anon10
+SIP_TX_DATA_BUF	sip2_common.h	/^        SIP_TX_DATA_BUF, \/* from host *\/$/;"	e	enum:__anon10
+SIP_TX_DONE	esp_sip.h	/^        SIP_TX_DONE = 1,$/;"	e	enum:sip_notifier
+SIP_TX_ST_ACKTO	sip2_common.h	391;"	d
+SIP_TX_ST_ENCERR	sip2_common.h	392;"	d
+SIP_TX_ST_NOEB	sip2_common.h	390;"	d
+SIP_TX_ST_OK	sip2_common.h	389;"	d
+SIP_TYPE	sip2_common.h	/^} SIP_TYPE;$/;"	t	typeref:enum:__anon9
+SIP_TYPE_MASK	sip2_common.h	98;"	d
+SIP_TYPE_S	sip2_common.h	99;"	d
+SIP_WAIT_BOOTUP	esp_sip.h	/^	SIP_WAIT_BOOTUP,$/;"	e	enum:SIP_STATE
+SLC_ADDR_WINDOW_CLEAR_MASK	slc_host_register.h	231;"	d
+SLC_BRIDGE_CONF	slc_host_register.h	254;"	d
+SLC_FIFO_MAP_ENA	slc_host_register.h	259;"	d
+SLC_FIFO_MAP_ENA_S	slc_host_register.h	260;"	d
+SLC_FRHOST_BIT2_INT_ENA	slc_host_register.h	249;"	d
+SLC_FROM_HOST_ADDR_WINDOW	slc_host_register.h	232;"	d
+SLC_HDA_MAP_128K	slc_host_register.h	257;"	d
+SLC_HOST_CONF0	slc_host_register.h	83;"	d
+SLC_HOST_CONF0_S	slc_host_register.h	84;"	d
+SLC_HOST_CONF1	slc_host_register.h	81;"	d
+SLC_HOST_CONF10	slc_host_register.h	125;"	d
+SLC_HOST_CONF10_S	slc_host_register.h	126;"	d
+SLC_HOST_CONF11	slc_host_register.h	123;"	d
+SLC_HOST_CONF11_S	slc_host_register.h	124;"	d
+SLC_HOST_CONF12	slc_host_register.h	139;"	d
+SLC_HOST_CONF12_S	slc_host_register.h	140;"	d
+SLC_HOST_CONF13	slc_host_register.h	137;"	d
+SLC_HOST_CONF13_S	slc_host_register.h	138;"	d
+SLC_HOST_CONF14	slc_host_register.h	135;"	d
+SLC_HOST_CONF14_S	slc_host_register.h	136;"	d
+SLC_HOST_CONF15	slc_host_register.h	133;"	d
+SLC_HOST_CONF15_S	slc_host_register.h	134;"	d
+SLC_HOST_CONF16	slc_host_register.h	152;"	d
+SLC_HOST_CONF16_S	slc_host_register.h	153;"	d
+SLC_HOST_CONF17	slc_host_register.h	150;"	d
+SLC_HOST_CONF17_S	slc_host_register.h	151;"	d
+SLC_HOST_CONF18	slc_host_register.h	148;"	d
+SLC_HOST_CONF18_S	slc_host_register.h	149;"	d
+SLC_HOST_CONF19	slc_host_register.h	146;"	d
+SLC_HOST_CONF19_S	slc_host_register.h	147;"	d
+SLC_HOST_CONF1_S	slc_host_register.h	82;"	d
+SLC_HOST_CONF2	slc_host_register.h	79;"	d
+SLC_HOST_CONF20	slc_host_register.h	222;"	d
+SLC_HOST_CONF20_S	slc_host_register.h	223;"	d
+SLC_HOST_CONF21	slc_host_register.h	220;"	d
+SLC_HOST_CONF21_S	slc_host_register.h	221;"	d
+SLC_HOST_CONF22	slc_host_register.h	218;"	d
+SLC_HOST_CONF22_S	slc_host_register.h	219;"	d
+SLC_HOST_CONF23	slc_host_register.h	216;"	d
+SLC_HOST_CONF23_S	slc_host_register.h	217;"	d
+SLC_HOST_CONF2_S	slc_host_register.h	80;"	d
+SLC_HOST_CONF3	slc_host_register.h	77;"	d
+SLC_HOST_CONF3_S	slc_host_register.h	78;"	d
+SLC_HOST_CONF4	slc_host_register.h	93;"	d
+SLC_HOST_CONF4_S	slc_host_register.h	94;"	d
+SLC_HOST_CONF5	slc_host_register.h	91;"	d
+SLC_HOST_CONF5_S	slc_host_register.h	92;"	d
+SLC_HOST_CONF6	slc_host_register.h	89;"	d
+SLC_HOST_CONF6_S	slc_host_register.h	90;"	d
+SLC_HOST_CONF7	slc_host_register.h	87;"	d
+SLC_HOST_CONF7_S	slc_host_register.h	88;"	d
+SLC_HOST_CONF8	slc_host_register.h	129;"	d
+SLC_HOST_CONF8_S	slc_host_register.h	130;"	d
+SLC_HOST_CONF9	slc_host_register.h	127;"	d
+SLC_HOST_CONF9_S	slc_host_register.h	128;"	d
+SLC_HOST_CONF_W0	slc_host_register.h	76;"	d
+SLC_HOST_CONF_W1	slc_host_register.h	86;"	d
+SLC_HOST_CONF_W2	slc_host_register.h	122;"	d
+SLC_HOST_CONF_W3	slc_host_register.h	132;"	d
+SLC_HOST_CONF_W4	slc_host_register.h	145;"	d
+SLC_HOST_CONF_W5	slc_host_register.h	215;"	d
+SLC_HOST_DATE	slc_host_register.h	228;"	d
+SLC_HOST_EXT_BIT0_INT_CLR	slc_host_register.h	169;"	d
+SLC_HOST_EXT_BIT0_INT_ENA	slc_host_register.h	194;"	d
+SLC_HOST_EXT_BIT1_INT_CLR	slc_host_register.h	168;"	d
+SLC_HOST_EXT_BIT1_INT_ENA	slc_host_register.h	193;"	d
+SLC_HOST_EXT_BIT1_INT_RAW	slc_host_register.h	34;"	d
+SLC_HOST_EXT_BIT1_INT_ST	slc_host_register.h	100;"	d
+SLC_HOST_EXT_BIT2_INT_CLR	slc_host_register.h	167;"	d
+SLC_HOST_EXT_BIT2_INT_ENA	slc_host_register.h	192;"	d
+SLC_HOST_EXT_BIT2_INT_RAW	slc_host_register.h	33;"	d
+SLC_HOST_EXT_BIT2_INT_ST	slc_host_register.h	99;"	d
+SLC_HOST_EXT_BIT3_INT_CLR	slc_host_register.h	166;"	d
+SLC_HOST_EXT_BIT3_INT_ENA	slc_host_register.h	191;"	d
+SLC_HOST_EXT_BIT3_INT_RAW	slc_host_register.h	32;"	d
+SLC_HOST_EXT_BIT3_INT_ST	slc_host_register.h	98;"	d
+SLC_HOST_GEN_RXDONE_INT	slc_host_register.h	143;"	d
+SLC_HOST_GEN_TXDONE_INT	slc_host_register.h	142;"	d
+SLC_HOST_ID	slc_host_register.h	229;"	d
+SLC_HOST_INT_CLR	slc_host_register.h	161;"	d
+SLC_HOST_INT_ENA	slc_host_register.h	190;"	d
+SLC_HOST_INT_RAW	slc_host_register.h	31;"	d
+SLC_HOST_INT_ST	slc_host_register.h	96;"	d
+SLC_HOST_PF	slc_host_register.h	19;"	d
+SLC_HOST_REGISTER_H_INCLUDED	slc_host_register.h	11;"	d
+SLC_HOST_RXFIFO_NOT_EMPTY_INT_RAW	slc_host_register.h	35;"	d
+SLC_HOST_RXFIFO_NOT_EMPTY_INT_ST	slc_host_register.h	101;"	d
+SLC_HOST_RX_EOF_INT_CLR	slc_host_register.h	175;"	d
+SLC_HOST_RX_EOF_INT_ENA	slc_host_register.h	200;"	d
+SLC_HOST_RX_EOF_INT_RAW	slc_host_register.h	41;"	d
+SLC_HOST_RX_EOF_INT_ST	slc_host_register.h	107;"	d
+SLC_HOST_RX_PF_EOF	slc_host_register.h	21;"	d
+SLC_HOST_RX_PF_EOF_S	slc_host_register.h	22;"	d
+SLC_HOST_RX_PF_VALID	slc_host_register.h	25;"	d
+SLC_HOST_RX_PF_VALID_INT_CLR	slc_host_register.h	170;"	d
+SLC_HOST_RX_PF_VALID_INT_ENA	slc_host_register.h	195;"	d
+SLC_HOST_RX_PF_VALID_INT_RAW	slc_host_register.h	36;"	d
+SLC_HOST_RX_PF_VALID_INT_ST	slc_host_register.h	102;"	d
+SLC_HOST_RX_SOF_INT_CLR	slc_host_register.h	176;"	d
+SLC_HOST_RX_SOF_INT_ENA	slc_host_register.h	201;"	d
+SLC_HOST_RX_SOF_INT_RAW	slc_host_register.h	42;"	d
+SLC_HOST_RX_SOF_INT_ST	slc_host_register.h	108;"	d
+SLC_HOST_RX_ST	slc_host_register.h	97;"	d
+SLC_HOST_RX_START_INT_CLR	slc_host_register.h	174;"	d
+SLC_HOST_RX_START_INT_ENA	slc_host_register.h	199;"	d
+SLC_HOST_RX_START_INT_RAW	slc_host_register.h	40;"	d
+SLC_HOST_RX_START_INT_ST	slc_host_register.h	106;"	d
+SLC_HOST_RX_UDF_INT_CLR	slc_host_register.h	172;"	d
+SLC_HOST_RX_UDF_INT_ENA	slc_host_register.h	197;"	d
+SLC_HOST_RX_UDF_INT_RAW	slc_host_register.h	38;"	d
+SLC_HOST_RX_UDF_INT_ST	slc_host_register.h	104;"	d
+SLC_HOST_STATE0	slc_host_register.h	63;"	d
+SLC_HOST_STATE0_S	slc_host_register.h	64;"	d
+SLC_HOST_STATE1	slc_host_register.h	61;"	d
+SLC_HOST_STATE1_S	slc_host_register.h	62;"	d
+SLC_HOST_STATE2	slc_host_register.h	59;"	d
+SLC_HOST_STATE2_S	slc_host_register.h	60;"	d
+SLC_HOST_STATE3	slc_host_register.h	57;"	d
+SLC_HOST_STATE3_S	slc_host_register.h	58;"	d
+SLC_HOST_STATE4	slc_host_register.h	73;"	d
+SLC_HOST_STATE4_S	slc_host_register.h	74;"	d
+SLC_HOST_STATE5	slc_host_register.h	71;"	d
+SLC_HOST_STATE5_S	slc_host_register.h	72;"	d
+SLC_HOST_STATE6	slc_host_register.h	69;"	d
+SLC_HOST_STATE6_S	slc_host_register.h	70;"	d
+SLC_HOST_STATE7	slc_host_register.h	67;"	d
+SLC_HOST_STATE7_S	slc_host_register.h	68;"	d
+SLC_HOST_STATE_W0	slc_host_register.h	56;"	d
+SLC_HOST_STATE_W1	slc_host_register.h	66;"	d
+SLC_HOST_TOHOST_BIT0_INT_CLR	slc_host_register.h	188;"	d
+SLC_HOST_TOHOST_BIT0_INT_ENA	slc_host_register.h	213;"	d
+SLC_HOST_TOHOST_BIT0_INT_RAW	slc_host_register.h	54;"	d
+SLC_HOST_TOHOST_BIT0_INT_ST	slc_host_register.h	120;"	d
+SLC_HOST_TOHOST_BIT1_INT_CLR	slc_host_register.h	187;"	d
+SLC_HOST_TOHOST_BIT1_INT_ENA	slc_host_register.h	212;"	d
+SLC_HOST_TOHOST_BIT1_INT_RAW	slc_host_register.h	53;"	d
+SLC_HOST_TOHOST_BIT1_INT_ST	slc_host_register.h	119;"	d
+SLC_HOST_TOHOST_BIT2_INT_CLR	slc_host_register.h	186;"	d
+SLC_HOST_TOHOST_BIT2_INT_ENA	slc_host_register.h	211;"	d
+SLC_HOST_TOHOST_BIT2_INT_RAW	slc_host_register.h	52;"	d
+SLC_HOST_TOHOST_BIT2_INT_ST	slc_host_register.h	118;"	d
+SLC_HOST_TOHOST_BIT3_INT_CLR	slc_host_register.h	185;"	d
+SLC_HOST_TOHOST_BIT3_INT_ENA	slc_host_register.h	210;"	d
+SLC_HOST_TOHOST_BIT3_INT_RAW	slc_host_register.h	51;"	d
+SLC_HOST_TOHOST_BIT3_INT_ST	slc_host_register.h	117;"	d
+SLC_HOST_TOHOST_BIT4_INT_CLR	slc_host_register.h	184;"	d
+SLC_HOST_TOHOST_BIT4_INT_ENA	slc_host_register.h	209;"	d
+SLC_HOST_TOHOST_BIT4_INT_RAW	slc_host_register.h	50;"	d
+SLC_HOST_TOHOST_BIT4_INT_ST	slc_host_register.h	116;"	d
+SLC_HOST_TOHOST_BIT5_INT_CLR	slc_host_register.h	183;"	d
+SLC_HOST_TOHOST_BIT5_INT_ENA	slc_host_register.h	208;"	d
+SLC_HOST_TOHOST_BIT5_INT_RAW	slc_host_register.h	49;"	d
+SLC_HOST_TOHOST_BIT5_INT_ST	slc_host_register.h	115;"	d
+SLC_HOST_TOHOST_BIT6_INT_CLR	slc_host_register.h	182;"	d
+SLC_HOST_TOHOST_BIT6_INT_ENA	slc_host_register.h	207;"	d
+SLC_HOST_TOHOST_BIT6_INT_RAW	slc_host_register.h	48;"	d
+SLC_HOST_TOHOST_BIT6_INT_ST	slc_host_register.h	114;"	d
+SLC_HOST_TOHOST_BIT7_INT_CLR	slc_host_register.h	181;"	d
+SLC_HOST_TOHOST_BIT7_INT_ENA	slc_host_register.h	206;"	d
+SLC_HOST_TOHOST_BIT7_INT_RAW	slc_host_register.h	47;"	d
+SLC_HOST_TOHOST_BIT7_INT_ST	slc_host_register.h	113;"	d
+SLC_HOST_TOKEN0	slc_host_register.h	26;"	d
+SLC_HOST_TOKEN0_0TO1_INT_CLR	slc_host_register.h	178;"	d
+SLC_HOST_TOKEN0_0TO1_INT_ENA	slc_host_register.h	203;"	d
+SLC_HOST_TOKEN0_0TO1_INT_RAW	slc_host_register.h	44;"	d
+SLC_HOST_TOKEN0_0TO1_INT_ST	slc_host_register.h	110;"	d
+SLC_HOST_TOKEN0_1TO0_INT_CLR	slc_host_register.h	180;"	d
+SLC_HOST_TOKEN0_1TO0_INT_ENA	slc_host_register.h	205;"	d
+SLC_HOST_TOKEN0_1TO0_INT_RAW	slc_host_register.h	46;"	d
+SLC_HOST_TOKEN0_1TO0_INT_ST	slc_host_register.h	112;"	d
+SLC_HOST_TOKEN0_DEC	slc_host_register.h	165;"	d
+SLC_HOST_TOKEN0_MASK	slc_host_register.h	29;"	d
+SLC_HOST_TOKEN0_S	slc_host_register.h	27;"	d
+SLC_HOST_TOKEN0_WD	slc_host_register.h	158;"	d
+SLC_HOST_TOKEN0_WD_S	slc_host_register.h	159;"	d
+SLC_HOST_TOKEN0_WR	slc_host_register.h	163;"	d
+SLC_HOST_TOKEN1	slc_host_register.h	23;"	d
+SLC_HOST_TOKEN1_0TO1_INT_CLR	slc_host_register.h	177;"	d
+SLC_HOST_TOKEN1_0TO1_INT_ENA	slc_host_register.h	202;"	d
+SLC_HOST_TOKEN1_0TO1_INT_RAW	slc_host_register.h	43;"	d
+SLC_HOST_TOKEN1_0TO1_INT_ST	slc_host_register.h	109;"	d
+SLC_HOST_TOKEN1_1TO0_INT_CLR	slc_host_register.h	179;"	d
+SLC_HOST_TOKEN1_1TO0_INT_ENA	slc_host_register.h	204;"	d
+SLC_HOST_TOKEN1_1TO0_INT_RAW	slc_host_register.h	45;"	d
+SLC_HOST_TOKEN1_1TO0_INT_ST	slc_host_register.h	111;"	d
+SLC_HOST_TOKEN1_DEC	slc_host_register.h	164;"	d
+SLC_HOST_TOKEN1_S	slc_host_register.h	24;"	d
+SLC_HOST_TOKEN1_WD	slc_host_register.h	156;"	d
+SLC_HOST_TOKEN1_WD_S	slc_host_register.h	157;"	d
+SLC_HOST_TOKEN1_WR	slc_host_register.h	162;"	d
+SLC_HOST_TOKEN_RDATA	slc_host_register.h	20;"	d
+SLC_HOST_TOKEN_WDATA	slc_host_register.h	155;"	d
+SLC_HOST_TX_OVF_INT_CLR	slc_host_register.h	171;"	d
+SLC_HOST_TX_OVF_INT_ENA	slc_host_register.h	196;"	d
+SLC_HOST_TX_OVF_INT_RAW	slc_host_register.h	37;"	d
+SLC_HOST_TX_OVF_INT_ST	slc_host_register.h	103;"	d
+SLC_HOST_TX_START_INT_CLR	slc_host_register.h	173;"	d
+SLC_HOST_TX_START_INT_ENA	slc_host_register.h	198;"	d
+SLC_HOST_TX_START_INT_RAW	slc_host_register.h	39;"	d
+SLC_HOST_TX_START_INT_ST	slc_host_register.h	105;"	d
+SLC_HOST_WIN_CMD	slc_host_register.h	225;"	d
+SLC_INT_ENA	slc_host_register.h	247;"	d
+SLC_RXLINK_START	slc_host_register.h	252;"	d
+SLC_RX_EOF_INT_ENA	slc_host_register.h	248;"	d
+SLC_RX_LINK	slc_host_register.h	251;"	d
+SLC_SET_FROM_HOST_ADDR_WINDOW	slc_host_register.h	235;"	d
+SLC_SET_TO_HOST_ADDR_WINDOW	slc_host_register.h	241;"	d
+SLC_TO_HOST_ADDR_WINDOW	slc_host_register.h	233;"	d
+SLC_TXEOF_ENA	slc_host_register.h	261;"	d
+SLC_TXEOF_ENA_S	slc_host_register.h	262;"	d
+SLC_TX_DUMMY_MODE	slc_host_register.h	258;"	d
+SLC_TX_PUSH_IDLE_NUM	slc_host_register.h	255;"	d
+SLC_TX_PUSH_IDLE_NUM_S	slc_host_register.h	256;"	d
+SPI_BLOCK_SIZE	spi_sif_esp.c	42;"	d	file:
+STBC	esp_wmac.h	/^        unsigned STBC:2;$/;"	m	struct:esp_mac_rx_ctrl
+STRACE_RX_DATA_INC	esp_sip.c	84;"	d	file:
+STRACE_RX_DATA_INC	esp_sip.c	94;"	d	file:
+STRACE_RX_EVENT_INC	esp_sip.c	85;"	d	file:
+STRACE_RX_EVENT_INC	esp_sip.c	95;"	d	file:
+STRACE_RX_TXSTATUS_INC	esp_sip.c	86;"	d	file:
+STRACE_RX_TXSTATUS_INC	esp_sip.c	96;"	d	file:
+STRACE_SHOW	esp_sip.c	89;"	d	file:
+STRACE_SHOW	esp_sip.c	99;"	d	file:
+STRACE_TX_CMD_INC	esp_sip.c	83;"	d	file:
+STRACE_TX_CMD_INC	esp_sip.c	93;"	d	file:
+STRACE_TX_DATA_INC	esp_sip.c	82;"	d	file:
+STRACE_TX_DATA_INC	esp_sip.c	92;"	d	file:
+STRACE_TX_ONE_SHOT_INC	esp_sip.c	88;"	d	file:
+STRACE_TX_ONE_SHOT_INC	esp_sip.c	98;"	d	file:
+STRACE_TX_OUT_OF_CREDIT_INC	esp_sip.c	87;"	d	file:
+STRACE_TX_OUT_OF_CREDIT_INC	esp_sip.c	97;"	d	file:
+Smoothing	esp_wmac.h	/^        unsigned Smoothing:1;$/;"	m	struct:esp_mac_rx_ctrl
+TEST_ATTR_CMD_NAME	testmode.h	/^        TEST_ATTR_CMD_NAME,$/;"	e	enum:__anon17
+TEST_ATTR_CMD_TYPE	testmode.h	/^        TEST_ATTR_CMD_TYPE,$/;"	e	enum:__anon17
+TEST_ATTR_MAX	testmode.h	47;"	d
+TEST_ATTR_PARA	testmode.h	48;"	d
+TEST_ATTR_PARA0	testmode.h	/^        TEST_ATTR_PARA0,$/;"	e	enum:__anon17
+TEST_ATTR_PARA1	testmode.h	/^        TEST_ATTR_PARA1,$/;"	e	enum:__anon17
+TEST_ATTR_PARA2	testmode.h	/^        TEST_ATTR_PARA2,$/;"	e	enum:__anon17
+TEST_ATTR_PARA3	testmode.h	/^        TEST_ATTR_PARA3,$/;"	e	enum:__anon17
+TEST_ATTR_PARA4	testmode.h	/^        TEST_ATTR_PARA4,$/;"	e	enum:__anon17
+TEST_ATTR_PARA5	testmode.h	/^        TEST_ATTR_PARA5,$/;"	e	enum:__anon17
+TEST_ATTR_PARA6	testmode.h	/^        TEST_ATTR_PARA6,$/;"	e	enum:__anon17
+TEST_ATTR_PARA7	testmode.h	/^        TEST_ATTR_PARA7,$/;"	e	enum:__anon17
+TEST_ATTR_PARA_NUM	testmode.h	/^        TEST_ATTR_PARA_NUM,$/;"	e	enum:__anon17
+TEST_ATTR_STR	testmode.h	/^        TEST_ATTR_STR,$/;"	e	enum:__anon17
+TEST_ATTR_UNSPEC	testmode.h	/^        TEST_ATTR_UNSPEC,$/;"	e	enum:__anon17
+TEST_CMD_ASK	testmode.h	/^        TEST_CMD_ASK,$/;"	e	enum:__anon16
+TEST_CMD_ATE	testmode.h	/^        TEST_CMD_ATE,$/;"	e	enum:__anon16
+TEST_CMD_DEBUG	testmode.h	/^        TEST_CMD_DEBUG,$/;"	e	enum:__anon16
+TEST_CMD_ECHO	testmode.h	/^        TEST_CMD_ECHO,$/;"	e	enum:__anon16
+TEST_CMD_LOOPBACK	testmode.h	/^        TEST_CMD_LOOPBACK,$/;"	e	enum:__anon16
+TEST_CMD_MAX	testmode.h	29;"	d
+TEST_CMD_RX	testmode.h	/^        TEST_CMD_RX,$/;"	e	enum:__anon16
+TEST_CMD_SDIOSPEED	testmode.h	/^        TEST_CMD_SDIOSPEED,$/;"	e	enum:__anon16
+TEST_CMD_SDIOTEST	testmode.h	/^        TEST_CMD_SDIOTEST,$/;"	e	enum:__anon16
+TEST_CMD_SDIO_RD	testmode.h	/^        TEST_CMD_SDIO_RD,$/;"	e	enum:__anon16
+TEST_CMD_SDIO_WR	testmode.h	/^        TEST_CMD_SDIO_WR,$/;"	e	enum:__anon16
+TEST_CMD_SLEEP	testmode.h	/^        TEST_CMD_SLEEP,$/;"	e	enum:__anon16
+TEST_CMD_TX	testmode.h	/^        TEST_CMD_TX,$/;"	e	enum:__anon16
+TEST_CMD_UNSPEC	testmode.h	/^        TEST_CMD_UNSPEC,$/;"	e	enum:__anon16
+TEST_CMD_WAKEUP	testmode.h	/^        TEST_CMD_WAKEUP,$/;"	e	enum:__anon16
+TID_TO_AC	esp_sip.c	68;"	d	file:
+TKIP_MIC_ERROR	testmode.h	/^	TKIP_MIC_ERROR,$/;"	e	enum:__anon18
+TRC_TX_AMPDU_OPERATIONAL	sip2_common.h	/^        TRC_TX_AMPDU_OPERATIONAL,$/;"	e	enum:__anon15
+TRC_TX_AMPDU_START	sip2_common.h	/^        TRC_TX_AMPDU_START,$/;"	e	enum:__anon15
+TRC_TX_AMPDU_STOPPED	sip2_common.h	/^        TRC_TX_AMPDU_STOPPED = 1,$/;"	e	enum:__anon15
+TRC_TX_AMPDU_WAIT_OPERATIONAL	sip2_common.h	/^        TRC_TX_AMPDU_WAIT_OPERATIONAL,$/;"	e	enum:__anon15
+TRC_TX_AMPDU_WAIT_STOP	sip2_common.h	/^        TRC_TX_AMPDU_WAIT_STOP,$/;"	e	enum:__anon15
+WME_AC_BE	esp_pub.h	80;"	d
+WME_AC_BK	esp_pub.h	81;"	d
+WME_AC_VI	esp_pub.h	82;"	d
+WME_AC_VO	esp_pub.h	83;"	d
+WME_NUM_TID	esp_pub.h	62;"	d
+WRMEM	testmode.h	/^	WRMEM,$/;"	e	enum:__anon18
+WR_REG	testmode.h	/^	WR_REG,$/;"	e	enum:__anon18
+_ESP_CONF_H_	esp_conf.h	9;"	d
+_ESP_CTRL_H_	esp_ctrl.h	11;"	d
+_ESP_EXT_H_	esp_ext.h	11;"	d
+_ESP_FILE_H_	esp_file.h	13;"	d
+_ESP_MAC80211_H_	esp_mac80211.h	11;"	d
+_ESP_PATH_H_	esp_path.h	9;"	d
+_ESP_PUB_H_	esp_pub.h	12;"	d
+_ESP_SIF_H_	esp_sif.h	15;"	d
+_ESP_SIP_H	esp_sip.h	12;"	d
+_ESP_UTILS_H_	esp_utils.h	10;"	d
+_ESP_WL_H_	esp_wl.h	9;"	d
+_ESP_WMAC_H_	esp_wmac.h	12;"	d
+_SDIO_INTR_MODE	esp_io.c	/^typedef enum _SDIO_INTR_MODE {$/;"	g	file:
+_SIP2_COMMON_H	sip2_common.h	14;"	d
+__TEST_ATTR_MAX	testmode.h	/^        __TEST_ATTR_MAX,$/;"	e	enum:__anon17
+__TEST_CMD_MAX	testmode.h	/^        __TEST_CMD_MAX,$/;"	e	enum:__anon16
+__TEST_MODE	testmode.h	10;"	d
+__packed	esp_file.h	/^} __packed;$/;"	v	typeref:struct:fcc_mode
+__packed	esp_mac80211.h	/^} __packed;$/;"	v	typeref:struct:esp_80211_deauth
+__packed	esp_mac80211.h	/^} __packed;$/;"	v	typeref:struct:esp_80211_nulldata
+__packed	esp_mac80211.h	/^} __packed;$/;"	v	typeref:struct:esp_80211_wmm_ac_param
+__packed	esp_mac80211.h	/^} __packed;$/;"	v	typeref:struct:esp_80211_wmm_param_element
+__packed	esp_mac80211.h	/^} __packed;$/;"	v	typeref:struct:ieee80211_hdr_3addr
+__packed	esp_main.c	/^} __packed;$/;"	v	typeref:struct:esp_fw_blk_hdr
+__packed	esp_main.c	/^} __packed;$/;"	v	typeref:struct:esp_fw_hdr
+__packed	esp_pub.h	/^} __packed;$/;"	v	typeref:struct:llc_snap_hdr
+__packed	sip2_common.h	/^}  __packed;$/;"	v	typeref:struct:sip_tx_data_info
+__packed	sip2_common.h	/^} __packed; \/\/ ie[] append at the end$/;"	v	typeref:struct:sip_cmd_scan
+__packed	sip2_common.h	/^} __packed;$/;"	v	typeref:struct:sip_cmd_ampdu_action
+__packed	sip2_common.h	/^} __packed;$/;"	v	typeref:struct:sip_cmd_ate
+__packed	sip2_common.h	/^} __packed;$/;"	v	typeref:struct:sip_cmd_bootup
+__packed	sip2_common.h	/^} __packed;$/;"	v	typeref:struct:sip_cmd_bss_info_update
+__packed	sip2_common.h	/^} __packed;$/;"	v	typeref:struct:sip_cmd_config
+__packed	sip2_common.h	/^} __packed;$/;"	v	typeref:struct:sip_cmd_copyback
+__packed	sip2_common.h	/^} __packed;$/;"	v	typeref:struct:sip_cmd_debug
+__packed	sip2_common.h	/^} __packed;$/;"	v	typeref:struct:sip_cmd_loopback
+__packed	sip2_common.h	/^} __packed;$/;"	v	typeref:struct:sip_cmd_ps
+__packed	sip2_common.h	/^} __packed;$/;"	v	typeref:struct:sip_cmd_read_memory
+__packed	sip2_common.h	/^} __packed;$/;"	v	typeref:struct:sip_cmd_set_wmm_params
+__packed	sip2_common.h	/^} __packed;$/;"	v	typeref:struct:sip_cmd_setkey
+__packed	sip2_common.h	/^} __packed;$/;"	v	typeref:struct:sip_cmd_setsta
+__packed	sip2_common.h	/^} __packed;$/;"	v	typeref:struct:sip_cmd_setvif
+__packed	sip2_common.h	/^} __packed;$/;"	v	typeref:struct:sip_cmd_sleep
+__packed	sip2_common.h	/^} __packed;$/;"	v	typeref:struct:sip_cmd_suspend
+__packed	sip2_common.h	/^} __packed;$/;"	v	typeref:struct:sip_cmd_wakeup
+__packed	sip2_common.h	/^} __packed;$/;"	v	typeref:struct:sip_cmd_write_memory
+__packed	sip2_common.h	/^} __packed;$/;"	v	typeref:struct:sip_cmd_write_reg
+__packed	sip2_common.h	/^} __packed;$/;"	v	typeref:struct:sip_evt_bootup
+__packed	sip2_common.h	/^} __packed;$/;"	v	typeref:struct:sip_evt_bootup2
+__packed	sip2_common.h	/^} __packed;$/;"	v	typeref:struct:sip_evt_debug
+__packed	sip2_common.h	/^} __packed;$/;"	v	typeref:struct:sip_evt_loopback
+__packed	sip2_common.h	/^} __packed;$/;"	v	typeref:struct:sip_evt_noisefloor
+__packed	sip2_common.h	/^} __packed;$/;"	v	typeref:struct:sip_evt_nullfunc_report
+__packed	sip2_common.h	/^} __packed;$/;"	v	typeref:struct:sip_evt_roc
+__packed	sip2_common.h	/^} __packed;$/;"	v	typeref:struct:sip_evt_scan_report
+__packed	sip2_common.h	/^} __packed;$/;"	v	typeref:struct:sip_evt_trc_ampdu
+__packed	sip2_common.h	/^} __packed;$/;"	v	typeref:struct:sip_evt_tx_mblk
+__packed	sip2_common.h	/^} __packed;$/;"	v	typeref:struct:sip_evt_tx_report
+__packed	sip2_common.h	/^} __packed;$/;"	v	typeref:struct:sip_evt_txidle
+__packed	sip2_common.h	/^} __packed;$/;"	v	typeref:struct:sip_evt_wakeup
+__packed	sip2_common.h	/^} __packed;$/;"	v	typeref:struct:sip_hdr
+__packed	sip2_common.h	/^} __packed;$/;"	v	typeref:struct:sip_hdr_min
+__packed	sip2_common.h	/^} __packed;$/;"	v	typeref:struct:sip_tx_info
+__packed	sip2_common.h	/^} __packed;$/;"	v	typeref:struct:sip_tx_status
+__this_module	built-in.mod.c	/^struct module __this_module$/;"	v	typeref:struct:module
+__this_module	esp8089.mod.c	/^struct module __this_module$/;"	v	typeref:struct:module
+__this_module	wlan.mod.c	/^struct module __this_module$/;"	v	typeref:struct:module
+__used	built-in.mod.c	/^__used$/;"	v	file:
+__used	esp8089.mod.c	/^__used$/;"	v	file:
+__used	esp8089.mod.c	/^__used$/;"	v	typeref:struct:____versions	file:
+__used	wlan.mod.c	/^__used$/;"	v	file:
+_esp_flush_rxq	esp_mac80211.c	/^static void _esp_flush_rxq(struct esp_pub *epub)$/;"	f	file:
+_sip_rxq_process	esp_sip.c	/^static void _sip_rxq_process(struct esp_sip *sip)$/;"	f	file:
+aborted	sip2_common.h	/^        u16 aborted;$/;"	m	struct:sip_evt_scan_report
+aborted	sip2_common.h	/^        u8 aborted;$/;"	m	struct:sip_cmd_scan
+ac	esp_mac80211.h	/^	struct esp_80211_wmm_ac_param ac[4]; \/* AC_BE, AC_BK, AC_VI, AC_VO *\/$/;"	m	struct:esp_80211_wmm_param_element	typeref:struct:esp_80211_wmm_param_element::esp_80211_wmm_ac_param
+ac	sip2_common.h	/^        u8 ac;$/;"	m	struct:sip_tx_data_info
+aci	sip2_common.h	/^        u8 aci;$/;"	m	struct:sip_cmd_set_wmm_params
+aci_aifsn	esp_mac80211.h	/^	u8 aci_aifsn; \/* AIFSN, ACM, ACI *\/$/;"	m	struct:esp_80211_wmm_ac_param
+ack_signal	sip2_common.h	/^        char ack_signal;$/;"	m	struct:sip_tx_status
+action	sip2_common.h	/^        u8 action;$/;"	m	struct:sip_cmd_ampdu_action
+addr	esp_pub.h	/^	u8 addr[ETH_ALEN];$/;"	m	struct:esp_node
+addr	sip2_common.h	/^        u32 addr;$/;"	m	struct:sip_cmd_copyback
+addr	sip2_common.h	/^        u32 addr;$/;"	m	struct:sip_cmd_read_memory
+addr	sip2_common.h	/^        u32 addr;$/;"	m	struct:sip_cmd_write_memory
+addr	sip2_common.h	/^        u32 addr;$/;"	m	struct:sip_cmd_write_reg
+addr	sip2_common.h	/^        u8 addr[ETH_ALEN];$/;"	m	struct:sip_cmd_ampdu_action
+addr	sip2_common.h	/^        u8 addr[ETH_ALEN];$/;"	m	struct:sip_cmd_setkey
+addr	sip2_common.h	/^        u8 addr[ETH_ALEN];$/;"	m	struct:sip_evt_trc_ampdu
+addr	testmode.h	/^	u32 addr;$/;"	m	struct:sdiotest_param
+addr1	esp_mac80211.h	/^	u8 addr1[ETH_ALEN];$/;"	m	struct:ieee80211_hdr_3addr
+addr2	esp_mac80211.h	/^	u8 addr2[ETH_ALEN];$/;"	m	struct:ieee80211_hdr_3addr
+addr3	esp_mac80211.h	/^	u8 addr3[ETH_ALEN];$/;"	m	struct:ieee80211_hdr_3addr
+aid	esp_pub.h	/^	u16 aid;$/;"	m	struct:esp_node
+aid	sip2_common.h	/^	u16 aid;$/;"	m	struct:sip_cmd_setsta
+aifs	sip2_common.h	/^        u8 aifs;$/;"	m	struct:sip_cmd_set_wmm_params
+alg	sip2_common.h	/^        u8 alg;$/;"	m	struct:sip_cmd_setkey
+ampdu_cnt	esp_wmac.h	/^        unsigned ampdu_cnt:8;$/;"	m	struct:esp_mac_rx_ctrl
+ampdu_density	sip2_common.h	/^        u8 ampdu_density;$/;"	m	struct:sip_cmd_setsta
+ampdu_factor	sip2_common.h	/^        u8 ampdu_factor;$/;"	m	struct:sip_cmd_setsta
+ap_up	esp_pub.h	/^	bool ap_up;$/;"	m	struct:esp_vif
+ate_done_data	testmode.c	/^static void * ate_done_data;$/;"	v	file:
+ate_r_cb	esp_debug.c	/^static int ate_r_cb(void *data)$/;"	f	file:
+ate_reply_str	testmode.c	/^static char ate_reply_str[128];$/;"	v	file:
+ate_show	esp_file.c	/^static ssize_t ate_show(struct class *cls, struct class_attribute *attr, char *ubuf)$/;"	f	file:
+ate_store	esp_file.c	/^static ssize_t ate_store(struct class *cls, struct class_attribute *attr, const char *ubuf, size_t count)$/;"	f	file:
+ate_test	esp_io.c	/^static int ate_test = 0;$/;"	v	file:
+ate_w_cb	esp_debug.c	/^static int ate_w_cb(void *data)$/;"	f	file:
+attr	esp_file.h	/^	char attr[CONF_ATTR_LEN];$/;"	m	struct:esp_init_table_elem
+avg_signal	esp_sip.c	/^static int avg_signal = 0;$/;"	v	file:
+bad_buf	sdio_sif_esp.c	/^static inline bool bad_buf(u8 * buf)$/;"	f	file:
+beacon_int	sip2_common.h	/^        u32 beacon_int;$/;"	m	struct:sip_cmd_bss_info_update
+beacon_interval	esp_pub.h	/^	u32 beacon_interval;$/;"	m	struct:esp_vif
+beacon_tim_alter	esp_mac80211.c	/^static bool beacon_tim_alter(struct sk_buff *beacon)$/;"	f	file:
+beacon_tim_count	esp_mac80211.c	/^int beacon_tim_count;$/;"	v
+beacon_tim_init	esp_mac80211.c	/^static void beacon_tim_init(void)$/;"	f	file:
+beacon_tim_save	esp_mac80211.c	/^static u8 beacon_tim_save(u8 this_tim)$/;"	f	file:
+beacon_tim_saved	esp_mac80211.c	/^u8 beacon_tim_saved[BEACON_TIM_SAVE_MAX];$/;"	v
+beacon_timer	esp_pub.h	/^	struct timer_list beacon_timer;$/;"	m	struct:esp_vif	typeref:struct:esp_vif::timer_list
+block_r_data_resp_size_final	esp_sif.h	/^	u32 block_r_data_resp_size_final;$/;"	m	struct:esp_spi_resp
+block_w_data_resp_size_final	esp_sif.h	/^	u32 block_w_data_resp_size_final;$/;"	m	struct:esp_spi_resp
+blocks	esp_main.c	/^        u8 blocks;$/;"	m	struct:esp_fw_hdr	file:
+boot_addr	sip2_common.h	/^        u32 boot_addr;$/;"	m	struct:sip_cmd_bootup
+bssid	esp_pub.h	/^        u8 bssid[ETH_ALEN];$/;"	m	struct:esp_wl
+bssid	sip2_common.h	/^        u8  bssid[ETH_ALEN];$/;"	m	struct:sip_cmd_bss_info_update
+bssid_no	sip2_common.h	/^        u8  bssid_no;$/;"	m	struct:sip_cmd_bss_info_update
+bssid_no	sip2_common.h	/^        u8 bssid_no;$/;"	m	struct:sip_cmd_setkey
+bssidmatch0	esp_wmac.h	/^        unsigned bssidmatch0:1;$/;"	m	struct:esp_mac_rx_ctrl
+bssidmatch1	esp_wmac.h	/^        unsigned bssidmatch1:1;$/;"	m	struct:esp_mac_rx_ctrl
+bt_config	esp_io.c	/^static int bt_config = 0;$/;"	v	file:
+buf	esp_sip.h	/^        u8 * buf;$/;"	m	struct:sip_pkt
+buf_addr	spi_sif_esp.c	/^static unsigned char *buf_addr = NULL;$/;"	v	file:
+buf_begin	esp_sip.h	/^        u8 * buf_begin;$/;"	m	struct:sip_pkt
+buf_len	esp_sip.h	/^        u32  buf_len;$/;"	m	struct:sip_pkt
+c_cmdid	sip2_common.h	175;"	d
+c_evtid	sip2_common.h	174;"	d
+called_flag	esp_debug.c	/^static u8 called_flag[DBGFS_MODE_MAX] = {0, 0, 0};$/;"	v	file:
+center_freq	sip2_common.h	/^        u16  center_freq;$/;"	m	struct:sip_cmd_config
+channel	esp_file.h	/^			u8 channel;$/;"	m	struct:fcc_mode::__anon2::__anon4
+channel	esp_file.h	/^			u8 channel;$/;"	m	struct:fcc_mode::__anon2::__anon5
+channel	esp_file.h	/^			u8 channel;$/;"	m	struct:fcc_mode::__anon2::__anon6
+channel	esp_wmac.h	/^        unsigned channel:4;$/;"	m	struct:esp_mac_rx_ctrl
+check_ac_tid	esp_sip.c	/^static bool check_ac_tid(u8 *pkt, u8 ac, u8 tid)$/;"	f	file:
+check_buf	spi_sif_esp.c	/^static unsigned char *check_buf = NULL;$/;"	v	file:
+check_data	sip2_common.h	/^        u32     check_data;            \/\/0:copy to event$/;"	m	struct:sip_cmd_wakeup
+check_data	sip2_common.h	/^        u32    check_data;$/;"	m	struct:sip_evt_wakeup
+check_target_id	esp_io.c	/^void check_target_id(struct esp_pub *epub)$/;"	f
+cmd_type	sip2_common.h	/^        u32  cmd_type;$/;"	m	struct:sip_cmd_debug
+cmdid	sip2_common.h	/^                u32 cmdid;$/;"	m	union:sip_tx_info::__anon12
+cmdstr	sip2_common.h	/^	u8  cmdstr[0];$/;"	m	struct:sip_cmd_ate
+cnt	esp_pub.h	/^	u8 cnt;$/;"	m	struct:esp_tx_tid
+cntl	esp_pub.h	/^        u8 cntl;$/;"	m	struct:llc_snap_hdr
+config_w0	esp_sif.h	/^        u32 config_w0;$/;"	m	struct:slc_host_regs
+config_w1	esp_sif.h	/^        u32 config_w1;$/;"	m	struct:slc_host_regs
+config_w2	esp_sif.h	/^        u32 config_w2;$/;"	m	struct:slc_host_regs
+config_w3	esp_sif.h	/^        u32 config_w3;$/;"	m	struct:slc_host_regs
+config_w4	esp_sif.h	/^        u32 config_w4;$/;"	m	struct:slc_host_regs
+connected_nl	testmode.c	/^static u32 connected_nl;$/;"	v	file:
+conv_b2l_u32	esp_file.c	/^static inline int conv_b2l_u32(u32 n)$/;"	f	file:
+crc_cal_by_byte	spi_sif_esp.c	/^unsigned int crc_cal_by_byte(unsigned char* ptr, int len)$/;"	f
+crc_ta_8	spi_sif_esp.c	/^unsigned int crc_ta_8[256]={ $/;"	v
+credit_status	esp_sip.h	/^	atomic_t credit_status;$/;"	m	struct:esp_sip
+credit_timer	esp_sip.h	/^	struct timer_list credit_timer;$/;"	m	struct:esp_sip	typeref:struct:esp_sip::timer_list
+credit_to_reserve	esp_sip.h	/^        u8 credit_to_reserve;$/;"	m	struct:esp_sip
+credit_to_reserve	sip2_common.h	/^        u8 credit_to_reserve;$/;"	m	struct:sip_evt_bootup2
+curr_num	esp_ext.h	/^	int curr_num;$/;"	m	struct:pending_intr_list_info
+cw	esp_mac80211.h	/^	u8 cw; \/* ECWmin, ECWmax (CW = 2^ECW - 1) *\/$/;"	m	struct:esp_80211_wmm_ac_param
+cycle_beacon_count	esp_mac80211.c	/^unsigned long cycle_beacon_count;$/;"	v
+d_ac	sip2_common.h	176;"	d
+d_enc_flag	sip2_common.h	179;"	d
+d_hw_kid	sip2_common.h	180;"	d
+d_p2p	sip2_common.h	178;"	d
+d_tid	sip2_common.h	177;"	d
+damatch0	esp_wmac.h	/^        unsigned damatch0:1;$/;"	m	struct:esp_mac_rx_ctrl
+damatch1	esp_wmac.h	/^        unsigned damatch1:1;$/;"	m	struct:esp_mac_rx_ctrl
+data	esp_wmac.h	/^            data:1,$/;"	m	struct:esp_tx_ampdu_entry
+data_len	esp_main.c	/^        u32 data_len;$/;"	m	struct:esp_fw_blk_hdr	file:
+data_pkt_dequeue_cnt	esp_mac80211.c	/^static int data_pkt_dequeue_cnt = 0;$/;"	v	file:
+data_resp_size_r	esp_sif.h	/^	u32 data_resp_size_r;$/;"	m	struct:esp_spi_resp
+data_resp_size_w	esp_sif.h	/^	u32 data_resp_size_w;$/;"	m	struct:esp_spi_resp
+data_tx_stopped	esp_sip.h	/^        atomic_t data_tx_stopped;$/;"	m	struct:esp_sip
+dbgfs_bootmode_init	esp_debug.c	/^void dbgfs_bootmode_init(void)$/;"	f
+dbgfs_bootmode_item	esp_debug.h	/^struct dbgfs_bootmode_item {$/;"	s
+dbgfs_get_bootmode_di	esp_debug.c	/^struct dbgfs_bootmode_item *dbgfs_get_bootmode_di(DBGFS_BOOTMODE_ID_t id)$/;"	f
+dbgfs_get_bootmode_var	esp_debug.c	/^u32 dbgfs_get_bootmode_var(DBGFS_BOOTMODE_ID_t id)$/;"	f
+debugfs_bootmode_fops	esp_debug.c	/^struct file_operations debugfs_bootmode_fops = {$/;"	v	typeref:struct:file_operations
+debugfs_bootmode_open	esp_debug.c	/^static int debugfs_bootmode_open(struct inode *inode, struct file *filp)$/;"	f	file:
+debugfs_bootmode_read	esp_debug.c	/^static ssize_t debugfs_bootmode_read(struct file *filp, char __user *userbuf,$/;"	f	file:
+debugfs_bootmode_write	esp_debug.c	/^static ssize_t debugfs_bootmode_write(struct file *filp, const char __user *userbuf,$/;"	f	file:
+dev	esp_pub.h	/^        struct device *dev;$/;"	m	struct:esp_pub	typeref:struct:esp_pub::device
+di	esp_debug.c	/^static struct dbgfs_bootmode_item di[DBGFS_MODE_MAX] = {$/;"	v	typeref:struct:dbgfs_bootmode_item	file:
+dili_num	esp_wmac.h	/^            dili_num:7,$/;"	m	struct:esp_tx_ampdu_entry
+dinfo	sip2_common.h	/^                struct sip_tx_data_info dinfo;$/;"	m	union:sip_tx_info::__anon12	typeref:struct:sip_tx_info::__anon12::sip_tx_data_info
+dma_buffer	esp_sif.h	/^        u8 *dma_buffer;$/;"	m	struct:esp_sdio_ctrl::esp_spi_ctrl
+drv_handle_beacon	esp_mac80211.c	/^static void drv_handle_beacon(unsigned long data)$/;"	f	file:
+dsap	esp_pub.h	/^        u8 dsap;$/;"	m	struct:llc_snap_hdr
+dtim_period	esp_pub.h	/^	u32 dtim_period;$/;"	m	struct:esp_ps
+dtim_period	sip2_common.h	/^	u8 dtim_period;$/;"	m	struct:sip_cmd_ps
+dump_rpbm_err	esp_sip.h	/^        bool dump_rpbm_err;$/;"	m	struct:esp_sip
+dump_slc_regs	esp_io.c	/^static void dump_slc_regs(struct slc_host_regs *regs) $/;"	f	file:
+dup_addr_by_index	esp_mac80211.c	/^static int dup_addr_by_index(u8 *addr, struct esp_pub *epub, u8 index)$/;"	f	file:
+duration	sip2_common.h	/^        u16  duration;$/;"	m	struct:sip_cmd_config
+duration_id	esp_mac80211.h	/^	__le16 duration_id;$/;"	m	struct:ieee80211_hdr_3addr
+eagle_fw1	eagle_fw1.h	/^static u8 eagle_fw1[] =$/;"	v
+eagle_fw2	eagle_fw2.h	/^static u8 eagle_fw2[] =$/;"	v
+eagle_fw3	eagle_fw3.h	/^static u8 eagle_fw3[] =$/;"	v
+ecw_max	sip2_common.h	/^        u8 ecw_max;$/;"	m	struct:sip_cmd_set_wmm_params
+ecw_min	sip2_common.h	/^        u8 ecw_min;$/;"	m	struct:sip_cmd_set_wmm_params
+enable_int	esp_pub.h	/^	int enable_int;$/;"	m	struct:esp_pub
+enc	esp_wmac.h	/^            enc:1,$/;"	m	struct:esp_tx_ampdu_entry
+enc_flag	sip2_common.h	/^           enc_flag:7;$/;"	m	struct:sip_tx_data_info
+end_pos	esp_ext.h	/^	int end_pos;$/;"	m	struct:pending_intr_list_info
+enodes	esp_pub.h	/^        struct esp_node * enodes[ESP_PUB_MAX_STA + 1];$/;"	m	struct:esp_pub	typeref:struct:esp_pub::esp_node
+enodes_map	esp_pub.h	/^	u32 enodes_map;$/;"	m	struct:esp_pub
+enodes_maps	esp_pub.h	/^	u32 enodes_maps[ESP_PUB_MAX_VIF];$/;"	m	struct:esp_pub
+entry_addr	esp_main.c	/^        u32 entry_addr;$/;"	m	struct:esp_fw_hdr	file:
+epub	esp_pub.h	/^	struct esp_pub *epub;$/;"	m	struct:esp_vif	typeref:struct:esp_vif::esp_pub
+epub	esp_sif.h	/^        struct esp_pub *epub;$/;"	m	struct:esp_sdio_ctrl::esp_spi_ctrl	typeref:struct:esp_sdio_ctrl::esp_spi_ctrl::esp_pub
+epub	esp_sip.h	/^        struct esp_pub *epub;$/;"	m	struct:esp_sip	typeref:struct:esp_sip::esp_pub
+errno	sip2_common.h	/^        u8 errno;  \/* success or failure code *\/$/;"	m	struct:sip_tx_status
+esdio_power_off	sdio_sif_esp.c	/^static int esdio_power_off(struct esp_sdio_ctrl *sctrl)$/;"	f	file:
+esdio_power_on	sdio_sif_esp.c	/^static int esdio_power_on(struct esp_sdio_ctrl *sctrl)$/;"	f	file:
+esp_80211_deauth	esp_mac80211.h	/^struct esp_80211_deauth {$/;"	s
+esp_80211_nulldata	esp_mac80211.h	/^struct esp_80211_nulldata {$/;"	s
+esp_80211_wmm_ac_param	esp_mac80211.h	/^struct esp_80211_wmm_ac_param {$/;"	s
+esp_80211_wmm_param_element	esp_mac80211.h	/^struct esp_80211_wmm_param_element {$/;"	s
+esp_add_wmm	esp_sip.c	/^static int esp_add_wmm(struct sk_buff *skb)$/;"	f	file:
+esp_atoi	esp_file.c	/^int esp_atoi(char *str)$/;"	f
+esp_channels_2ghz	esp_mac80211.c	/^static struct ieee80211_channel esp_channels_2ghz[] = {$/;"	v	typeref:struct:ieee80211_channel	file:
+esp_cipher2alg	esp_utils.c	/^int esp_cipher2alg(int cipher)$/;"	f
+esp_class	esp_file.c	/^static struct class *esp_class = NULL;$/;"	v	typeref:struct:class	file:
+esp_class_deinit	esp_file.c	/^void esp_class_deinit(void)$/;"	f
+esp_class_init	esp_file.c	/^int esp_class_init(void)$/;"	f
+esp_common_exit	esp_init.c	/^void esp_common_exit(void)$/;"	f
+esp_common_init	esp_init.c	/^int esp_common_init(void)$/;"	f
+esp_common_read	esp_io.c	/^int esp_common_read(struct esp_pub *epub, u8 *buf, u32 len, int sync, bool noround)$/;"	f
+esp_common_read_with_addr	esp_io.c	/^int esp_common_read_with_addr(struct esp_pub *epub, u32 addr, u8 *buf, u32 len, int sync)$/;"	f
+esp_common_readbyte_with_addr	esp_io.c	/^int esp_common_readbyte_with_addr(struct esp_pub *epub, u32 addr, u8 *buf, int sync)$/;"	f
+esp_common_write	esp_io.c	/^int esp_common_write(struct esp_pub *epub, u8 *buf, u32 len, int sync)$/;"	f
+esp_common_write_with_addr	esp_io.c	/^int esp_common_write_with_addr(struct esp_pub *epub, u32 addr, u8 *buf, u32 len, int sync)$/;"	f
+esp_common_writebyte_with_addr	esp_io.c	/^int esp_common_writebyte_with_addr(struct esp_pub *epub, u32 addr, u8 buf, int sync)$/;"	f
+esp_dbg	esp_debug.h	103;"	d
+esp_dbg	esp_debug.h	93;"	d
+esp_debugfs_add_sub_dir	esp_debug.c	/^struct dentry *esp_debugfs_add_sub_dir(const char *name) {$/;"	f
+esp_debugfs_exit	esp_debug.c	/^inline void esp_debugfs_exit(void)$/;"	f
+esp_debugfs_exit	esp_debug.c	/^void esp_debugfs_exit(void)$/;"	f
+esp_debugfs_fops	esp_debug.c	/^struct file_operations esp_debugfs_fops = {$/;"	v	typeref:struct:file_operations
+esp_debugfs_init	esp_debug.c	/^inline int esp_debugfs_init(void)$/;"	f
+esp_debugfs_init	esp_debug.c	/^int esp_debugfs_init(void)$/;"	f
+esp_debugfs_open	esp_debug.c	/^static int esp_debugfs_open(struct inode *inode, struct file *filp)$/;"	f	file:
+esp_debugfs_read	esp_debug.c	/^static ssize_t esp_debugfs_read(struct file *filp, char __user *buffer,$/;"	f	file:
+esp_debugfs_root	esp_debug.c	/^static struct dentry *esp_debugfs_root = NULL;$/;"	v	typeref:struct:dentry	file:
+esp_debugfs_write	esp_debug.c	/^static ssize_t esp_debugfs_write(struct file *filp, const char __user *buffer,$/;"	f	file:
+esp_download_fw	esp_main.c	/^static int esp_download_fw(struct esp_pub * epub)$/;"	f	file:
+esp_dsr	esp_main.c	/^esp_dsr(struct esp_pub *epub)$/;"	f
+esp_dump	esp_debug.c	/^inline struct dentry *esp_dump(const char *name, struct dentry *parent, void *data, int size, struct file_operations *fops) {$/;"	f
+esp_dump	esp_debug.c	/^struct dentry *esp_dump(const char *name, struct dentry *parent, void *data, int size, struct file_operations *fops) {$/;"	f
+esp_dump_array	esp_debug.c	/^inline struct dentry *esp_dump_array(const char *name, struct dentry *parent, struct debugfs_blob_wrapper *blob) {$/;"	f
+esp_dump_array	esp_debug.c	/^struct dentry *esp_dump_array(const char *name, struct dentry *parent, struct debugfs_blob_wrapper *blob) {$/;"	f
+esp_dump_var	esp_debug.c	/^inline struct dentry *esp_dump_var(const char *name, struct dentry *parent, void *value, esp_type type) {$/;"	f
+esp_dump_var	esp_debug.c	/^struct dentry *esp_dump_var(const char *name, struct dentry *parent, void *value, esp_type type) {$/;"	f
+esp_early_suspend	esp_pm.c	/^static void esp_early_suspend(struct early_suspend *h)$/;"	f	file:
+esp_early_suspend_ctrl	esp_pm.c	/^static struct early_suspend esp_early_suspend_ctrl =  {$/;"	v	typeref:struct:early_suspend	file:
+esp_exit	esp_init.c	/^module_exit(esp_exit);$/;"	v
+esp_exit	esp_init.c	/^static void __exit esp_exit(void)$/;"	f	file:
+esp_ext_gpio_ops	esp_ext.h	/^typedef struct esp_ext_gpio_ops {$/;"	s
+esp_ext_gpio_ops_t	esp_ext.h	/^} esp_ext_gpio_ops_t;$/;"	t	typeref:struct:esp_ext_gpio_ops
+esp_fw_blk_hdr	esp_main.c	/^struct esp_fw_blk_hdr {$/;"	s	file:
+esp_fw_hdr	esp_main.c	/^struct esp_fw_hdr {$/;"	s	file:
+esp_gen_err_checksum	esp_utils.c	/^void esp_gen_err_checksum(struct sk_buff *skb)$/;"	f
+esp_get_empty_rxampdu	esp_mac80211.c	/^int esp_get_empty_rxampdu(struct esp_pub * epub, const u8 *addr, u8 tid)$/;"	f
+esp_get_exist_rxampdu	esp_mac80211.c	/^int esp_get_exist_rxampdu(struct esp_pub * epub, const u8 *addr, u8 tid)$/;"	f
+esp_get_node_by_addr	esp_mac80211.c	/^struct esp_node * esp_get_node_by_addr(struct esp_pub * epub, const u8 *addr)$/;"	f
+esp_get_node_by_index	esp_mac80211.c	/^struct esp_node * esp_get_node_by_index(struct esp_pub * epub, u8 index)$/;"	f
+esp_hw_idx_map	esp_pub.h	/^typedef struct esp_hw_idx_map {$/;"	s
+esp_hw_idx_map_t	esp_pub.h	/^} esp_hw_idx_map_t;$/;"	t	typeref:struct:esp_hw_idx_map
+esp_ieee2mhz	esp_utils.c	/^u32 esp_ieee2mhz(u8 chan)$/;"	f
+esp_ieee80211_phytype	sip2_common.h	/^enum esp_ieee80211_phytype{$/;"	g
+esp_init	esp_init.c	/^module_init(esp_init);$/;"	v
+esp_init	esp_init.c	/^static int __init esp_init(void)$/;"	f	file:
+esp_init_data	esp_init_data.h	/^static char esp_init_data[] = {0x5,0x0,4,2,5,5,5,2,5,0,4,5,5,4,5,5,4,-2,-3,-1,-16,-16,-16,-32,-32,-32,225,10,0xff,0xff,0,0,0,0,82,78,74,68,64,56,0,0,1,1,2,3,4,5,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,225,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0};/;"	v
+esp_init_table	esp_file.c	/^struct esp_init_table_elem esp_init_table[MAX_ATTR_NUM] = {$/;"	v	typeref:struct:esp_init_table_elem
+esp_init_table_elem	esp_file.h	/^struct esp_init_table_elem {$/;"	s
+esp_is_ip_pkt	esp_utils.c	/^bool esp_is_ip_pkt(struct sk_buff *skb)$/;"	f
+esp_late_resume	esp_pm.c	/^static void esp_late_resume(struct early_suspend*h)$/;"	f	file:
+esp_mac80211_ops	esp_mac80211.c	/^static const struct ieee80211_ops esp_mac80211_ops = {$/;"	v	typeref:struct:ieee80211_ops	file:
+esp_mac_addr	esp_mac80211.c	/^static u8 esp_mac_addr[ETH_ALEN * 2];$/;"	v	file:
+esp_mac_prefix	esp_pub.h	/^struct esp_mac_prefix {  $/;"	s
+esp_mac_prefix_table	esp_sip.c	/^struct esp_mac_prefix esp_mac_prefix_table[] = {$/;"	v	typeref:struct:esp_mac_prefix
+esp_mac_rx_ctrl	esp_wmac.h	/^struct esp_mac_rx_ctrl {$/;"	s
+esp_msg_level	sdio_sif_esp.c	/^unsigned int esp_msg_level = ESP_DBG_ERROR | ESP_SHOW;$/;"	v
+esp_msg_level	spi_sif_esp.c	/^unsigned int esp_msg_level = ESP_DBG_ERROR | ESP_SHOW;$/;"	v
+esp_node	esp_pub.h	/^struct esp_node {$/;"	s
+esp_node_attach	esp_mac80211.c	/^static int esp_node_attach(struct ieee80211_hw *hw, u8 ifidx, struct ieee80211_sta *sta)$/;"	f	file:
+esp_node_detach	esp_mac80211.c	/^static int esp_node_detach(struct ieee80211_hw *hw, u8 ifidx, struct ieee80211_sta *sta)$/;"	f	file:
+esp_noisefloor_test	testmode.c	/^void esp_noisefloor_test(char *filename,struct esp_pub *epub)$/;"	f
+esp_op_add_interface	esp_mac80211.c	/^static int esp_op_add_interface(struct ieee80211_hw *hw,$/;"	f	file:
+esp_op_ampdu_action	esp_mac80211.c	/^static int esp_op_ampdu_action(struct ieee80211_hw *hw,$/;"	f	file:
+esp_op_bss_info_changed	esp_mac80211.c	/^static void esp_op_bss_info_changed(struct ieee80211_hw *hw,$/;"	f	file:
+esp_op_cancel_remain_on_channel	esp_mac80211.c	/^static int esp_op_cancel_remain_on_channel(struct ieee80211_hw *hw)$/;"	f	file:
+esp_op_change_interface	esp_mac80211.c	/^static int esp_op_change_interface(struct ieee80211_hw *hw,$/;"	f	file:
+esp_op_conf_tx	esp_mac80211.c	/^static int esp_op_conf_tx(struct ieee80211_hw *hw, $/;"	f	file:
+esp_op_config	esp_mac80211.c	/^static int esp_op_config(struct ieee80211_hw *hw, u32 changed)$/;"	f	file:
+esp_op_config_interface	esp_mac80211.c	/^static int esp_op_config_interface (struct ieee80211_hw *hw, $/;"	f	file:
+esp_op_configure_filter	esp_mac80211.c	/^static void esp_op_configure_filter(struct ieee80211_hw *hw,$/;"	f	file:
+esp_op_flush	esp_mac80211.c	/^void esp_op_flush(struct ieee80211_hw *hw, u32 queues, bool drop)$/;"	f
+esp_op_get_tsf	esp_mac80211.c	/^static u64 esp_op_get_tsf(struct ieee80211_hw *hw, struct ieee80211_vif *vif)$/;"	f	file:
+esp_op_get_tx_stats	esp_mac80211.c	/^static int esp_op_get_tx_stats(struct ieee80211_hw *hw,$/;"	f	file:
+esp_op_hw_scan	esp_mac80211.c	/^static int esp_op_hw_scan(struct ieee80211_hw *hw,$/;"	f	file:
+esp_op_prepare_multicast	esp_mac80211.c	/^static u64 esp_op_prepare_multicast(struct ieee80211_hw *hw,$/;"	f	file:
+esp_op_remain_on_channel	esp_mac80211.c	/^static int esp_op_remain_on_channel(struct ieee80211_hw *hw,$/;"	f	file:
+esp_op_remove_interface	esp_mac80211.c	/^static void esp_op_remove_interface(struct ieee80211_hw *hw,$/;"	f	file:
+esp_op_reset_tsf	esp_mac80211.c	/^static void esp_op_reset_tsf(struct ieee80211_hw *hw, struct ieee80211_vif *vif)$/;"	f	file:
+esp_op_resume	esp_mac80211.c	/^static int esp_op_resume(struct ieee80211_hw *hw)$/;"	f	file:
+esp_op_rfkill_poll	esp_mac80211.c	/^static void esp_op_rfkill_poll(struct ieee80211_hw *hw)$/;"	f	file:
+esp_op_set_bitrate_mask	esp_mac80211.c	/^static int esp_op_set_bitrate_mask(struct ieee80211_hw *hw, struct ieee80211_vif *vif,$/;"	f	file:
+esp_op_set_key	esp_mac80211.c	/^static int esp_op_set_key(struct ieee80211_hw *hw, enum set_key_cmd cmd,$/;"	f	file:
+esp_op_set_rts_threshold	esp_mac80211.c	/^static int esp_op_set_rts_threshold(struct ieee80211_hw *hw, u32 value)$/;"	f	file:
+esp_op_set_tsf	esp_mac80211.c	/^static void esp_op_set_tsf(struct ieee80211_hw *hw, struct ieee80211_vif *vif, u64 tsf)$/;"	f	file:
+esp_op_sta_add	esp_mac80211.c	/^static int esp_op_sta_add(struct ieee80211_hw *hw, struct ieee80211_vif *vif, struct ieee80211_sta *sta)$/;"	f	file:
+esp_op_sta_notify	esp_mac80211.c	/^static void esp_op_sta_notify(struct ieee80211_hw *hw, struct ieee80211_vif *vif, enum sta_notify_cmd cmd, struct ieee80211_sta *sta)$/;"	f	file:
+esp_op_sta_remove	esp_mac80211.c	/^static int esp_op_sta_remove(struct ieee80211_hw *hw, struct ieee80211_vif *vif, struct ieee80211_sta *sta)$/;"	f	file:
+esp_op_start	esp_mac80211.c	/^static int esp_op_start(struct ieee80211_hw *hw)$/;"	f	file:
+esp_op_stop	esp_mac80211.c	/^static void esp_op_stop(struct ieee80211_hw *hw)$/;"	f	file:
+esp_op_suspend	esp_mac80211.c	/^static int esp_op_suspend(struct ieee80211_hw *hw, struct cfg80211_wowlan *wowlan)$/;"	f	file:
+esp_op_tx	esp_mac80211.c	/^esp_op_tx(struct ieee80211_hw *hw, struct ieee80211_tx_control *control, struct sk_buff *skb)$/;"	f	file:
+esp_op_update_tkip_key	esp_mac80211.c	/^static void esp_op_update_tkip_key(struct ieee80211_hw *hw,$/;"	f	file:
+esp_pending_intr_list	esp_ext.c	/^static struct pending_intr_list_info esp_pending_intr_list = {$/;"	v	typeref:struct:pending_intr_list_info	file:
+esp_powerup_sem	sdio_sif_esp.c	/^static struct semaphore esp_powerup_sem;$/;"	v	typeref:struct:semaphore	file:
+esp_powerup_sem	spi_sif_esp.c	/^static struct semaphore esp_powerup_sem;$/;"	v	typeref:struct:semaphore	file:
+esp_process_sdio_test	testmode.c	/^static int esp_process_sdio_test(struct sdiotest_param *param)$/;"	f	file:
+esp_ps	esp_pub.h	/^struct esp_ps {$/;"	s
+esp_pub	esp_pub.h	/^struct esp_pub {$/;"	s
+esp_pub_alloc_mac80211	esp_mac80211.c	/^struct esp_pub * esp_pub_alloc_mac80211(struct device *dev)$/;"	f
+esp_pub_dealloc_mac80211	esp_mac80211.c	/^int esp_pub_dealloc_mac80211(struct esp_pub *epub)$/;"	f
+esp_pub_init_all	esp_main.c	/^int esp_pub_init_all(struct esp_pub *epub)$/;"	f
+esp_pub_init_mac80211	esp_mac80211.c	/^esp_pub_init_mac80211(struct esp_pub *epub)$/;"	f	file:
+esp_pub_t	esp_pub.h	/^typedef struct esp_pub esp_pub_t;$/;"	t	typeref:struct:esp_pub
+esp_rate_table	esp_utils.c	/^static u8 esp_rate_table[20] = {$/;"	v	file:
+esp_rate_test	testmode.c	/^void esp_rate_test(char *filename,struct esp_pub *epub)$/;"	f
+esp_rates_2ghz	esp_mac80211.c	/^static struct ieee80211_rate esp_rates_2ghz[] = {$/;"	v	typeref:struct:ieee80211_rate	file:
+esp_readwrite_file	esp_file.c	/^int esp_readwrite_file(const char *filename, char *rbuf, const char *wbuf, size_t length)$/;"	f
+esp_register_early_suspend	esp_pm.c	/^void esp_register_early_suspend(void)$/;"	f
+esp_register_mac80211	esp_mac80211.c	/^esp_register_mac80211(struct esp_pub *epub)$/;"	f
+esp_release_firmware	esp_file.c	/^void esp_release_firmware(const struct firmware *firmware)$/;"	f
+esp_request_firmware	esp_file.c	/^int esp_request_firmware(const struct firmware **firmware_p, const char *name,$/;"	f
+esp_resp_test	testmode.c	/^void esp_resp_test(char *filename,struct esp_pub *epub)$/;"	f
+esp_rocdone_process	esp_mac80211.c	/^void esp_rocdone_process(struct ieee80211_hw *hw, struct sip_evt_roc *report)$/;"	f
+esp_run	esp_io.c	/^static int esp_run = 0;$/;"	v	file:
+esp_rx_ampdu_len	esp_wmac.h	/^struct esp_rx_ampdu_len {$/;"	s
+esp_rx_checksum_test	esp_utils.c	/^void esp_rx_checksum_test(struct sk_buff *skb)$/;"	f
+esp_sdio_ctrl	esp_sif.h	/^typedef struct esp_sdio_ctrl {$/;"	s
+esp_sdio_ctrl_t	esp_sif.h	/^} esp_sdio_ctrl_t;$/;"	t	struct:esp_sdio_ctrl	typeref:struct:esp_sdio_ctrl::esp_spi_ctrl
+esp_sdio_devices	sdio_sif_esp.c	/^static const struct sdio_device_id esp_sdio_devices[] = {$/;"	v	typeref:struct:sdio_device_id	file:
+esp_sdio_driver	sdio_sif_esp.c	/^static struct sdio_driver esp_sdio_driver = {$/;"	v	typeref:struct:sdio_driver	file:
+esp_sdio_dummy_driver	sdio_sif_esp.c	/^static struct sdio_driver esp_sdio_dummy_driver = {$/;"	v	typeref:struct:sdio_driver	file:
+esp_sdio_dummy_probe	sdio_sif_esp.c	/^static int esp_sdio_dummy_probe(struct sdio_func *func, const struct sdio_device_id *id)$/;"	f	file:
+esp_sdio_dummy_remove	sdio_sif_esp.c	/^static void esp_sdio_dummy_remove(struct sdio_func *func) $/;"	f	file:
+esp_sdio_exit	sdio_sif_esp.c	/^void esp_sdio_exit(void) $/;"	f
+esp_sdio_init	sdio_sif_esp.c	/^int esp_sdio_init(void) $/;"	f
+esp_sdio_pm_ops	sdio_sif_esp.c	/^static const struct dev_pm_ops esp_sdio_pm_ops = {$/;"	v	typeref:struct:dev_pm_ops	file:
+esp_sdio_pm_ops	sdio_sif_esp.c	/^static struct pm_ops esp_sdio_pm_ops = {$/;"	v	typeref:struct:pm_ops	file:
+esp_sdio_probe	sdio_sif_esp.c	/^static int esp_sdio_probe(struct sdio_func *func, const struct sdio_device_id *id) $/;"	f	file:
+esp_sdio_remove	sdio_sif_esp.c	/^static void esp_sdio_remove(struct sdio_func *func) $/;"	f	file:
+esp_sdio_resume	sdio_sif_esp.c	/^static int esp_sdio_resume(struct device *dev)$/;"	f	file:
+esp_sdio_state	esp_pub.h	/^enum esp_sdio_state{$/;"	g
+esp_sdio_suspend	sdio_sif_esp.c	/^static int esp_sdio_suspend(struct device *dev)$/;"	f	file:
+esp_send_nulldata	esp_mac80211.c	/^static void esp_send_nulldata(struct esp_pub *epub, struct esp_vif *evif, struct esp_node *enode)$/;"	f	file:
+esp_send_nulldata_alarm	esp_mac80211.c	/^static void esp_send_nulldata_alarm(unsigned long data)$/;"	f	file:
+esp_sendup_deauth	esp_mac80211.c	/^void esp_sendup_deauth(struct esp_pub *epub, u8 *sta_addr)$/;"	f
+esp_sendup_work	esp_mac80211.c	/^esp_sendup_work(struct work_struct *work)$/;"	f	file:
+esp_setup_spi	spi_sif_esp.c	/^int esp_setup_spi(struct spi_device *spi)$/;"	f
+esp_show_rcstatus	esp_debug.c	/^void esp_show_rcstatus(struct sip_rc_status *rcstatus)$/;"	f
+esp_show_tx_rates	esp_debug.c	/^void esp_show_tx_rates(struct ieee80211_tx_rate* rates)$/;"	f
+esp_sip	esp_sip.h	/^struct esp_sip {$/;"	s
+esp_sip_dbg	esp_sip.c	71;"	d	file:
+esp_sip_dbg	esp_sip.c	91;"	d	file:
+esp_spi_ctrl	esp_sif.h	/^typedef struct esp_spi_ctrl {$/;"	s	struct:esp_sdio_ctrl
+esp_spi_ctrl_t	esp_sif.h	/^} esp_spi_ctrl_t;$/;"	t	typeref:struct:esp_sdio_ctrl
+esp_spi_driver	spi_sif_esp.c	/^struct spi_driver esp_spi_driver = {$/;"	v	typeref:struct:spi_driver
+esp_spi_dummy_driver	spi_sif_esp.c	/^struct spi_driver esp_spi_dummy_driver = {$/;"	v	typeref:struct:spi_driver
+esp_spi_dummy_probe	spi_sif_esp.c	/^static int esp_spi_dummy_probe(struct spi_device *spi)$/;"	f	file:
+esp_spi_dummy_remove	spi_sif_esp.c	/^static int esp_spi_dummy_remove(struct spi_device *spi) $/;"	f	file:
+esp_spi_exit	spi_sif_esp.c	/^void esp_spi_exit(void) $/;"	f
+esp_spi_init	spi_sif_esp.c	/^int esp_spi_init(void) $/;"	f
+esp_spi_pm_ops	spi_sif_esp.c	/^static const struct dev_pm_ops esp_spi_pm_ops = {$/;"	v	typeref:struct:dev_pm_ops	file:
+esp_spi_probe	spi_sif_esp.c	/^static int esp_spi_probe(struct spi_device *spi) $/;"	f	file:
+esp_spi_remove	spi_sif_esp.c	/^static int esp_spi_remove(struct spi_device *spi) $/;"	f	file:
+esp_spi_resp	esp_sif.h	/^struct esp_spi_resp {$/;"	s
+esp_spi_resume	spi_sif_esp.c	/^static int esp_spi_resume(struct device *dev)$/;"	f	file:
+esp_spi_suspend	spi_sif_esp.c	/^static int esp_spi_suspend(struct device *dev)$/;"	f	file:
+esp_sta_gc_conn_monitor_close	esp_mac80211.c	/^void esp_sta_gc_conn_monitor_close(struct esp_pub *epub, struct esp_vif *evif)$/;"	f
+esp_sta_gc_conn_monitor_open	esp_mac80211.c	/^void esp_sta_gc_conn_monitor_open(struct esp_pub *epub, struct esp_vif *evif)$/;"	f
+esp_stability_test	testmode.c	/^void esp_stability_test(char *filename,struct esp_pub *epub)$/;"	f
+esp_test_ask	testmode.c	/^static int esp_test_ask(struct sk_buff *skb_2,$/;"	f	file:
+esp_test_ate	testmode.c	/^static int esp_test_ate(struct sk_buff *skb_2,$/;"	f	file:
+esp_test_ate_done_cb	testmode.c	/^void esp_test_ate_done_cb(char *ep)$/;"	f
+esp_test_cmd_event	testmode.c	/^void esp_test_cmd_event(u32 cmd_type, char *reply_info)$/;"	f
+esp_test_cmd_reply	testmode.c	/^static int esp_test_cmd_reply(struct genl_info *info, u32 cmd_type, char *reply_info)$/;"	f	file:
+esp_test_echo	testmode.c	/^static int esp_test_echo(struct sk_buff *skb_2,$/;"	f	file:
+esp_test_genl	testmode.c	/^static int esp_test_genl(struct sk_buff *skb_2,$/;"	f	file:
+esp_test_init	testmode.c	/^void esp_test_init(struct esp_pub *epub)$/;"	f
+esp_test_loopback	testmode.c	/^static int esp_test_loopback(struct sk_buff *skb_2,$/;"	f	file:
+esp_test_netlink_notify	testmode.c	/^static int esp_test_netlink_notify(struct notifier_block *nb,$/;"	f	file:
+esp_test_ops	testmode.c	/^static struct genl_ops esp_test_ops[] = {$/;"	v	typeref:struct:genl_ops	file:
+esp_test_sdio_rd	testmode.c	/^static int esp_test_sdio_rd(struct sk_buff *skb_2,$/;"	f	file:
+esp_test_sdio_wr	testmode.c	/^static int esp_test_sdio_wr(struct sk_buff *skb_2,$/;"	f	file:
+esp_test_sdiospeed	testmode.c	/^static int esp_test_sdiospeed(struct sk_buff *skb_2,$/;"	f	file:
+esp_test_sdiotest	testmode.c	/^static int esp_test_sdiotest(struct sk_buff *skb_2,$/;"	f	file:
+esp_test_sdiotest_thread	testmode.c	/^static int esp_test_sdiotest_thread(void *param)$/;"	f	file:
+esp_test_sleep	testmode.c	/^static int esp_test_sleep(struct sk_buff *skb_2,$/;"	f	file:
+esp_test_tx	testmode.c	/^static int esp_test_tx(struct sk_buff *skb_2,$/;"	f	file:
+esp_test_wakeup	testmode.c	/^static int esp_test_wakeup(struct sk_buff *skb_2,$/;"	f	file:
+esp_tid_state	esp_pub.h	/^enum esp_tid_state {$/;"	g
+esp_tx_ampdu_entry	esp_wmac.h	/^struct esp_tx_ampdu_entry {$/;"	s
+esp_tx_ba_session_op	esp_ctrl.c	/^static void esp_tx_ba_session_op(struct esp_sip *sip, struct esp_node *node, trc_ampdu_state_t state, u8 tid )$/;"	f	file:
+esp_tx_tid	esp_pub.h	/^struct esp_tx_tid {$/;"	s
+esp_tx_work	esp_ext.c	/^void esp_tx_work(struct work_struct *work)$/;"	f
+esp_tx_work	esp_mac80211.c	/^esp_tx_work(struct work_struct *work)$/;"	f	file:
+esp_type	esp_debug.h	/^typedef enum esp_type {$/;"	g
+esp_type	esp_debug.h	/^} esp_type;$/;"	t	typeref:enum:esp_type
+esp_unregister_early_suspend	esp_pm.c	/^void esp_unregister_early_suspend(void)$/;"	f
+esp_vif	esp_pub.h	/^struct esp_vif {$/;"	s
+esp_wake_lock	esp_pm.c	/^void esp_wake_lock(void)$/;"	f
+esp_wake_lock_	esp_pm.c	/^static struct wake_lock esp_wake_lock_;$/;"	v	typeref:struct:wake_lock	file:
+esp_wake_unlock	esp_pm.c	/^void esp_wake_unlock(void)$/;"	f
+esp_wakelock_destroy	esp_pm.c	/^void esp_wakelock_destroy(void)$/;"	f
+esp_wakelock_init	esp_pm.c	/^void esp_wakelock_init(void)$/;"	f
+esp_wkq	esp_pub.h	/^        struct workqueue_struct *esp_wkq;$/;"	m	struct:esp_pub	typeref:struct:esp_pub::workqueue_struct
+esp_wl	esp_pub.h	/^typedef struct esp_wl {$/;"	s
+esp_wl_t	esp_pub.h	/^} esp_wl_t;$/;"	t	typeref:struct:esp_wl
+esp_wmac_rate2idx	esp_utils.c	/^s8 esp_wmac_rate2idx(u8 rate)$/;"	f
+esp_wmac_rxsec_error	esp_utils.c	/^bool esp_wmac_rxsec_error(u8 error)$/;"	f
+esp_wmm_param	esp_sip.c	/^static struct esp_80211_wmm_param_element esp_wmm_param = {$/;"	v	typeref:struct:esp_80211_wmm_param_element	file:
+eth_type	esp_pub.h	/^        __be16 eth_type;$/;"	m	struct:llc_snap_hdr
+ext_epub	esp_ext.c	/^static struct esp_pub *ext_epub = NULL;$/;"	v	typeref:struct:esp_pub	file:
+ext_gpio_deinit	esp_ext.c	/^void ext_gpio_deinit(void)$/;"	f
+ext_gpio_get_int_mask_reg	esp_ext.c	/^u16 ext_gpio_get_int_mask_reg(void)$/;"	f
+ext_gpio_get_mode	esp_ext.c	/^EXPORT_SYMBOL(ext_gpio_get_mode);$/;"	v
+ext_gpio_get_mode	esp_ext.c	/^int ext_gpio_get_mode(int gpio_no)$/;"	f
+ext_gpio_get_state	esp_ext.c	/^EXPORT_SYMBOL(ext_gpio_get_state);$/;"	v
+ext_gpio_get_state	esp_ext.c	/^int ext_gpio_get_state(int gpio_no)$/;"	f
+ext_gpio_info	esp_ext.h	/^struct ext_gpio_info {$/;"	s
+ext_gpio_init	esp_ext.c	/^int ext_gpio_init(struct esp_pub *epub)$/;"	f
+ext_gpio_int_process	esp_ext.c	/^void ext_gpio_int_process(u16 value) {$/;"	f
+ext_gpio_ops	esp_ext.c	/^static struct esp_ext_gpio_ops ext_gpio_ops = {$/;"	v	typeref:struct:esp_ext_gpio_ops	file:
+ext_gpio_release	esp_ext.c	/^EXPORT_SYMBOL(ext_gpio_release);$/;"	v
+ext_gpio_release	esp_ext.c	/^int ext_gpio_release(int gpio_no)$/;"	f
+ext_gpio_request	esp_ext.c	/^EXPORT_SYMBOL(ext_gpio_request);$/;"	v
+ext_gpio_request	esp_ext.c	/^int ext_gpio_request(int gpio_no)$/;"	f
+ext_gpio_set_mode	esp_ext.c	/^EXPORT_SYMBOL(ext_gpio_set_mode);$/;"	v
+ext_gpio_set_mode	esp_ext.c	/^int ext_gpio_set_mode(int gpio_no, int mode, void *data)$/;"	f
+ext_gpio_set_output_state	esp_ext.c	/^EXPORT_SYMBOL(ext_gpio_set_output_state);$/;"	v
+ext_gpio_set_output_state	esp_ext.c	/^int ext_gpio_set_output_state(int gpio_no, int state)$/;"	f
+ext_irq_ack	esp_ext.c	/^EXPORT_SYMBOL(ext_irq_ack);$/;"	v
+ext_irq_ack	esp_ext.c	/^int ext_irq_ack(int gpio_no)$/;"	f
+ext_irq_handler_t	esp_ext.h	/^typedef irqreturn_t (*ext_irq_handler_t)(void);$/;"	t
+ext_irq_wkq	esp_ext.c	/^struct workqueue_struct *ext_irq_wkq = NULL;$/;"	v	typeref:struct:workqueue_struct
+ext_irq_work	esp_ext.c	/^struct work_struct ext_irq_work;$/;"	v	typeref:struct:work_struct
+ext_mutex_lock	esp_ext.c	/^static struct mutex ext_mutex_lock;$/;"	v	typeref:struct:mutex	file:
+fc	sip2_common.h	/^        u8 fc[2];  \/\/fc[0]: type and ifidx ; fc[1] is eventID if the first ctrl pkt in the chain. data pkt still can use fc[1] to set flag$/;"	m	struct:sip_hdr
+fc	sip2_common.h	/^        u8 fc[2];$/;"	m	struct:sip_hdr_min
+fcc_cont_tx	esp_file.h	/^		} fcc_cont_tx;$/;"	m	union:fcc_mode::__anon2	typeref:struct:fcc_mode::__anon2::__anon5
+fcc_mode	esp_file.h	/^struct fcc_mode {$/;"	s
+fcc_mode	esp_io.c	/^static int fcc_mode  = 0;$/;"	v	file:
+fcc_norm_tx	esp_file.h	/^		} fcc_norm_tx;$/;"	m	union:fcc_mode::__anon2	typeref:struct:fcc_mode::__anon2::__anon4
+fcc_selftest	esp_file.h	/^		} fcc_selftest;$/;"	m	union:fcc_mode::__anon2	typeref:struct:fcc_mode::__anon2::__anon3
+fcc_show	esp_file.c	/^static ssize_t fcc_show(struct class *cls, struct class_attribute *attr, char *ubuf)$/;"	f	file:
+fcc_store	esp_file.c	/^static ssize_t fcc_store(struct class *cls, struct class_attribute *attr, const char *ubuf, size_t count)$/;"	f	file:
+fcc_tone_tx	esp_file.h	/^		} fcc_tone_tx;$/;"	m	union:fcc_mode::__anon2	typeref:struct:fcc_mode::__anon2::__anon6
+fcc_w_cb	esp_debug.c	/^static int fcc_w_cb(void *data)$/;"	f	file:
+fcctest_set	esp_file.c	/^static void fcctest_set(u8 *buf, int size)$/;"	f	file:
+ff_buf	spi_sif_esp.c	/^static unsigned char *ff_buf = NULL;$/;"	v	file:
+fix_init_data	esp_file.c	/^void fix_init_data(u8 *init_data_buf, int buf_size)$/;"	f
+flag	esp_pub.h	/^	u8 flag;$/;"	m	struct:esp_hw_idx_map
+flags	esp_pub.h	/^        unsigned long flags;$/;"	m	struct:esp_wl
+flags	sip2_common.h	/^        u8 flags;$/;"	m	struct:sip_cmd_setkey
+frame_control	esp_mac80211.h	/^	__le16 frame_control;$/;"	m	struct:ieee80211_hdr_3addr
+free_ctrl_rxbuf	esp_sip.h	/^        struct list_head free_ctrl_rxbuf;$/;"	m	struct:esp_sip	typeref:struct:esp_sip::list_head
+free_ctrl_txbuf	esp_sip.h	/^        struct list_head free_ctrl_txbuf;$/;"	m	struct:esp_sip	typeref:struct:esp_sip::list_head
+free_req	esp_sif.h	/^        struct list_head free_req;$/;"	m	struct:esp_sdio_ctrl::esp_spi_ctrl	typeref:struct:esp_sdio_ctrl::esp_spi_ctrl::list_head
+func	esp_sif.h	/^        struct sdio_func *func;$/;"	m	struct:esp_sdio_ctrl	typeref:struct:esp_sdio_ctrl::sdio_func
+g_iv_len	esp_utils.c	/^atomic_t g_iv_len;$/;"	v
+genl_register_family_with_ops	testmode.c	/^int genl_register_family_with_ops(struct genl_family *family,$/;"	f
+get_cnt	esp_debug.c	/^static u8 get_cnt(u32 cnt_store, int idx)$/;"	f	file:
+get_loopback_id	testmode.c	/^u32 get_loopback_id()$/;"	f
+get_loopback_num	testmode.c	/^u32 get_loopback_num()$/;"	f
+getaddr_index	esp_mac80211.c	/^static u8 getaddr_index(u8 * addr, struct esp_pub *epub)$/;"	f	file:
+gl_bootup_cplx	esp_main.c	/^struct completion *gl_bootup_cplx = NULL;$/;"	v	typeref:struct:completion
+gpio_forbidden	esp_io.c	/^u16 gpio_forbidden = 0;$/;"	v
+gpio_get_mode	esp_ext.h	/^        int (*gpio_get_mode)(int gpio_no);                            \/* gpio_get_mode, current mode *\/$/;"	m	struct:esp_ext_gpio_ops
+gpio_get_state	esp_ext.h	/^        int (*gpio_get_state)(int gpio_no);                           \/* current state *\/$/;"	m	struct:esp_ext_gpio_ops
+gpio_list	esp_ext.c	/^static struct ext_gpio_info gpio_list[EXT_GPIO_MAX_NUM] = {$/;"	v	typeref:struct:ext_gpio_info	file:
+gpio_mode	esp_ext.h	/^	int gpio_mode;$/;"	m	struct:ext_gpio_info
+gpio_no	esp_ext.h	/^	int gpio_no;$/;"	m	struct:ext_gpio_info
+gpio_release	esp_ext.h	/^        int (*gpio_release)(int gpio_no);                             \/* gpio_release *\/$/;"	m	struct:esp_ext_gpio_ops
+gpio_request	esp_ext.h	/^        int (*gpio_request)(int gpio_no);                             \/* gpio_request gpio_no from 0x0 to 0xf*\/$/;"	m	struct:esp_ext_gpio_ops
+gpio_sel_sets	esp_io.c	/^u16 gpio_sel_sets[17] = {$/;"	v
+gpio_set_mode	esp_ext.h	/^        int (*gpio_set_mode)(int gpio_no, int mode , void *data);     \/* gpio_set_mode, data is irq_func of irq_mode , default level of output_mode *\/$/;"	m	struct:esp_ext_gpio_ops
+gpio_set_state	esp_ext.h	/^        int (*gpio_set_state)(int gpio_no, int state);                \/* only output state, high level or low level *\/$/;"	m	struct:esp_ext_gpio_ops
+gpio_state	esp_ext.h	/^	int gpio_state;$/;"	m	struct:ext_gpio_info
+gtk_cnt	esp_pub.h	/^	atomic_t gtk_cnt;$/;"	m	struct:esp_wl
+h_credits	sip2_common.h	173;"	d
+hdr	esp_mac80211.h	/^	struct ieee80211_hdr_3addr hdr;$/;"	m	struct:esp_80211_deauth	typeref:struct:esp_80211_deauth::ieee80211_hdr_3addr
+hdr	esp_mac80211.h	/^	struct ieee80211_hdr_3addr hdr;$/;"	m	struct:esp_80211_nulldata	typeref:struct:esp_80211_nulldata::ieee80211_hdr_3addr
+hi_map	esp_pub.h	/^        struct esp_hw_idx_map hi_map[19];$/;"	m	struct:esp_pub	typeref:struct:esp_pub::esp_hw_idx_map
+ht_info	esp_pub.h	/^	struct ieee80211_ht_info ht_info;$/;"	m	struct:esp_node	typeref:struct:esp_node::ieee80211_ht_info
+hw	esp_pub.h	/^        struct ieee80211_hw *hw;$/;"	m	struct:esp_pub	typeref:struct:esp_pub::ieee80211_hw
+hw_key_idx	sip2_common.h	/^        u8 hw_key_idx;$/;"	m	struct:sip_cmd_setkey
+hw_kid	sip2_common.h	/^        u8 hw_kid;$/;"	m	struct:sip_tx_data_info
+hw_scan_done	esp_mac80211.c	/^void hw_scan_done(struct esp_pub *epub, bool aborted)$/;"	f
+hw_scan_timeout_report	esp_mac80211.c	/^static void hw_scan_timeout_report(struct work_struct *work)$/;"	f	file:
+id	esp_debug.h	/^	DBGFS_BOOTMODE_ID_t id;$/;"	m	struct:dbgfs_bootmode_item
+id	esp_file.h	/^	u8 id;$/;"	m	struct:fcc_mode
+id	esp_sif.h	/^        const struct sdio_device_id *id;$/;"	m	struct:esp_sdio_ctrl::esp_spi_ctrl	typeref:struct:esp_sdio_ctrl::esp_spi_ctrl::sdio_device_id
+id	esp_sif.h	/^        const struct spi_device_id *id;$/;"	m	struct:esp_sdio_ctrl::esp_spi_ctrl	typeref:struct:esp_sdio_ctrl::esp_spi_ctrl::spi_device_id
+idle_period	testmode.h	/^	u32 idle_period; \/\/in msec$/;"	m	struct:sdiotest_param
+ie_len	sip2_common.h	/^        u8 ie_len;$/;"	m	struct:sip_cmd_scan
+ieee80211_hdr_3addr	esp_mac80211.h	/^struct ieee80211_hdr_3addr {$/;"	s
+ieee80211_key_alg	esp_utils.h	/^enum ieee80211_key_alg {$/;"	g
+if_dummymode	esp_sif.h	/^enum if_dummymode {$/;"	g
+ifidx	esp_pub.h	/^	u8 ifidx;$/;"	m	struct:esp_node
+ifidx	sip2_common.h	/^        u8 ifidx;$/;"	m	struct:sip_cmd_setsta
+ifidx	sip2_common.h	/^     u8    ifidx;$/;"	m	struct:sip_evt_nullfunc_report
+inc_loopback_id	testmode.c	/^void inc_loopback_id()$/;"	f
+index	esp_pub.h	/^	u8 index;$/;"	m	struct:esp_node
+index	esp_pub.h	/^	u8 index;$/;"	m	struct:esp_vif
+index	sip2_common.h	/^        u8 index;$/;"	m	struct:sip_cmd_ampdu_action
+index	sip2_common.h	/^        u8 index;$/;"	m	struct:sip_cmd_setsta
+index	sip2_common.h	/^        u8 index;$/;"	m	struct:sip_cmd_setvif
+index	sip2_common.h	/^     u8    index;$/;"	m	struct:sip_evt_nullfunc_report
+info_copy	testmode.c	/^static struct genl_info info_copy;$/;"	v	typeref:struct:genl_info	file:
+init_beacon_timer	esp_mac80211.c	/^static void init_beacon_timer(struct ieee80211_vif *vif)$/;"	f	file:
+init_jiffies	esp_mac80211.c	/^unsigned long init_jiffies;$/;"	v
+intr_clear	esp_sif.h	/^        u32 intr_clear;$/;"	m	struct:slc_host_regs
+intr_enable	esp_sif.h	/^        u32 intr_enable;$/;"	m	struct:slc_host_regs
+intr_mask_reg	esp_ext.c	/^static u16 intr_mask_reg = 0x0000;$/;"	v	file:
+intr_raw	esp_sif.h	/^        u32 intr_raw;$/;"	m	struct:slc_host_regs
+intr_status	esp_sif.h	/^        u32 intr_status;$/;"	m	struct:slc_host_regs
+io_sync_type	esp_sif.h	/^enum io_sync_type {	$/;"	g
+irq_ack	esp_ext.h	/^	int (*irq_ack)(int gpio_no);                                  \/* ack interrupt *\/$/;"	m	struct:esp_ext_gpio_ops
+irq_handler	esp_ext.h	/^	ext_irq_handler_t irq_handler;$/;"	m	struct:ext_gpio_info
+irq_handling	esp_sif.h	/^        atomic_t irq_handling;$/;"	m	struct:esp_sdio_ctrl::esp_spi_ctrl
+irq_installed	esp_sif.h	/^        atomic_t 	irq_installed;$/;"	m	struct:esp_sdio_ctrl::esp_spi_ctrl
+is_group	esp_wmac.h	/^        unsigned is_group:1;$/;"	m	struct:esp_mac_rx_ctrl
+is_le	esp_file.c	/^static inline int is_le(void)$/;"	f	file:
+is_ok	sip2_common.h	/^     u16    is_ok;$/;"	m	struct:sip_evt_roc
+is_p2p	sip2_common.h	/^        u8 is_p2p;$/;"	m	struct:sip_cmd_setvif
+isassoc	sip2_common.h	/^        u16 isassoc;$/;"	m	struct:sip_cmd_bss_info_update
+key	sip2_common.h	/^        u8 key[32];$/;"	m	struct:sip_cmd_setkey
+keyidx	sip2_common.h	/^        u8 keyidx;$/;"	m	struct:sip_cmd_setkey
+keylen	sip2_common.h	/^        u8 keylen;$/;"	m	struct:sip_cmd_setkey
+last_config_time	esp_pub.h	/^	unsigned long last_config_time;$/;"	m	struct:esp_ps
+last_seq	sip2_common.h	/^	u32	last_seq;$/;"	m	struct:sip_evt_txidle
+legacy_length	esp_wmac.h	/^        unsigned legacy_length:12;$/;"	m	struct:esp_mac_rx_ctrl
+len	sip2_common.h	/^        __le16 len;$/;"	m	struct:sip_hdr
+len	sip2_common.h	/^        __le16 len;$/;"	m	struct:sip_hdr_min
+len	sip2_common.h	/^        u16    len;$/;"	m	struct:sip_evt_debug
+len	sip2_common.h	/^        u32 len;$/;"	m	struct:sip_cmd_copyback
+len	sip2_common.h	/^        u32 len;$/;"	m	struct:sip_cmd_read_memory
+len	sip2_common.h	/^        u32 len;$/;"	m	struct:sip_cmd_write_memory
+list	esp_sip.h	/^        struct list_head list;$/;"	m	struct:sip_pkt	typeref:struct:sip_pkt::list_head
+llc_snap_hdr	esp_pub.h	/^struct llc_snap_hdr {$/;"	s
+load_addr	esp_main.c	/^        u32 load_addr;$/;"	m	struct:esp_fw_blk_hdr	file:
+lock	esp_sip.h	/^        spinlock_t lock;$/;"	m	struct:esp_sip
+log_off	sdio_sif_esp.c	/^bool log_off = false;$/;"	v
+log_off	spi_sif_esp.c	/^bool log_off = false;$/;"	v
+logger_write	esp_file.c	/^int logger_write( const unsigned char prio,$/;"	f
+loopback_param	testmode.c	/^static struct loopback_param_s loopback_param;$/;"	v	typeref:struct:loopback_param_s	file:
+loopback_param_s	testmode.c	/^struct loopback_param_s {$/;"	s	file:
+loss_count	esp_pub.h	/^	atomic_t loss_count;$/;"	m	struct:esp_node
+low_map	esp_pub.h	/^        struct esp_hw_idx_map low_map[ESP_PUB_MAX_VIF][2];$/;"	m	struct:esp_pub	typeref:struct:esp_pub::esp_hw_idx_map
+mac	esp_pub.h	/^	u8 mac[ETH_ALEN];$/;"	m	struct:esp_hw_idx_map
+mac	sip2_common.h	/^        u8 mac[ETH_ALEN];$/;"	m	struct:sip_cmd_setsta
+mac	sip2_common.h	/^        u8 mac[ETH_ALEN];$/;"	m	struct:sip_cmd_setvif
+mac_addr	esp_pub.h	/^        u8 mac_addr[ETH_ALEN];$/;"	m	struct:esp_pub
+mac_addr	sip2_common.h	/^        u8 mac_addr[ETH_ALEN];$/;"	m	struct:sip_evt_bootup
+mac_addr	sip2_common.h	/^        u8 mac_addr[ETH_ALEN];$/;"	m	struct:sip_evt_bootup2
+mac_addr_prefix	esp_pub.h	/^	u8 mac_addr_prefix[3];$/;"	m	struct:esp_mac_prefix
+mac_index	esp_pub.h	/^	u8 mac_index;$/;"	m	struct:esp_mac_prefix
+mac_type	sip2_common.h	/^	u8 mac_type;$/;"	m	struct:sip_evt_bootup2
+magic	esp_main.c	/^        u8 magic;$/;"	m	struct:esp_fw_hdr	file:
+master_addr	esp_pub.h	/^	u8 master_addr[ETH_ALEN];$/;"	m	struct:esp_pub
+master_ifidx	esp_pub.h	/^	u8 master_ifidx;$/;"	m	struct:esp_pub
+max_block_dataR_resp_size	esp_sif.h	/^	u32 max_block_dataR_resp_size;$/;"	m	struct:esp_spi_resp
+max_block_dataW_resp_size	esp_sif.h	/^	u32 max_block_dataW_resp_size;$/;"	m	struct:esp_spi_resp
+max_cmd_resp_size	esp_sif.h	/^	u32 max_cmd_resp_size;$/;"	m	struct:esp_spi_resp
+max_dataR_resp_size	esp_sif.h	/^	u32 max_dataR_resp_size;$/;"	m	struct:esp_spi_resp
+max_dataW_resp_size	esp_sif.h	/^	u32 max_dataW_resp_size;$/;"	m	struct:esp_spi_resp
+max_sleep_period	esp_pub.h	/^	u32 max_sleep_period;$/;"	m	struct:esp_ps
+max_sleep_period	sip2_common.h	/^	u8 max_sleep_period;$/;"	m	struct:sip_cmd_ps
+mblk_map	sip2_common.h	/^        u32 mblk_map;$/;"	m	struct:sip_evt_tx_mblk
+mod_eagle_path_get	esp_main.c	/^char *mod_eagle_path_get(void)$/;"	f
+mod_support_no_rxampdu	esp_main.c	/^bool mod_support_no_rxampdu()$/;"	f
+mod_support_no_txampdu	esp_main.c	/^bool mod_support_no_txampdu()$/;"	f
+mod_support_no_txampdu_set	esp_main.c	/^void mod_support_no_txampdu_set(bool value)$/;"	f
+mode	testmode.h	/^	u32 mode; \/\/1: read 2: write 3: read&write$/;"	m	struct:sdiotest_param
+modparam_eagle_path	esp_main.c	/^static char *modparam_eagle_path = "";$/;"	v	file:
+modparam_no_rxampdu	esp_main.c	/^static int modparam_no_rxampdu = 0;$/;"	v	file:
+modparam_no_txampdu	esp_main.c	/^static int modparam_no_txampdu = 0;$/;"	v	file:
+n_channels	sip2_common.h	/^        u8 n_channels;$/;"	m	struct:sip_cmd_scan
+name	esp_debug.h	/^	char name[NAME_LEN_MAX];$/;"	m	struct:dbgfs_bootmode_item
+net_dev	esp_pub.h	/^        struct net_device *net_dev;$/;"	m	struct:esp_pub	typeref:struct:esp_pub::net_device
+net_stats	esp_pub.h	/^        struct net_device_stats *net_stats;$/;"	m	struct:esp_pub	typeref:struct:esp_pub::net_device_stats
+nodes	esp_pub.h	/^        struct esp_node nodes[ESP_PUB_MAX_STA + 1];$/;"	m	struct:esp_pub	typeref:struct:esp_pub::esp_node
+noise_floor	esp_sip.h	/^	atomic_t noise_floor;$/;"	m	struct:esp_sip
+noise_floor	esp_wmac.h	/^	signed noise_floor:8;$/;"	m	struct:esp_mac_rx_ctrl
+noise_floor	sip2_common.h	/^	s16 noise_floor;$/;"	m	struct:sip_evt_bootup2
+noise_floor	sip2_common.h	/^     s16 noise_floor;$/;"	m	struct:sip_evt_noisefloor
+nor_r_cb	esp_debug.c	/^static int nor_r_cb(void *data)$/;"	f	file:
+nor_show	esp_file.c	/^static ssize_t nor_show(struct class *cls, struct class_attribute *attr, char *ubuf)$/;"	f	file:
+nor_store	esp_file.c	/^static ssize_t nor_store(struct class *cls, struct class_attribute *attr, const char *ubuf, size_t count)$/;"	f	file:
+nor_w_cb	esp_debug.c	/^static int nor_w_cb(void *data)$/;"	f	file:
+null_byte	esp_wmac.h	/^            null_byte:2,$/;"	m	struct:esp_tx_ampdu_entry
+nulldata_pm_on	esp_pub.h	/^        bool nulldata_pm_on;$/;"	m	struct:esp_ps
+nulldata_timer	esp_pub.h	/^	struct timer_list nulldata_timer; \/* gc use this, too *\/$/;"	m	struct:esp_vif	typeref:struct:esp_vif::timer_list
+off	esp_pub.h	/^        atomic_t off;$/;"	m	struct:esp_wl
+off	esp_sif.h	/^        bool off;$/;"	m	struct:esp_sdio_ctrl::esp_spi_ctrl
+offset	esp_file.h	/^	int offset;$/;"	m	struct:esp_init_table_elem
+on	sip2_common.h	/^        u8 on;$/;"	m	struct:sip_cmd_ps
+op_mode	sip2_common.h	/^        u8 op_mode;$/;"	m	struct:sip_cmd_setvif
+options	sip2_common.h	/^        u8 options;$/;"	m	struct:sip_evt_bootup2
+org_code	esp_pub.h	/^        u8 org_code[3];$/;"	m	struct:llc_snap_hdr
+oui	esp_mac80211.h	/^	u8 oui[3]; \/* 00:50:f2 *\/$/;"	m	struct:esp_80211_wmm_param_element
+oui_subtype	esp_mac80211.h	/^	u8 oui_subtype; \/* 1 *\/$/;"	m	struct:esp_80211_wmm_param_element
+oui_type	esp_mac80211.h	/^	u8 oui_type; \/* 2 *\/$/;"	m	struct:esp_80211_wmm_param_element
+p2p	sip2_common.h	/^        u8 p2p:1,$/;"	m	struct:sip_tx_data_info
+pack_id	sip2_common.h	/^        u32 pack_id;   \/\/sequence of packet$/;"	m	struct:sip_cmd_loopback
+pack_id	sip2_common.h	/^        u32 pack_id;   \/\/sequence of packet$/;"	m	struct:sip_evt_loopback
+packet_id	testmode.c	/^        u32 packet_id;$/;"	m	struct:loopback_param_s	file:
+packet_num	testmode.c	/^        u32 packet_num;$/;"	m	struct:loopback_param_s	file:
+pad	esp_main.c	/^        u8 pad[2];$/;"	m	struct:esp_fw_hdr	file:
+pad	sip2_common.h	/^        u16    pad;$/;"	m	struct:sip_evt_debug
+pad	sip2_common.h	/^        u8 pad;$/;"	m	struct:sip_tx_status
+pad	sip2_common.h	/^     u16    pad;$/;"	m	struct:sip_evt_noisefloor
+pad	sip2_common.h	/^     u8    pad;$/;"	m	struct:sip_evt_nullfunc_report
+para	sip2_common.h	/^        u32  para[10];$/;"	m	struct:sip_cmd_debug
+para_num	sip2_common.h	/^        u32  para_num;$/;"	m	struct:sip_cmd_debug
+pending_intr_list	esp_ext.h	/^	u16 pending_intr_list[MAX_PENDING_INTR_LIST];$/;"	m	struct:pending_intr_list_info
+pending_intr_list_info	esp_ext.h	/^struct pending_intr_list_info {$/;"	s
+pending_tx_status	esp_sip.h	/^        atomic_t pending_tx_status;$/;"	m	struct:esp_sip
+phymode	sip2_common.h	/^        u8 phymode;$/;"	m	struct:sip_cmd_setsta
+pkts	sip2_common.h	/^        u32 pkts;$/;"	m	struct:sip_evt_tx_report
+priv_data	esp_debug.h	/^	void *priv_data;$/;"	m	struct:dbgfs_bootmode_item
+ps	esp_pub.h	/^	struct esp_ps ps;$/;"	m	struct:esp_pub	typeref:struct:esp_pub::esp_ps
+ptk_cnt	esp_pub.h	/^	atomic_t ptk_cnt;$/;"	m	struct:esp_wl
+pw_dec	esp_file.h	/^			u8 pw_dec;$/;"	m	struct:fcc_mode::__anon2::__anon4
+pw_dec	esp_file.h	/^			u8 pw_dec;$/;"	m	struct:fcc_mode::__anon2::__anon5
+pw_dec	esp_file.h	/^			u8 pw_dec;$/;"	m	struct:fcc_mode::__anon2::__anon6
+pw_max	esp_file.c	/^static u8 pw_max[6] = {0x52, 0x4e, 0x4a, 0x44, 0x40, 0x38};$/;"	v	file:
+qos_info	esp_mac80211.h	/^	u8 qos_info; \/* AP\/STA specif QoS info *\/$/;"	m	struct:esp_80211_wmm_param_element
+queue_flag	testmode.c	/^static int queue_flag = 0;$/;"	v	file:
+r_cb	esp_debug.h	/^	int (*r_cb)(void *data);$/;"	m	struct:dbgfs_bootmode_item
+rate	esp_wmac.h	/^        unsigned rate:4;$/;"	m	struct:esp_mac_rx_ctrl
+rate_index	sip2_common.h	/^        u8 rate_index;$/;"	m	struct:sip_tx_status
+rate_offset	esp_file.h	/^			u8 rate_offset;$/;"	m	struct:fcc_mode::__anon2::__anon4
+rate_offset	esp_file.h	/^			u8 rate_offset;$/;"	m	struct:fcc_mode::__anon2::__anon5
+rates	sip2_common.h	/^        struct ieee80211_tx_rate rates[IEEE80211_TX_MAX_RATES];$/;"	m	struct:sip_tx_rc	typeref:struct:sip_tx_rc::ieee80211_tx_rate
+rawbuf	esp_sip.h	/^        u8 * rawbuf;  \/* used in boot stage, free once chip is fully up *\/$/;"	m	struct:esp_sip
+rc_cnt_store	sip2_common.h	/^                u32 rc_cnt_store;$/;"	m	union:sip_rc_status::__anon14
+rc_map	sip2_common.h	/^        u32 rc_map;$/;"	m	struct:sip_rc_status
+rcstatus	sip2_common.h	/^        struct sip_rc_status rcstatus;$/;"	m	struct:sip_tx_status	typeref:struct:sip_tx_status::sip_rc_status
+reason_code	esp_mac80211.h	/^	__le16 reason_code;$/;"	m	struct:esp_80211_deauth
+recycled_credits	sip2_common.h	/^                volatile u32 recycled_credits; \/* last 12bits is credits, first 20 bits is actual length of the first pkt in the chain *\/$/;"	m	union:sip_hdr::__anon13
+req_bssid	esp_pub.h	/^        u8 req_bssid[ETH_ALEN];$/;"	m	struct:esp_wl
+request_init_conf	esp_file.c	/^int request_init_conf(void)$/;"	f
+reserve	esp_file.h	/^			u8 reserve;$/;"	m	struct:fcc_mode::__anon2::__anon6
+reserve	esp_file.h	/^			u8 reserve[3];$/;"	m	struct:fcc_mode::__anon2::__anon3
+reserved	esp_mac80211.h	/^	u8 reserved; \/* 0 *\/$/;"	m	struct:esp_80211_wmm_param_element
+reset_signal_count	esp_sip.c	/^void reset_signal_count(void)$/;"	f
+results	sip2_common.h	/^        u32    results[12];$/;"	m	struct:sip_evt_debug
+resv	sip2_common.h	/^	u16 resv;$/;"	m	struct:sip_cmd_setsta
+resv	sip2_common.h	/^	u8 resv[1];$/;"	m	struct:sip_evt_bootup2
+resv	sip2_common.h	/^	u8 resv[3];$/;"	m	struct:sip_cmd_suspend
+resv	sip2_common.h	/^        u8 resv;$/;"	m	struct:sip_cmd_ps
+retry_reset	esp_io.c	/^static int retry_reset = 0;$/;"	v	file:
+roc_flags	esp_pub.h	/^        u8 roc_flags;   \/\/0: not in remain on channel state, 1: in roc state$/;"	m	struct:esp_pub
+rssi	esp_wmac.h	/^        signed rssi:8;$/;"	m	struct:esp_mac_rx_ctrl
+rst_config	esp_io.c	/^static int rst_config = 0;$/;"	v	file:
+rts_cts_rate_idx	sip2_common.h	/^        s8 rts_cts_rate_idx;$/;"	m	struct:sip_tx_rc
+rx_ampdu_lock	esp_pub.h	/^        spinlock_t rx_ampdu_lock;$/;"	m	struct:esp_pub
+rx_blksz	esp_sip.h	/^        u16 rx_blksz;$/;"	m	struct:esp_sip
+rx_blksz	sip2_common.h	/^        u16 rx_blksz;$/;"	m	struct:sip_evt_bootup2
+rx_cmd	spi_sif_esp.c	/^static unsigned char *rx_cmd;$/;"	v	file:
+rx_data	esp_sip.c	/^        u32 rx_data;$/;"	m	struct:sip_trace	file:
+rx_evt	esp_sip.c	/^        u32 rx_evt;$/;"	m	struct:sip_trace	file:
+rx_filter	esp_pub.h	/^        u32 rx_filter;$/;"	m	struct:esp_pub
+rx_handling	esp_sip.h	/^        atomic_t rx_handling;$/;"	m	struct:esp_sip
+rx_lock	esp_pub.h	/^        spinlock_t rx_lock;$/;"	m	struct:esp_pub
+rx_mtx	esp_sip.h	/^	struct mutex rx_mtx; $/;"	m	struct:esp_sip	typeref:struct:esp_sip::mutex
+rx_process_work	esp_sip.h	/^        struct work_struct rx_process_work;$/;"	m	struct:esp_sip	typeref:struct:esp_sip::work_struct
+rx_tot_len	esp_sip.h	/^        u32 rx_tot_len;$/;"	m	struct:esp_sip
+rx_tx_status	esp_sip.c	/^        u32 rx_tx_status;$/;"	m	struct:sip_trace	file:
+rxabort_fixed	esp_sip.h	/^        bool rxabort_fixed;$/;"	m	struct:esp_sip
+rxampdu_map	esp_pub.h	/^	u8 rxampdu_map;$/;"	m	struct:esp_pub
+rxampdu_node	esp_pub.h	/^	struct esp_node * rxampdu_node[ESP_PUB_MAX_RXAMPDU];$/;"	m	struct:esp_pub	typeref:struct:esp_pub::esp_node
+rxampdu_tid	esp_pub.h	/^	u8 rxampdu_tid[ESP_PUB_MAX_RXAMPDU];$/;"	m	struct:esp_pub
+rxend_state	esp_wmac.h	/^        unsigned rxend_state:8;$/;"	m	struct:esp_mac_rx_ctrl
+rxlen	sip2_common.h	/^        u32 rxlen;      \/\/target to host packet len, 0 means no rxpacket$/;"	m	struct:sip_cmd_loopback
+rxlen	sip2_common.h	/^        u32 rxlen;      \/\/target to host packet len, 0 means no rxpacket$/;"	m	struct:sip_evt_loopback
+rxq	esp_pub.h	/^        struct sk_buff_head rxq;$/;"	m	struct:esp_pub	typeref:struct:esp_pub::sk_buff_head
+rxq	esp_sip.h	/^        struct sk_buff_head rxq;$/;"	m	struct:esp_sip	typeref:struct:esp_sip::sk_buff_head
+rxseq	esp_sip.h	/^        u32 rxseq; \/* sip pkt seq, should match target side *\/$/;"	m	struct:esp_sip
+sbands	esp_pub.h	/^        struct ieee80211_supported_band sbands[IEEE80211_NUM_BANDS];$/;"	m	struct:esp_wl	typeref:struct:esp_wl::ieee80211_supported_band
+scan_id	sip2_common.h	/^        u16 scan_id;$/;"	m	struct:sip_evt_scan_report
+scan_permit	esp_pub.h	/^        unsigned long scan_permit;$/;"	m	struct:esp_pub
+scan_permit_valid	esp_pub.h	/^        bool scan_permit_valid;$/;"	m	struct:esp_pub
+scan_req	esp_pub.h	/^        struct cfg80211_scan_request *scan_req;$/;"	m	struct:esp_wl	typeref:struct:esp_wl::cfg80211_scan_request
+scan_timeout_work	esp_pub.h	/^        struct delayed_work scan_timeout_work;$/;"	m	struct:esp_pub	typeref:struct:esp_pub::delayed_work
+scat_lock	esp_sif.h	/^        spinlock_t scat_lock;$/;"	m	struct:esp_sdio_ctrl::esp_spi_ctrl
+scat_req	esp_sif.h	/^        struct list_head scat_req;$/;"	m	struct:esp_sdio_ctrl::esp_spi_ctrl	typeref:struct:esp_sdio_ctrl::esp_spi_ctrl::list_head
+sdioTest	testmode.c	/^static struct sdiotest_param sdioTest;$/;"	v	typeref:struct:sdiotest_param	file:
+sdio_buff	testmode.c	/^static u8 *sdio_buff = NULL;$/;"	v	file:
+sdio_io_readb	sdio_sif_esp.c	/^u8 sdio_io_readb(struct esp_pub *epub, int addr, int *res)$/;"	f
+sdio_io_writeb	sdio_sif_esp.c	/^void sdio_io_writeb(struct esp_pub *epub, u8 value, int addr, int *res)$/;"	f
+sdio_state	esp_pub.h	/^        enum esp_sdio_state sdio_state;$/;"	m	struct:esp_pub	typeref:enum:esp_pub::esp_sdio_state
+sdiotest_buf	testmode.c	/^static u8 *sdiotest_buf = NULL;$/;"	v	file:
+sdiotest_param	testmode.h	/^struct sdiotest_param {$/;"	s
+sendup_rpbm_pkt	esp_sip.h	/^        bool sendup_rpbm_pkt;$/;"	m	struct:esp_sip
+sendup_work	esp_pub.h	/^        struct work_struct sendup_work; \/* attach to ieee80211 workqueue *\/$/;"	m	struct:esp_pub	typeref:struct:esp_pub::work_struct
+seq	esp_wmac.h	/^            seq:8;$/;"	m	struct:esp_tx_ampdu_entry
+seq	sip2_common.h	/^        u32 seq;$/;"	m	struct:sip_hdr
+seq_ctrl	esp_mac80211.h	/^	__le16 seq_ctrl;$/;"	m	struct:ieee80211_hdr_3addr
+set	sip2_common.h	/^        u8 set;$/;"	m	struct:sip_cmd_setsta
+set	sip2_common.h	/^        u8 set;$/;"	m	struct:sip_cmd_setvif
+show_buf	esp_debug.c	/^void show_buf(u8 *buf, u32 len)$/;"	f
+show_esp_init_table	esp_file.c	/^void show_esp_init_table(struct esp_init_table_elem *econf)$/;"	f
+show_status	esp_ext.c	/^void show_status(void)$/;"	f
+sif	esp_pub.h	/^        void *sif; \/* serial interface control block, e.g. sdio *\/$/;"	m	struct:esp_pub
+sif_ack_target_read_err	esp_io.c	/^int sif_ack_target_read_err(struct esp_pub *epub)$/;"	f
+sif_config_gpio_mode	esp_io.c	/^int sif_config_gpio_mode(struct esp_pub *epub, u8 gpio_num, u8 gpio_mode)$/;"	f
+sif_disable_irq	sdio_sif_esp.c	/^void sif_disable_irq(struct esp_pub *epub) $/;"	f
+sif_disable_irq	spi_sif_esp.c	/^void sif_disable_irq(struct esp_pub *epub) $/;"	f
+sif_disable_target_interrupt	esp_io.c	/^void sif_disable_target_interrupt(struct esp_pub *epub)$/;"	f
+sif_dsr	esp_io.c	/^void sif_dsr(struct sdio_func *func)$/;"	f
+sif_enable_irq	sdio_sif_esp.c	/^void sif_enable_irq(struct esp_pub *epub) $/;"	f
+sif_enable_irq	spi_sif_esp.c	/^void sif_enable_irq(struct esp_pub *epub) $/;"	f
+sif_get_ate_config	esp_io.c	/^int sif_get_ate_config(void)$/;"	f
+sif_get_blksz	esp_io.c	/^u32 sif_get_blksz(struct esp_pub *epub)$/;"	f
+sif_get_bt_config	esp_io.c	/^int sif_get_bt_config(void)$/;"	f
+sif_get_esp_run	esp_io.c	/^int sif_get_esp_run(void)$/;"	f
+sif_get_fccmode	esp_io.c	/^int sif_get_fccmode(void)$/;"	f
+sif_get_gpio_input	esp_io.c	/^int sif_get_gpio_input(struct esp_pub *epub, u16 *mask, u16 *value)$/;"	f
+sif_get_gpio_intr	esp_io.c	/^int sif_get_gpio_intr(struct esp_pub *epub, u16 intr_mask, u16 *value)$/;"	f
+sif_get_regs	esp_io.c	/^struct slc_host_regs * sif_get_regs(struct esp_pub *epub) $/;"	f
+sif_get_retry_config	esp_io.c	/^int sif_get_retry_config(void)$/;"	f
+sif_get_rst_config	esp_io.c	/^int sif_get_rst_config(void)$/;"	f
+sif_get_spi_resp	spi_sif_esp.c	/^struct esp_spi_resp *sif_get_spi_resp(void)$/;"	f
+sif_get_target_id	esp_io.c	/^u32 sif_get_target_id(struct esp_pub *epub)$/;"	f
+sif_get_wakeup_gpio_config	esp_io.c	/^int sif_get_wakeup_gpio_config(void)$/;"	f
+sif_hda_io_enable	esp_io.c	/^int sif_hda_io_enable(struct esp_pub *epub)$/;"	f
+sif_interrupt_target	esp_io.c	/^int sif_interrupt_target(struct esp_pub *epub, u8 index)$/;"	f
+sif_io_raw	sdio_sif_esp.c	/^int sif_io_raw(struct esp_pub *epub, u32 addr, u8 *buf, u32 len, u32 flag)$/;"	f
+sif_io_sync	sdio_sif_esp.c	/^int sif_io_sync(struct esp_pub *epub, u32 addr, u8 *buf, u32 len, u32 flag)$/;"	f
+sif_irq_handler	spi_sif_esp.c	/^static irqreturn_t sif_irq_handler(int irq, void *dev_id)$/;"	f	file:
+sif_irq_thread	spi_sif_esp.c	/^struct task_struct *sif_irq_thread;$/;"	v	typeref:struct:task_struct
+sif_lldesc_read_raw	sdio_sif_esp.c	/^int sif_lldesc_read_raw(struct esp_pub *epub, u8 *buf, u32 len, bool noround)$/;"	f
+sif_lldesc_read_sync	sdio_sif_esp.c	/^int sif_lldesc_read_sync(struct esp_pub *epub, u8 *buf, u32 len)$/;"	f
+sif_lldesc_write_raw	sdio_sif_esp.c	/^int sif_lldesc_write_raw(struct esp_pub *epub, u8 *buf, u32 len)$/;"	f
+sif_lldesc_write_sync	sdio_sif_esp.c	/^int sif_lldesc_write_sync(struct esp_pub *epub, u8 *buf, u32 len)$/;"	f
+sif_lock_bus	sdio_sif_esp.c	/^void sif_lock_bus(struct esp_pub *epub)$/;"	f
+sif_lock_bus	spi_sif_esp.c	/^void sif_lock_bus(struct esp_pub *epub)$/;"	f
+sif_platform_ack_interrupt	sdio_stub.c	/^void sif_platform_ack_interrupt(struct esp_pub *epub)$/;"	f
+sif_platform_check_r1_ready	sdio_stub.c	/^void sif_platform_check_r1_ready(struct esp_pub *epub)$/;"	f
+sif_platform_rescan_card	sdio_stub.c	/^void sif_platform_rescan_card(unsigned insert)$/;"	f
+sif_platform_reset_target	sdio_stub.c	/^void sif_platform_reset_target(void)$/;"	f
+sif_platform_target_poweroff	sdio_stub.c	/^void sif_platform_target_poweroff(void)$/;"	f
+sif_platform_target_poweron	sdio_stub.c	/^void sif_platform_target_poweron(void)$/;"	f
+sif_platform_target_speed	sdio_stub.c	/^void sif_platform_target_speed(int high_speed)$/;"	f
+sif_read_reg_window	esp_io.c	/^int sif_read_reg_window(struct esp_pub *epub, unsigned int reg_addr, u8 *value)$/;"	f
+sif_record_ate_config	esp_io.c	/^void sif_record_ate_config(int value)$/;"	f
+sif_record_bt_config	esp_io.c	/^void sif_record_bt_config(int value)$/;"	f
+sif_record_esp_run	esp_io.c	/^void sif_record_esp_run(int value)$/;"	f
+sif_record_fccmode	esp_io.c	/^void sif_record_fccmode(int value)$/;"	f
+sif_record_retry_config	esp_io.c	/^void sif_record_retry_config(void)$/;"	f
+sif_record_rst_config	esp_io.c	/^void sif_record_rst_config(int value)$/;"	f
+sif_record_wakeup_gpio_config	esp_io.c	/^void sif_record_wakeup_gpio_config(int value)$/;"	f
+sif_reg_read_sync	esp_sif.h	310;"	d
+sif_reg_write_sync	esp_sif.h	312;"	d
+sif_sctrl	sdio_sif_esp.c	/^struct esp_sdio_ctrl *sif_sctrl = NULL;$/;"	v	typeref:struct:esp_sdio_ctrl
+sif_sctrl	spi_sif_esp.c	/^struct esp_spi_ctrl *sif_sctrl = NULL;$/;"	v	typeref:struct:esp_spi_ctrl
+sif_sdio_state	sdio_sif_esp.c	/^static enum esp_sdio_state sif_sdio_state;$/;"	v	typeref:enum:esp_sdio_state	file:
+sif_sdio_state	spi_sif_esp.c	/^static enum esp_sdio_state sif_sdio_state;$/;"	v	typeref:enum:esp_sdio_state	file:
+sif_set_clock	sdio_sif_esp.c	/^void sif_set_clock(struct sdio_func *func, int clk)$/;"	f
+sif_set_gpio_output	esp_io.c	/^int sif_set_gpio_output(struct esp_pub *epub, u16 mask, u16 value)$/;"	f
+sif_setup_irq_thread	spi_sif_esp.c	/^int sif_setup_irq_thread(struct spi_device *spi)$/;"	f
+sif_slc_reg_t	esp_sif.h	/^} sif_slc_reg_t;$/;"	t	typeref:struct:slc_host_regs
+sif_spi_epub_read_mix_nosync	spi_sif_esp.c	/^int sif_spi_epub_read_mix_nosync(struct esp_pub *epub, unsigned int addr, unsigned char *buf,int len, int dummymode)$/;"	f
+sif_spi_epub_read_mix_sync	spi_sif_esp.c	/^int sif_spi_epub_read_mix_sync(struct esp_pub *epub, unsigned int addr, unsigned char *buf,int len, int dummymode)$/;"	f
+sif_spi_epub_write_mix_nosync	spi_sif_esp.c	/^int sif_spi_epub_write_mix_nosync(struct esp_pub *epub, unsigned int addr, unsigned char *buf,int len, int dummymode)$/;"	f
+sif_spi_epub_write_mix_sync	spi_sif_esp.c	/^int sif_spi_epub_write_mix_sync(struct esp_pub *epub, unsigned int addr, unsigned char *buf,int len, int dummymode)$/;"	f
+sif_spi_protocol_init	spi_sif_esp.c	/^int sif_spi_protocol_init(struct spi_device *spi)$/;"	f
+sif_spi_read_blocks	spi_sif_esp.c	/^int sif_spi_read_blocks(struct spi_device *spi, unsigned int addr, unsigned char *dst, int count)$/;"	f
+sif_spi_read_bytes	spi_sif_esp.c	/^int sif_spi_read_bytes(struct spi_device *spi, unsigned int addr,unsigned char *dst, int count, int dummymode)$/;"	f
+sif_spi_read_mix_nosync	spi_sif_esp.c	/^int sif_spi_read_mix_nosync(struct spi_device *spi, unsigned int addr, unsigned char *buf, int len, int dummymode)$/;"	f
+sif_spi_read_mix_sync	spi_sif_esp.c	/^int sif_spi_read_mix_sync(struct spi_device *spi, unsigned int addr, unsigned char *buf, int len, int dummymode)$/;"	f
+sif_spi_read_nosync	spi_sif_esp.c	/^int sif_spi_read_nosync(struct esp_pub *epub, unsigned char *buf, int len, int dummymode, bool noround)$/;"	f
+sif_spi_read_raw	spi_sif_esp.c	/^int sif_spi_read_raw(struct spi_device *spi, unsigned char* buf, int size)$/;"	f
+sif_spi_read_sync	spi_sif_esp.c	/^int sif_spi_read_sync(struct esp_pub *epub, unsigned char *buf, int len, int dummymode)$/;"	f
+sif_spi_write_async_read	spi_sif_esp.c	/^int sif_spi_write_async_read(struct spi_device *spi, unsigned char* bufwrite,unsigned char* bufread,int size)$/;"	f
+sif_spi_write_blocks	spi_sif_esp.c	/^int sif_spi_write_blocks(struct spi_device *spi, unsigned int addr,unsigned char *src, int count)$/;"	f
+sif_spi_write_bytes	spi_sif_esp.c	/^int sif_spi_write_bytes(struct spi_device *spi, unsigned int addr, unsigned char *src,int count, int dummymode)$/;"	f
+sif_spi_write_mix_nosync	spi_sif_esp.c	/^int sif_spi_write_mix_nosync(struct spi_device *spi, unsigned int addr, unsigned char *buf, int len, int dummymode)$/;"	f
+sif_spi_write_mix_sync	spi_sif_esp.c	/^int sif_spi_write_mix_sync(struct spi_device *spi, unsigned int addr, unsigned char *buf, int len, int dummymode) $/;"	f
+sif_spi_write_nosync	spi_sif_esp.c	/^int sif_spi_write_nosync(struct esp_pub *epub, unsigned char *buf, int len, int dummymode)$/;"	f
+sif_spi_write_raw	spi_sif_esp.c	/^int sif_spi_write_raw(struct spi_device *spi, unsigned char* buf, int size)$/;"	f
+sif_spi_write_sync	spi_sif_esp.c	/^int sif_spi_write_sync(struct esp_pub *epub, unsigned char *buf, int len, int dummymode)$/;"	f
+sif_spi_write_then_read	spi_sif_esp.c	/^int sif_spi_write_then_read(struct spi_device *spi, unsigned char* bufwrite, int sizesend, unsigned char* bufread, int sizeread)$/;"	f
+sif_unlock_bus	sdio_sif_esp.c	/^void sif_unlock_bus(struct esp_pub *epub)$/;"	f
+sif_unlock_bus	spi_sif_esp.c	/^void sif_unlock_bus(struct esp_pub *epub)$/;"	f
+sif_write_reg_window	esp_io.c	/^int sif_write_reg_window(struct esp_pub *epub, unsigned int reg_addr,u8 *value)$/;"	f
+sig_mode	esp_wmac.h	/^        unsigned sig_mode:2;$/;"	m	struct:esp_mac_rx_ctrl
+signal_count	esp_sip.c	/^static int signal_count = 0;$/;"	v	file:
+sip	esp_pub.h	/^        struct esp_sip *sip;$/;"	m	struct:esp_pub	typeref:struct:esp_pub::esp_sip
+sip_after_tx_status_update	esp_sip.c	/^sip_after_tx_status_update(struct esp_sip *sip)$/;"	f	file:
+sip_after_write_pkts	esp_sip.c	/^static void sip_after_write_pkts(struct esp_sip *sip)$/;"	f	file:
+sip_alloc_ctrl_skbuf	esp_sip.c	/^sip_alloc_ctrl_skbuf(struct esp_sip *sip, u16 len, u32 cid) {$/;"	f
+sip_ampdu_occupy_buf	esp_sip.c	/^static bool sip_ampdu_occupy_buf(struct esp_sip *sip, struct esp_rx_ampdu_len * ampdu_len)$/;"	f	file:
+sip_attach	esp_sip.c	/^struct esp_sip * sip_attach(struct esp_pub *epub) $/;"	f
+sip_check_skb_alignment	esp_sip.c	/^static void sip_check_skb_alignment(struct sk_buff *skb)$/;"	f	file:
+sip_cmd	esp_ctrl.c	/^int sip_cmd(struct esp_pub *epub, enum sip_cmd_id cmd_id, u8 *cmd_buf, u8 cmd_len)$/;"	f
+sip_cmd_ampdu_action	sip2_common.h	/^struct sip_cmd_ampdu_action {$/;"	s
+sip_cmd_ate	sip2_common.h	/^struct sip_cmd_ate {$/;"	s
+sip_cmd_bootup	sip2_common.h	/^struct sip_cmd_bootup {$/;"	s
+sip_cmd_bss_info_update	sip2_common.h	/^struct sip_cmd_bss_info_update {$/;"	s
+sip_cmd_config	sip2_common.h	/^struct sip_cmd_config {$/;"	s
+sip_cmd_copyback	sip2_common.h	/^struct sip_cmd_copyback {$/;"	s
+sip_cmd_debug	sip2_common.h	/^struct sip_cmd_debug {$/;"	s
+sip_cmd_enqueue	esp_sip.c	/^sip_cmd_enqueue(struct esp_sip *sip, struct sk_buff *skb, int prior)$/;"	f
+sip_cmd_id	sip2_common.h	/^enum sip_cmd_id {$/;"	g
+sip_cmd_loopback	sip2_common.h	/^struct sip_cmd_loopback {$/;"	s
+sip_cmd_ps	sip2_common.h	/^struct sip_cmd_ps {$/;"	s
+sip_cmd_read_memory	sip2_common.h	/^struct sip_cmd_read_memory {$/;"	s
+sip_cmd_scan	sip2_common.h	/^struct sip_cmd_scan {$/;"	s
+sip_cmd_set_wmm_params	sip2_common.h	/^struct sip_cmd_set_wmm_params {$/;"	s
+sip_cmd_setkey	sip2_common.h	/^struct sip_cmd_setkey {$/;"	s
+sip_cmd_setsta	sip2_common.h	/^struct sip_cmd_setsta {$/;"	s
+sip_cmd_setvif	sip2_common.h	/^struct sip_cmd_setvif {$/;"	s
+sip_cmd_sleep	sip2_common.h	/^struct sip_cmd_sleep {$/;"	s
+sip_cmd_suspend	sip2_common.h	/^struct sip_cmd_suspend {$/;"	s
+sip_cmd_wakeup	sip2_common.h	/^struct sip_cmd_wakeup {$/;"	s
+sip_cmd_write_memory	sip2_common.h	/^struct sip_cmd_write_memory {$/;"	s
+sip_cmd_write_reg	sip2_common.h	/^struct sip_cmd_write_reg {$/;"	s
+sip_copy	testmode.c	/^static struct esp_sip *sip_copy = NULL;$/;"	v	typeref:struct:esp_sip	file:
+sip_debug_show	esp_sip.c	/^void sip_debug_show(struct esp_sip *sip)$/;"	f
+sip_detach	esp_sip.c	/^void sip_detach(struct esp_sip *sip)$/;"	f
+sip_evt_bootup	sip2_common.h	/^struct sip_evt_bootup {$/;"	s
+sip_evt_bootup2	sip2_common.h	/^struct sip_evt_bootup2 {$/;"	s
+sip_evt_debug	sip2_common.h	/^struct sip_evt_debug {$/;"	s
+sip_evt_loopback	sip2_common.h	/^struct sip_evt_loopback {$/;"	s
+sip_evt_noisefloor	sip2_common.h	/^struct sip_evt_noisefloor {$/;"	s
+sip_evt_nullfunc_report	sip2_common.h	/^struct sip_evt_nullfunc_report {$/;"	s
+sip_evt_roc	sip2_common.h	/^struct sip_evt_roc {$/;"	s
+sip_evt_scan_report	sip2_common.h	/^struct sip_evt_scan_report {$/;"	s
+sip_evt_trc_ampdu	sip2_common.h	/^struct sip_evt_trc_ampdu {$/;"	s
+sip_evt_tx_mblk	sip2_common.h	/^struct sip_evt_tx_mblk {$/;"	s
+sip_evt_tx_report	sip2_common.h	/^struct sip_evt_tx_report {$/;"	s
+sip_evt_txidle	sip2_common.h	/^struct sip_evt_txidle {$/;"	s
+sip_evt_wakeup	sip2_common.h	/^struct sip_evt_wakeup {$/;"	s
+sip_free_ctrl_skbuff	esp_sip.c	/^sip_free_ctrl_skbuff(struct esp_sip *sip, struct sk_buff *skb)$/;"	f
+sip_free_init_ctrl_buf	esp_sip.c	/^static void sip_free_init_ctrl_buf(struct esp_sip *sip)$/;"	f	file:
+sip_get_ctrl_buf	esp_sip.c	/^sip_get_ctrl_buf(struct esp_sip *sip, SIP_BUF_TYPE bftype) {$/;"	f	file:
+sip_hdr	sip2_common.h	/^struct sip_hdr {$/;"	s
+sip_hdr_min	sip2_common.h	/^struct sip_hdr_min {$/;"	s
+sip_notifier	esp_sip.h	/^enum sip_notifier {$/;"	g
+sip_pack_pkt	esp_sip.c	/^static int sip_pack_pkt(struct esp_sip *sip, struct sk_buff *skb, int *pm_state)$/;"	f	file:
+sip_parse_data_rx_info	esp_sip.c	/^static struct sk_buff * sip_parse_data_rx_info(struct esp_sip *sip, struct sk_buff *skb, int pkt_len_enc, int buf_len, struct esp_mac_rx_ctrl *mac_ctrl, int *pulled_len) {$/;"	f	file:
+sip_parse_event_debug	esp_ctrl.c	/^int sip_parse_event_debug(struct esp_pub *epub, const u8 *src, u8 *dst)$/;"	f
+sip_parse_events	esp_ctrl.c	/^int sip_parse_events(struct esp_sip *sip, u8 *buf)$/;"	f
+sip_parse_mac_rx_info	esp_sip.c	/^static int sip_parse_mac_rx_info(struct esp_sip *sip, struct esp_mac_rx_ctrl * mac_ctrl, struct sk_buff *skb)$/;"	f	file:
+sip_parse_normal_mac_ctrl	esp_sip.c	/^static struct esp_mac_rx_ctrl *sip_parse_normal_mac_ctrl(struct sk_buff *skb, int * pkt_len_enc, int *buf_len, int *pulled_len) $/;"	f	file:
+sip_pkt	esp_sip.h	/^struct sip_pkt {$/;"	s
+sip_poll_bootup_event	esp_sip.c	/^sip_poll_bootup_event(struct esp_sip *sip)$/;"	f
+sip_poll_resetting_event	esp_sip.c	/^sip_poll_resetting_event(struct esp_sip *sip)$/;"	f
+sip_post_init	esp_sip.c	/^int sip_post_init(struct esp_sip *sip, struct sip_evt_bootup2 *bevt)$/;"	f
+sip_queue_may_resume	esp_sip.c	/^sip_queue_may_resume(struct esp_sip *sip)$/;"	f
+sip_queue_need_stop	esp_sip.c	/^sip_queue_need_stop(struct esp_sip *sip)$/;"	f
+sip_rc_status	sip2_common.h	/^struct sip_rc_status {$/;"	s
+sip_recalc_credit_claim	esp_sip.c	/^static int sip_recalc_credit_claim(struct esp_sip *sip, int force)$/;"	f	file:
+sip_recalc_credit_init	esp_sip.c	/^static void sip_recalc_credit_init(struct esp_sip *sip)$/;"	f	file:
+sip_recalc_credit_release	esp_sip.c	/^static void sip_recalc_credit_release(struct esp_sip *sip)$/;"	f	file:
+sip_recalc_credit_timeout	esp_sip.c	/^static void sip_recalc_credit_timeout(unsigned long data)$/;"	f	file:
+sip_reclaim_ctrl_buf	esp_sip.c	/^sip_reclaim_ctrl_buf(struct esp_sip *sip, struct sip_pkt *pkt, SIP_BUF_TYPE bftype)$/;"	f	file:
+sip_rx	esp_sip.c	/^int sip_rx(struct esp_pub *epub)$/;"	f
+sip_rx_count	esp_sip.c	/^static u32 sip_rx_count = 0;$/;"	v	file:
+sip_rx_pkt_dequeue	esp_sip.c	/^static inline struct sk_buff * sip_rx_pkt_dequeue(struct esp_sip *sip) {$/;"	f	file:
+sip_rx_pkt_enqueue	esp_sip.c	/^static inline void sip_rx_pkt_enqueue(struct esp_sip *sip, struct sk_buff *skb)$/;"	f	file:
+sip_rx_pkt_process	esp_sip.c	/^static bool sip_rx_pkt_process(struct esp_sip * sip, struct sk_buff *skb)$/;"	f	file:
+sip_rxq_process	esp_sip.c	/^void sip_rxq_process(struct work_struct *work)$/;"	f
+sip_scandone_process	esp_ctrl.c	/^void sip_scandone_process(struct esp_sip *sip, struct sip_evt_scan_report *scan_report)$/;"	f
+sip_send_ampdu_action	esp_ctrl.c	/^int sip_send_ampdu_action(struct esp_pub *epub, u8 action_num, const u8 * addr, u16 tid, u16 ssn, u8 buf_size)$/;"	f
+sip_send_bootup	esp_sip.c	/^sip_send_bootup(struct esp_sip *sip)$/;"	f
+sip_send_bss_info_update	esp_ctrl.c	/^int  sip_send_bss_info_update(struct esp_pub *epub, struct esp_vif *evif, u8 *bssid, int assoc)$/;"	f
+sip_send_chip_init	esp_ctrl.c	/^void sip_send_chip_init(struct esp_sip *sip)$/;"	f
+sip_send_cmd	esp_sip.c	/^int sip_send_cmd(struct esp_sip *sip, int cid, u32 cmdlen, void *cmd)$/;"	f
+sip_send_config	esp_ctrl.c	/^int sip_send_config(struct esp_pub *epub, struct ieee80211_conf * conf)$/;"	f
+sip_send_loopback_cmd_mblk	esp_ctrl.c	/^int sip_send_loopback_cmd_mblk(struct esp_sip *sip)$/;"	f
+sip_send_loopback_mblk	esp_ctrl.c	/^int sip_send_loopback_mblk(struct esp_sip *sip, int txpacket_len, int rxpacket_len, int packet_id)$/;"	f
+sip_send_ps_config	esp_ctrl.c	/^int sip_send_ps_config(struct esp_pub *epub, struct esp_ps *ps)$/;"	f
+sip_send_recalc_credit	esp_ctrl.c	/^int sip_send_recalc_credit(struct esp_pub *epub)$/;"	f
+sip_send_roc	esp_ctrl.c	/^int sip_send_roc(struct esp_pub *epub, u16 center_freq, u16 duration)$/;"	f
+sip_send_scan	esp_ctrl.c	/^int sip_send_scan(struct esp_pub *epub)$/;"	f
+sip_send_set_sta	esp_ctrl.c	/^int sip_send_set_sta(struct esp_pub *epub, u8 ifidx, u8 set, struct ieee80211_sta *sta, struct ieee80211_vif *vif, u8 index)$/;"	f
+sip_send_setkey	esp_ctrl.c	/^int sip_send_setkey(struct esp_pub *epub, u8 bssid_no, u8 *peer_addr, struct ieee80211_key_conf *key, u8 isvalid)$/;"	f
+sip_send_suspend_config	esp_ctrl.c	/^int sip_send_suspend_config(struct esp_pub *epub, u8 suspend)$/;"	f
+sip_send_test_cmd	testmode.c	/^static void sip_send_test_cmd(struct esp_sip *sip, struct sk_buff *skb)$/;"	f	file:
+sip_send_tx_data	esp_sip.c	/^int sip_send_tx_data(struct esp_sip *sip)$/;"	f
+sip_send_tx_frame	testmode.c	/^static int sip_send_tx_frame(struct esp_sip *sip, u32 packet_len)$/;"	f	file:
+sip_send_wmm_params	esp_ctrl.c	/^int  sip_send_wmm_params(struct esp_pub *epub, u8 aci, const struct ieee80211_tx_queue_params *params)$/;"	f
+sip_seq	sip2_common.h	/^        u32 sip_seq;$/;"	m	struct:sip_tx_status
+sip_set_tx_rate_status	esp_sip.c	/^static void sip_set_tx_rate_status(struct sip_rc_status *rcstatus, struct ieee80211_tx_rate *irates)$/;"	f	file:
+sip_trace	esp_sip.c	/^struct sip_trace {$/;"	s	file:
+sip_trigger_txq_process	esp_sip.c	/^void sip_trigger_txq_process(struct esp_sip *sip)$/;"	f
+sip_tx_data_info	sip2_common.h	/^struct sip_tx_data_info {$/;"	s
+sip_tx_data_may_resume	esp_sip.c	/^sip_tx_data_may_resume(struct esp_sip *sip)$/;"	f
+sip_tx_data_need_stop	esp_sip.c	/^sip_tx_data_need_stop(struct esp_sip *sip)$/;"	f
+sip_tx_data_pkt_enqueue	esp_sip.c	/^void sip_tx_data_pkt_enqueue(struct esp_pub *epub, struct sk_buff *skb)$/;"	f
+sip_tx_info	sip2_common.h	/^struct sip_tx_info {$/;"	s
+sip_tx_rc	sip2_common.h	/^struct sip_tx_rc {$/;"	s
+sip_tx_status	sip2_common.h	/^struct sip_tx_status {$/;"	s
+sip_tx_status_report	esp_sip.c	/^static void sip_tx_status_report(struct esp_sip *sip, struct sk_buff *skb, struct ieee80211_tx_info *tx_info, bool success)$/;"	f	file:
+sip_txdoneq_process	esp_sip.c	/^sip_txdoneq_process(struct esp_sip *sip)$/;"	f	file:
+sip_txdoneq_process	esp_sip.c	/^sip_txdoneq_process(struct esp_sip *sip, struct sip_evt_tx_report *tx_report)$/;"	f	file:
+sip_txq_process	esp_sip.c	/^sip_txq_process(struct esp_pub *epub)$/;"	f
+sip_update_tx_credits	esp_sip.c	/^static void sip_update_tx_credits(struct esp_sip *sip, u16 recycled_credits)$/;"	f	file:
+sip_write_memory	esp_sip.c	/^int sip_write_memory(struct esp_sip *sip, u32 addr, u8 *buf, u16 len)$/;"	f
+sip_write_pkts	esp_sip.c	/^static void sip_write_pkts(struct esp_sip *sip, int pm_state)$/;"	f	file:
+slc_blk_sz	esp_sif.h	/^        u32 slc_blk_sz;$/;"	m	struct:esp_sdio_ctrl::esp_spi_ctrl
+slc_host_regs	esp_sif.h	/^typedef struct slc_host_regs {$/;"	s
+slc_regs	esp_sif.h	/^        struct slc_host_regs slc_regs;$/;"	m	struct:esp_sdio_ctrl::esp_spi_ctrl	typeref:struct:esp_sdio_ctrl::esp_spi_ctrl::slc_host_regs
+slc_window_end_addr	esp_sif.h	/^        u32 slc_window_end_addr;$/;"	m	struct:esp_sdio_ctrl::esp_spi_ctrl
+sleep_mode	sip2_common.h	/^        u32  sleep_mode;$/;"	m	struct:sip_cmd_sleep
+sleep_times	sip2_common.h	/^        u32  sleep_times;                 \/\/zero: always sleep, nozero: after nozero number sleep\/wakeup, then end up sleep$/;"	m	struct:sip_cmd_sleep
+sleep_tm_ms	sip2_common.h	/^        u32  sleep_tm_ms;$/;"	m	struct:sip_cmd_sleep
+spi	esp_sif.h	/^        struct spi_device *spi;$/;"	m	struct:esp_sdio_ctrl::esp_spi_ctrl	typeref:struct:esp_sdio_ctrl::esp_spi_ctrl::spi_device
+spi_irq_thread	spi_sif_esp.c	/^static int spi_irq_thread(void *data)$/;"	f	file:
+spi_resp	spi_sif_esp.c	/^static struct esp_spi_resp spi_resp;$/;"	v	typeref:struct:esp_spi_resp	file:
+spin_lock	esp_ext.h	/^	spinlock_t spin_lock;$/;"	m	struct:pending_intr_list_info
+ssap	esp_pub.h	/^        u8 ssap;$/;"	m	struct:llc_snap_hdr
+ssid_len	sip2_common.h	/^        u8 ssid_len;$/;"	m	struct:sip_cmd_scan
+ssn	esp_pub.h	/^	u16 ssn;$/;"	m	struct:esp_tx_tid
+ssn	sip2_common.h	/^        u16 ssn;$/;"	m	struct:sip_cmd_ampdu_action
+sta	esp_pub.h	/^        struct ieee80211_sta *sta;$/;"	m	struct:esp_node	typeref:struct:esp_node::ieee80211_sta
+sta_state	esp_pub.h	/^	atomic_t sta_state;$/;"	m	struct:esp_node
+sta_state	esp_pub.h	/^enum sta_state {$/;"	g
+start	testmode.h	/^	atomic_t start;$/;"	m	struct:sdiotest_param
+start_pos	esp_ext.h	/^	int start_pos;$/;"	m	struct:pending_intr_list_info
+state	esp_pub.h	/^	u8 state;$/;"	m	struct:esp_tx_tid
+state	esp_pub.h	/^        atomic_t state;$/;"	m	struct:esp_ps
+state	esp_sip.h	/^        atomic_t state;$/;"	m	struct:esp_sip
+state	sip2_common.h	/^        u8 state;$/;"	m	struct:sip_evt_trc_ampdu
+state	sip2_common.h	/^     u16    state;     \/\/start:1, end :0$/;"	m	struct:sip_evt_roc
+state_w0	esp_sif.h	/^        u32 state_w0;$/;"	m	struct:slc_host_regs
+state_w1	esp_sif.h	/^        u32 state_w1;$/;"	m	struct:slc_host_regs
+status	sip2_common.h	/^        struct sip_tx_status status[0];$/;"	m	struct:sip_evt_tx_report	typeref:struct:sip_evt_tx_report::sip_tx_status
+status	sip2_common.h	/^     u8    status;$/;"	m	struct:sip_evt_nullfunc_report
+str	esp_sip.c	/^static struct sip_trace str;$/;"	v	typeref:struct:sip_trace	file:
+sub_len	esp_wmac.h	/^        u32 sub_len:12,$/;"	m	struct:esp_tx_ampdu_entry
+sublen	esp_wmac.h	/^        unsigned sublen:12;$/;"	m	struct:esp_rx_ampdu_len
+substate	esp_wmac.h	/^        unsigned substate:8;$/;"	m	struct:esp_rx_ampdu_len
+supp_rates	esp_pub.h	/^	u64 supp_rates[IEEE80211_NUM_BANDS];$/;"	m	struct:esp_node
+support_bgscan	esp_sip.h	/^        bool support_bgscan;$/;"	m	struct:esp_sip
+suspend	sip2_common.h	/^	u8 suspend;$/;"	m	struct:sip_cmd_suspend
+target_id	esp_sif.h	/^        u32 target_id;$/;"	m	struct:esp_sdio_ctrl::esp_spi_ctrl
+test_exit_netlink	testmode.c	/^void test_exit_netlink(void)$/;"	f
+test_genl_family	testmode.c	/^static struct genl_family test_genl_family = {$/;"	v	typeref:struct:genl_family	file:
+test_genl_policy	testmode.c	/^static struct nla_policy test_genl_policy[TEST_ATTR_MAX + 1] = {$/;"	v	typeref:struct:nla_policy	file:
+test_init_netlink	testmode.c	/^int test_init_netlink(struct esp_sip *sip)$/;"	f
+test_netlink_notifier	testmode.c	/^static struct notifier_block test_netlink_notifier = {$/;"	v	typeref:struct:notifier_block	file:
+thread	testmode.h	/^	struct task_struct *thread;$/;"	m	struct:sdiotest_param	typeref:struct:sdiotest_param::task_struct
+tid	esp_pub.h	/^        struct esp_tx_tid tid[WME_NUM_TID];$/;"	m	struct:esp_node	typeref:struct:esp_node::esp_tx_tid
+tid	sip2_common.h	/^        u8 tid;$/;"	m	struct:sip_cmd_ampdu_action
+tid	sip2_common.h	/^        u8 tid;$/;"	m	struct:sip_evt_trc_ampdu
+tid	sip2_common.h	/^        u8 tid;$/;"	m	struct:sip_tx_data_info
+tim_lock	esp_mac80211.c	/^spinlock_t tim_lock;$/;"	v
+time_remain	esp_pub.h	/^	atomic_t time_remain;$/;"	m	struct:esp_node
+tkip_key_set	esp_pub.h	/^	atomic_t tkip_key_set;$/;"	m	struct:esp_wl
+to_host_seq	esp_sip.h	/^        u8 to_host_seq;$/;"	m	struct:esp_sip
+token_wdata	esp_sif.h	/^        u32 token_wdata;$/;"	m	struct:slc_host_regs
+trc_ampdu_state_t	sip2_common.h	/^} trc_ampdu_state_t;$/;"	t	typeref:enum:__anon15
+tx_aggr_buf	esp_sip.h	/^        u8 * tx_aggr_buf;$/;"	m	struct:esp_sip
+tx_aggr_lastpkt_ptr	esp_sip.h	/^        u8 * tx_aggr_lastpkt_ptr;$/;"	m	struct:esp_sip
+tx_aggr_write_ptr	esp_sip.h	/^        u8 * tx_aggr_write_ptr;  \/* update after insertion of each pkt *\/$/;"	m	struct:esp_sip
+tx_ampdu_lock	esp_pub.h	/^        spinlock_t tx_ampdu_lock;$/;"	m	struct:esp_pub
+tx_ask_credit_update	esp_sip.h	/^        atomic_t tx_ask_credit_update;$/;"	m	struct:esp_sip
+tx_blksz	esp_sip.h	/^        u16 tx_blksz;$/;"	m	struct:esp_sip
+tx_blksz	sip2_common.h	/^        u16 tx_blksz;$/;"	m	struct:sip_evt_bootup
+tx_blksz	sip2_common.h	/^        u16 tx_blksz;$/;"	m	struct:sip_evt_bootup2
+tx_cmd	esp_sip.c	/^        u32 tx_cmd;$/;"	m	struct:sip_trace	file:
+tx_cmd	spi_sif_esp.c	/^static unsigned char *tx_cmd;$/;"	v	file:
+tx_credits	esp_sip.h	/^        atomic_t tx_credits;$/;"	m	struct:esp_sip
+tx_data	esp_sip.c	/^        u32 tx_data;$/;"	m	struct:sip_trace	file:
+tx_data_pkt_queued	esp_sip.h	/^        atomic_t tx_data_pkt_queued;$/;"	m	struct:esp_sip
+tx_info	sip2_common.h	/^                struct sip_tx_info tx_info;$/;"	m	union:sip_hdr::__anon13	typeref:struct:sip_hdr::__anon13::sip_tx_info
+tx_lock	esp_pub.h	/^	spinlock_t tx_lock;$/;"	m	struct:esp_pub
+tx_mtx	esp_pub.h	/^        struct mutex tx_mtx;$/;"	m	struct:esp_pub	typeref:struct:esp_pub::mutex
+tx_one_shot_overflow	esp_sip.c	/^        u32 tx_one_shot_overflow;$/;"	m	struct:sip_trace	file:
+tx_out_of_credit	esp_sip.c	/^        u32 tx_out_of_credit;$/;"	m	struct:sip_trace	file:
+tx_stopped	esp_sip.h	/^        atomic_t tx_stopped;$/;"	m	struct:esp_sip
+tx_tot_len	esp_sip.h	/^        u32 tx_tot_len; \/* total len for one transaction *\/$/;"	m	struct:esp_sip
+tx_work	esp_pub.h	/^        struct work_struct tx_work; \/* attach to ieee80211 workqueue *\/$/;"	m	struct:esp_pub	typeref:struct:esp_pub::work_struct
+txdataseq	esp_sip.h	/^	u32 txdataseq;$/;"	m	struct:esp_sip
+txdoneq	esp_pub.h	/^        struct sk_buff_head txdoneq;$/;"	m	struct:esp_pub	typeref:struct:esp_pub::sk_buff_head
+txlen	sip2_common.h	/^        u32 txlen;       \/\/host to target packet len, 0 means no txpacket$/;"	m	struct:sip_cmd_loopback
+txlen	sip2_common.h	/^        u32 txlen;       \/\/host to target packet len, 0 means no txpacket$/;"	m	struct:sip_evt_loopback
+txop_limit	esp_mac80211.h	/^	__le16 txop_limit;$/;"	m	struct:esp_80211_wmm_ac_param
+txop_us	sip2_common.h	/^        u16 txop_us;$/;"	m	struct:sip_cmd_set_wmm_params
+txq	esp_pub.h	/^        struct sk_buff_head txq;$/;"	m	struct:esp_pub	typeref:struct:esp_pub::sk_buff_head
+txq_stopped	esp_pub.h	/^        atomic_t txq_stopped;$/;"	m	struct:esp_pub
+txseq	esp_sip.h	/^        u32 txseq;$/;"	m	struct:esp_sip
+u	esp_file.h	/^	} u;$/;"	m	struct:fcc_mode	typeref:union:fcc_mode::__anon2
+u	sip2_common.h	/^        } u;$/;"	m	struct:sip_hdr	typeref:union:sip_hdr::__anon13
+u	sip2_common.h	/^        } u;$/;"	m	struct:sip_tx_info	typeref:union:sip_tx_info::__anon12
+update_pw	esp_file.c	/^static void update_pw(char *buf, int dec)$/;"	f	file:
+update_sta_time_remain	esp_sip.c	/^static int update_sta_time_remain(struct esp_pub *epub, struct sk_buff *skb)$/;"	f	file:
+val	sip2_common.h	/^        u32 val;$/;"	m	struct:sip_cmd_write_reg
+value	esp_file.h	/^	short value;$/;"	m	struct:esp_init_table_elem
+var	esp_debug.h	/^	u32 var;$/;"	m	struct:dbgfs_bootmode_item
+version	esp_mac80211.h	/^	u8 version; \/* 1 for WMM version 1.0 *\/$/;"	m	struct:esp_80211_wmm_param_element
+vif	esp_pub.h	/^        struct ieee80211_vif *vif;$/;"	m	struct:esp_pub	typeref:struct:esp_pub::ieee80211_vif
+vif_slot	esp_pub.h	/^        u8 vif_slot;$/;"	m	struct:esp_pub
+w_cb	esp_debug.h	/^	int (*w_cb)(void *data);$/;"	m	struct:dbgfs_bootmode_item
+wait_reset	esp_pub.h	/^	int wait_reset;$/;"	m	struct:esp_pub
+wakeup_gpio	esp_io.c	/^static int wakeup_gpio = 12;$/;"	v	file:
+wakeup_tm_ms	sip2_common.h	/^        u32  wakeup_tm_ms;            \/\/zero: after receive bcn, then sleep, nozero: delay nozero ms to sleep$/;"	m	struct:sip_cmd_sleep
+wdev	esp_pub.h	/^        struct wireless_dev *wdev;$/;"	m	struct:esp_pub	typeref:struct:esp_pub::wireless_dev
+win_size	sip2_common.h	/^        u8 win_size;$/;"	m	struct:sip_cmd_ampdu_action
+wl	esp_pub.h	/^        struct esp_wl wl;$/;"	m	struct:esp_pub	typeref:struct:esp_pub::esp_wl

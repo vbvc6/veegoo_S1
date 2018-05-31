@@ -1,0 +1,5 @@
+config SEC
+	tristate "sunxi sec support"
+	default y
+	---help---
+	  This is the driver for sunxi sec.
